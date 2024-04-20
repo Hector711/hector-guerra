@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: 'https://hector711.github.io/vite-deploy',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src")
