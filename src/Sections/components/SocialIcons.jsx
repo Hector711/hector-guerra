@@ -18,7 +18,7 @@ export default function SocialIcons() {
         <img src={Mail} alt="" />
       </a>
       <a
-        href=""
+        href="whatsapp://send?phone=+34722396259"
         title={`Visitar el perfil de  en `}
         target="_blank"
         rel="noopener noreferrer"
