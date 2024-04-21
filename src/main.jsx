@@ -8,6 +8,7 @@ import '@fontsource-variable/gabarito';
 import './css/reset/reset.css'
 import './css/styles.css'
 import './css/init.css'
+import './css/comp-hero.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
