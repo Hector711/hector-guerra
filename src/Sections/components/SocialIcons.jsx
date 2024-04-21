@@ -1,10 +1,10 @@
 import React from "react";
-import Mail from "../icons/Mail.svg";
-import Whatsapp from "@/icons/Whatsapp.svg";
-import X from "@/icons/X.svg";
-import GitHub from "@/icons/GitHub.svg";
-import Instagram from "@/icons/Instagram.svg";
-import LinkedIn from "@/icons/LinkedIn.svg";
+import Mail from "@/assets/Mail.svg";
+import Whatsapp from "@/assets/Whatsapp.svg";
+import X from "@/assets/X.svg";
+import GitHub from "@/assets/GitHub.svg";
+import Instagram from "@/assets/Instagram.svg";
+import LinkedIn from "@/assets/LinkedIn.svg";
 
 export default function SocialIcons() {
   return (

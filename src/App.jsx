@@ -1,8 +1,8 @@
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "@/pages/Home";
-import Navbar from "@/layouts/Navbar";
-import Footer from "@/layouts/Footer";
+import Navbar from "./Sections/Navbar.jsx";
+import Footer from "./Sections/Footer";
 
 export default function App() {
   return (
@@ -19,3 +19,4 @@ export default function App() {
     </>
   );
 }
+

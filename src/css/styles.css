@@ -28,7 +28,7 @@
 
   --shadow-s: 0px 1px 2px var(--color-main-1);
   --shadow-m: 0 0 10px 1px var(--white-1);
-  --shadow-l: 0 0 15px var(--black-1);
+  --shadow-text-black: 0 0 15px var(--black-0)
 }
 
 * {
@@ -54,10 +54,12 @@ nav {
 }
 
 section {
+  /* display: flex;
+  justify-content: center; */
   margin-inline: auto;
   width: 100%;
   max-width: var(--width);
-  margin-block: 30px;
+  margin-bottom: 30px;
 }
 
 

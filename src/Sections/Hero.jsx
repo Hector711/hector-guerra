@@ -1,20 +1,22 @@
 import React from "react";
-import SocialIcons from "./SocialIcons";
+import SocialIcons from "./components/SocialIcons";
+import Section from "@/Sections/components/Section";
+
 export default function Hero() {
   return (
-    <>
+    <Section>
       <header>
         <div id="img-container">
           <div id="header-container">
             <h1>Héctor Guerra</h1>
-            <h2>Full Stack Developer</h2>
+            <h3>Full Stack Developer</h3>
           </div>
           <div id="social-icons-container">
             <SocialIcons />
           </div>
         </div>
         <div id="about">
-          <h2>About</h2>
+          <h3>About</h3>
           <p>
             Enthusiastic beginner developer eager to break into the tech
             industry. Seeking first job opportunity to kickstart a fulfilling
@@ -22,12 +24,12 @@ export default function Hero() {
           </p>
         </div>
         <div id="location">
-          <h2>Madrid, Spain.</h2>
+          <h3>Madrid, Spain.</h3>
         </div>
         <div id="experience">
-          <h2>Experience</h2>
+          <h3>Experience</h3>
         </div>
       </header>
-    </>
+    </Section>
   );
 }

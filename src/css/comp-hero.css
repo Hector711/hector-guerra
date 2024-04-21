@@ -32,8 +32,8 @@ header {
   background-size: 130%;
 
   #header-container {
-    backdrop-filter: blur(4px);
-    background-color: #00000000;
+    backdrop-filter: blur(2px);
+    background-color: #0000001b;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,27 +52,28 @@ header {
   #social-icons-container {
     display: flex;
     align-self: center;
-    backdrop-filter: blur(4px);
-    background-color: #17171705;
+    backdrop-filter: blur(2px);
+    background-color: #0000001b;
     width: 80%;
     padding: 5px;
     margin-bottom: 8px;
     justify-content: space-around;
-    /* padding: 10px; */
     a {
       text-decoration: inherit;
-      background-color: var(--white-0);
+      background-color: var(--white-1);
       border-radius: var(--border-s);
       overflow: hidden;
     }
     img {
-      width: 25px;
+      width: 30px;
       height: auto;
-      border: 1px solid white;
+    }
+    a:hover {
+      /* border: 1px solid var(--white-1); */
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out; 
     }
   }
-
-
 }
 
 #about {
