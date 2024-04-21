@@ -16,7 +16,7 @@ html {
   letter-spacing: -0.0025rem;
 }
 body, main, html {
-  font-size: 13px;
+  /* font-size: 13px; */
 }
 h1 {
   font-size: 3rem;
@@ -48,7 +48,7 @@ ul {
 }
 
 a {
-  color: var(--color-main-0);
+  color: var(--white-1);
   text-decoration: inherit;
 }
 
