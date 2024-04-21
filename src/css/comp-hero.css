@@ -1,7 +1,7 @@
 header {
   /* border: 1px solid var(--white-1); */
   height: 400px;
-  padding: 1.7rem;
+  padding: 1rem;
   border-radius: var(--border-l);
   display: grid;
   grid-template-columns: 60% 20% 20%;
@@ -33,7 +33,7 @@ header {
 
   #header-container {
     backdrop-filter: blur(3px);
-    background-color: #00000000;
+    background-color: #21212192;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,8 +52,8 @@ header {
   #social-icons-container {
     display: flex;
     align-self: center;
-    backdrop-filter: blur(1.5px);
-    background-color: #00000068;
+    backdrop-filter: blur(2px);
+    background-color: #21212192;
     width: 80%;
     padding: 5px;
     margin-bottom: 18px;
@@ -63,10 +63,13 @@ header {
       background-color: var(--white-1);
       border-radius: var(--border-s);
       overflow: hidden;
+      
     }
     img {
       width: 30px;
       height: auto;
+      padding: 3px;
+      
     }
     a:hover {
       /* border: 1px solid var(--white-1); */

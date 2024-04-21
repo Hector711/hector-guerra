@@ -46,8 +46,7 @@ nav {
   #nav-container {
     width: 100%;
     max-width: var(--width);
-    display: flex;
-    justify-content: center;
+   
     gap: 5rem;
   }
   
