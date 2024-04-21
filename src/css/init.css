@@ -15,9 +15,10 @@ html {
     sans-serif;
   letter-spacing: -0.0025rem;
 }
-body, main, html {
-  /* font-size: 13px; */
-}
+/* body {
+  min-height: 100vh;
+  position: relative;
+} */
 h1 {
   font-size: 2.6rem;
   font-weight: 600;
