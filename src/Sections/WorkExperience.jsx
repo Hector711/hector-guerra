@@ -1,5 +1,5 @@
-import React from "react";
-import Section from "@/sections/components/Section";
+import React from 'react';
+import Section from '@/sections/components/Section';
 
 export default function WorkExperience() {
   return (
