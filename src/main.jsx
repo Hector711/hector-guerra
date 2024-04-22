@@ -5,6 +5,7 @@ import App from './App.jsx'
 import '@fontsource-variable/onest';
 // Supports weights 400-900
 import '@fontsource-variable/gabarito';
+import '@fontsource/cinzel-decorative';
 import './css/reset/reset.css'
 import './css/styles.css'
 import './css/init.css'

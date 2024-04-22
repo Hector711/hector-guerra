@@ -1,6 +1,8 @@
 import React from "react";
 import DarkMode from "@/assets/DarkMode.svg";
 import Language from "@/assets/Language.svg";
+import VideoResume from "./VideoResume";
+import CarouselQuotes from "@/Sections/CarouselQuotes";
 
 export default function Navbar() {
   return (
@@ -13,6 +15,10 @@ export default function Navbar() {
             </a>
           </button>
         </div>
+
+        <CarouselQuotes />
+        {/* <VideoResume /> */}
+        
         <div className="flex justify-center items-center gap-4 ">
           <button>
             <img src={Language} alt="" />
