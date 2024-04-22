@@ -1,8 +1,8 @@
 import React from 'react';
-import Hero from '@/sections/Hero';
-import Projects from '@/sections/Projects';
-import WorkExperience from '@/sections/WorkExperience';
-import Skills from '../sections/Skills';
+import Hero from '@/Sections/Hero';
+import Projects from '@/Sections/Projects';
+import WorkExperience from '@/Sections/WorkExperience';
+import Skills from '@/Sections/Skills';
 
 export default function Home() {
   return (
