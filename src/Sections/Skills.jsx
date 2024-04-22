@@ -1,5 +1,5 @@
 import React from 'react';
-import Section from '@/sections/components/Section';
+import Section from '@/Sections/components/Section';
 
 export default function Skills() {
   return (

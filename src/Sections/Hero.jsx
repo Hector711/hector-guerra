@@ -1,6 +1,6 @@
 import React from 'react';
 import SocialIcons from './components/SocialIcons';
-import Section from '@/sections/components/Section';
+import Section from '@/Sections/components/Section';
 import YouTube from '@/assets/YouTube.svg';
 
 export default function Hero() {
