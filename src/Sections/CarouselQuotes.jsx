@@ -1,11 +1,9 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
-import Section from "@/Sections/components/Section";
-import { Pagination } from "swiper/modules";
 
 export default function carouselQuotes() {
   const quotes = [

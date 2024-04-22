@@ -20,7 +20,9 @@
 
   --color-thr-0: #a2a4a9;
 
-  --color-red: #ef3340;
+  --color-calendly: #016bfe;
+  --color-youtube: #cc1f1f;
+  --color-matrix: #0ba003;
 
   --border-s: 5px;
   --border-m: 10px;
@@ -62,11 +64,15 @@ nav {
    }
 }
 
+
+
 section {
   margin-inline: auto;
   width: 100%;
   max-width: var(--width);
   margin-block: 40px;
+  /* border: 0.5px solid #e01b1b; */
+
 }
 
 
@@ -74,11 +80,8 @@ section {
 
 
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+
+
 
 footer {
   width: 100%;

@@ -1,17 +1,19 @@
 import React from "react";
-import Hero from "@/Sections/Hero";
-import Projects from "@/Sections/Projects";
-import WorkExperience from "@/Sections/WorkExperience";
-// import VideoResume from "@/Sections/VideoResume";
-import Skills from "../Sections/Skills";
+import Hero from "@/sections/Hero";
+import Projects from "@/sections/Projects";
+import WorkExperience from "@/sections/WorkExperience";
+import Skills from "../sections/Skills";
 
 export default function Home() {
   return (
     <>
       {/* <VideoResume /> */}
       <Hero />
+      <hr />
       <Projects />
+      <hr />
       <WorkExperience />
+      <hr />
       <Skills />
      
     </>

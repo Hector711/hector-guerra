@@ -1,8 +1,7 @@
 import React from "react";
 import DarkMode from "@/assets/DarkMode.svg";
 import Language from "@/assets/Language.svg";
-import VideoResume from "./VideoResume";
-import CarouselQuotes from "@/Sections/CarouselQuotes";
+import CarouselQuotes from "@/sections/CarouselQuotes";
 
 export default function Navbar() {
   return (
