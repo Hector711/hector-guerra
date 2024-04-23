@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <Section>
       <h2>Projects</h2>
-      <ul>
+      <ul id='projects'>
         <li>Project 1</li>
         <li>Project 2</li>
         <li>Project 3</li>

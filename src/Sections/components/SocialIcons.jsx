@@ -7,16 +7,34 @@ import Instagram from '@/assets/Instagram.svg';
 import LinkedIn from '@/assets/LinkedIn.svg';
 
 export default function SocialIcons() {
+  function copiarAlPortapapeles() {
+    console.log('Copiado');
+  }
   return (
     <>
-      <a
-        href=''
-        title={`Visitar el perfil de  en `}
-        target='_blank'
-        rel='noopener noreferrer'
+      <input
+        type='text'
+        className='hidden'
+        value='hectorluengo.xx@gmail.com'
+        id='texto'
+        onChange=''
+      />
+      <button
+        href='#'
+        title={`Copiar email al portapapeles`}
+        onClick={copiarAlPortapapeles}
+        // target='_blank'
       >
         <img src={Mail} alt='' />
-      </a>
+      </button>
+      {/* <a
+        href='#'
+        title={`Copiar email al portapapeles`}
+        onClick={copiarAlPortapapeles}
+        // target='_blank'
+      >
+        <img src={Mail} alt='' />
+      </a> */}
       <a
         href='whatsapp://send?phone=+34722396259'
         title={`Visitar el perfil de  en `}

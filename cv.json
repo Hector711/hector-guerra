@@ -1,0 +1,184 @@
+{
+  "basics": {
+    "nickname": "Héctor",
+    "name": "Héctor Guerra",
+    "label": "--TR--",
+    "image": "https://i.ibb.co/YhTCcWd/carnet2024.jpg",
+    "image2": "https://i.ibb.co/HNq6rdk/IMG-8747-2.jpg",
+    "email": "hectorluengo.xx@gmail.com",
+    "phone": "+34 722396259",
+    "url": "https://www.linkedin.com/in/hector711/",
+    "dni": "06020333Z",
+    "birth": "15/04/1997",
+    "summary": "--TR--",
+    "location": {
+      "postalCode": "28004",
+      "city": "Madrid",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "@Hector711",
+        "url": "https://www.linkedin.com/in/hector711/",
+        "icon": "https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-512.png"
+      },
+      {
+        "network": "GitHub",
+        "username": "@Hector711",
+        "url": "https://github.com/Hector711",
+        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+      },
+      {
+        "network": "X",
+        "username": "@vltrasensorial",
+        "url": "https://twitter.com/vltrasensorial",
+        "icon": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-512.png"
+      },
+      {
+        "network": "Instagram",
+        "username": "@hectoor.xx",
+        "url": "https://www.instagram.com/hectoor.xx?igsh=MWp5dTBubDl3YjY0ag%3D%3D&utm_source=qr",
+        "icon": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-512.png"
+      }
+    ]
+  },
+  "technologies": {
+    "main":[
+      {
+        "name": "ReactJS",
+        "icon": "..."
+      },
+      {
+        "name": "MongoDB",
+        "icon": "..."
+      },
+      {
+        "name": "Astro",
+        "icon": "..."
+      },
+      {
+        "name": "TailwindCSS",
+        "icon": "..."
+      }
+    ],
+    "auxiliary": [
+      {
+        "name": "HTML",
+        "icon": "..."
+      },
+      {
+        "name": "JavaScript",
+        "icon": "..."
+      },
+      {
+        "name": "CSS",
+        "icon": "..."
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "--TR--",
+      "position": "--TR--",
+      "url": "https://www.google.com/maps?hl=es&gl=es&um=1&ie=UTF-8&fb=1&sa=X&ftid=0xd4229b14463e331:0xf703f76022ca0f93",
+      "startDate": "1/1/2023",
+      "endDate": "1/4/2024",
+      "summary": "--TR--",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "Harvey's Cockatil Bar",
+      "position": "Bartender",
+      "url": "https://www.elconfidencial.com/espana/madrid/2021-12-07/conceteles-norteamericanos-fuencarral_3336105/",
+      "startDate": "1/6/2022",
+      "endDate": "1/6/2023",
+      "summary": "--TR--",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "--TR--",
+      "position": "--TR--",
+      "url": "https://elpais.com/elviajero/2020/01/16/actualidad/1579167119_415633.html#",
+      "startDate": "1/11/2020",
+      "endDate": "1/11/2021",
+      "summary": "--TR--",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "We Are Sales",
+      "position": "--TR--",
+      "url": "https://www.wearesales.es/",
+      "startDate": "1/11/2019",
+      "endDate": "1/11/2020",
+      "summary": "--TR--",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "Música Creativa",
+      "position": "--TR--",
+      "url": "https://musicacreativa.com/",
+      "startDate": "1/5/2018",
+      "endDate": "1/10/2019",
+      "summary": "--TR--",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Full Stack Web Developer",
+      "institution": "The Bridge School",
+      "endDate": "--TR--",
+      "url": "https://www.thebridge.tech"
+    },
+    {
+      "name": "Bartender",
+      "institution": "ESCOM",
+      "endDate": "--TR--",
+      "url": "https://www.escuelacocteleria.es"
+    },
+    {
+      "name": "--TR--",
+      "institution": "Escuela Música Creativa",
+      "endDate": "--TR--",
+      "url": "https://musicacreativa.com"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mera Parivar MVP",
+      "isActive": true,
+      "year": "2024",
+      "description": "--TR--",
+      "highlights": [
+        "ReactJS",
+        "Tailwind",
+        "SQL",
+        "Prisma",
+        "Stripe"
+      ],
+      "url": "https://mera-parivar-web-page.vercel.app"
+    }
+  ],
+  "languages": [
+    {
+      "language": "--TR--",
+      "fluency": "--TR--"
+    },
+    {
+      "language": "--TR--",
+      "fluency": "C1"
+    }
+  ]
+}
