@@ -91,6 +91,22 @@ footer {
   }
 }
 
+html {
+  position: relative;
+}
+#working {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  background-color: #00000089;
+  display: flex ;
+  flex-direction: column;
+  gap:3rem;
+  justify-content: center;
+  align-items: center;
+}
+
 /* @media (prefers-color-scheme: light) {
   :root {
     color: rgb(120, 75, 75);

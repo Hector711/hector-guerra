@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from '@/pages/Home';
 import Navbar from '@/Sections/Navbar';
 import Footer from '@/Sections/Footer';
 
 export default function App() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const hideDiv = () => {
+    setIsVisible(false);
+  };
+
   return (
     <>
       <HashRouter>
@@ -13,6 +19,14 @@ export default function App() {
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>
+          {isVisible && (
+            <div id='working'>
+              <h1 className=' text-center'>
+                Working on it... <br /> <br /> Date release: 5 May
+              </h1>
+              <button onClick={hideDiv} className='w-[100px] h-[50px]'> <h3>Sure!</h3></button>
+            </div>
+          )}
         </main>
         <Footer />
       </HashRouter>
