@@ -22,7 +22,7 @@ export default function App() {
         {isVisible && (
           <div id='working'>
             <h1 className=' text-center'>
-              Working on it... <br /> <br /> Date release: 5 May
+              Working on it... <br /> <br /> Date of release: May 5th
             </h1>
             <button onClick={hideDiv} className='w-[100px] h-[50px]'>
               {' '}
