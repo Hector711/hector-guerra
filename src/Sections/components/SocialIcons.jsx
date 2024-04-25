@@ -7,74 +7,70 @@ import Instagram from '@/assets/Instagram.svg';
 import LinkedIn from '@/assets/LinkedIn.svg';
 
 export default function SocialIcons() {
-  function copiarAlPortapapeles() {
-    console.log('Copiado');
-  }
+  const handleCopyToClipboard = () => {
+    const email = 'hectorluengo.xx@gmail.com';
+    navigator.clipboard.writeText(email)
+      .then(() => {
+        const confirmCopyText = document.getElementById('confirm-copy-text')
+        confirmCopyText.classList.remove('hidden');
+        setTimeout(() => {
+        confirmCopyText.classList.add('hidden');
+        }, 3000);
+      })
+  };
+
   return (
-    <>
-      <input
-        type='text'
-        className='hidden'
-        value='hectorluengo.xx@gmail.com'
-        id='texto'
-        onChange=''
-      />
-      <button
-        href='#'
-        title={`Copiar email al portapapeles`}
-        onClick={copiarAlPortapapeles}
-        // target='_blank'
-      >
-        <img src={Mail} alt='' />
-      </button>
-      {/* <a
-        href='#'
-        title={`Copiar email al portapapeles`}
-        onClick={copiarAlPortapapeles}
-        // target='_blank'
-      >
-        <img src={Mail} alt='' />
-      </a> */}
-      <a
-        href='whatsapp://send?phone=+34722396259'
-        title={`Visitar el perfil de  en `}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <img src={Whatsapp} alt='' />
-      </a>
-      <a
-        href=''
-        title={`Visitar el perfil de  en `}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <img src={X} alt='' />
-      </a>
-      <a
-        href=''
-        title={`Visitar el perfil de  en `}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <img src={GitHub} alt='' />
-      </a>
-      <a
-        href=''
-        title={`Visitar el perfil de  en `}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <img src={LinkedIn} alt='' />
-      </a>
-      <a
-        href=''
-        title={`Visitar el perfil de  en `}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <img src={Instagram} alt='' />
-      </a>
-    </>
+    <div className='flex flex-col relative'>
+      <p className='absolute top-[-30px] left-[40px] hidden' id='confirm-copy-text'>Copied to clipboard</p>
+      <div id='social-icons-container'>
+        <button
+          title={`Copiar email al portapapeles`}
+          onClick={handleCopyToClipboard}
+          id='copy-button'
+        >
+          <img src={Mail} alt='' />
+        </button>
+        <a
+          href='whatsapp://send?phone=+34722396259'
+          title={`Visitar el perfil de  en `}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={Whatsapp} alt='' />
+        </a>
+        <a
+          href='https://twitter.com/vltrasensorial'
+          title={`Visitar el perfil de  en `}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={X} alt='' />
+        </a>
+        <a
+          href='https://github.com/Hector711'
+          title={`Visitar el perfil de  en `}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={GitHub} alt='' />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/hector711/'
+          title={`Visitar el perfil de  en `}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={LinkedIn} alt='' />
+        </a>
+        <a
+          href='https://www.instagram.com/hectoor.xx?igsh=MWp5dTBubDl3YjY0ag%3D%3D&utm_source=qr'
+          title={`Visitar el perfil de  en `}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={Instagram} alt='' />
+        </a>
+      </div>
+    </div>
   );
 }

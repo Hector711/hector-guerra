@@ -12,9 +12,8 @@ export default function Hero() {
             <h1>Héctor Guerra</h1>
             <h3>Full Stack Developer</h3>
           </div>
-          <div id='social-icons-container'>
+            
             <SocialIcons />
-          </div>
         </div>
         <div className='box-hero' id='about'>
           <h3>About</h3>

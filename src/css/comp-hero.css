@@ -52,6 +52,12 @@ header {
     padding: 0;
     /* box-shadow: var(--shadow-s); */
   }
+  #confirm-copy-text {
+    backdrop-filter: blur(4px);
+    background-color: #21212192;
+    padding: 8px;
+    border-radius: 10px;
+  }
 
   #social-icons-container {
     display: flex;
@@ -62,7 +68,7 @@ header {
     padding: 8px;
     margin-bottom: 18px;
     justify-content: space-around;
-    a {
+    button, a {
       text-decoration: inherit;
       background-color: var(--white-1);
       border-radius: var(--border-s);
@@ -73,7 +79,7 @@ header {
       height: auto;
       padding: 3px;
     }
-    a:hover {
+    button, a:hover {
       /* border: 1px solid var(--white-1); */
       transform: scale(1.1);
       transition: transform 0.3s ease-in-out;

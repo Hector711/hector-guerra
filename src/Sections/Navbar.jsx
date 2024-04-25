@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav>
       <div id='nav-container' className='flex justify-between'>
         <div className='flex justify-center items-center'>
-          <button>
+          <button className='nav-button'>
             <a href='https://hector-minimalist-cv.netlify.app' target='_blank'>
               Minimal CV
             </a>
@@ -19,10 +19,10 @@ export default function Navbar() {
         {/* <VideoResume /> */}
 
         <div className='flex justify-center items-center gap-4 '>
-          <button>
+          <button className='nav-button'>
             <img src={Language} alt='' />
           </button>
-          <button>
+          <button className='nav-button'>
             <img src={DarkMode} alt='' />
           </button>
         </div>
