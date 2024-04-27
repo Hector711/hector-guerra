@@ -1,5 +1,5 @@
 import React from 'react';
-import Language from '@/assets/Language.svg';
+import Language from '@/assets/Language';
 import CarouselQuotes from '@/Sections/CarouselQuotes';
 import DarkModeToggle from './components/DarkModeToggle';
 import Toggle from './Toggle';
@@ -23,7 +23,7 @@ export default function Navbar() {
 
           {/* <Toggle /> */}
           <button className='nav-button'>
-            <img src={Language} alt='' />
+            <Language />
           </button>
           
           <DarkModeToggle />

@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import DarkMode from '@/assets/DarkMode.svg';
+import Sun from '@/assets/Sun';
+import Moon from '@/assets/Moon';
 
 export default function DarkModeToggle() {
+  
   const [theme, setTheme] = useState(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       return 'dark';
@@ -17,6 +19,7 @@ export default function DarkModeToggle() {
       document.querySelector('html').setAttribute('data-theme', 'light');
     }
   }, [theme]);
+
   const handleChangeTheme = () => {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
@@ -25,15 +28,13 @@ export default function DarkModeToggle() {
     <>
       <input
         type='checkbox'
-        id='check'
+        id='darkMode'
         className='toggle'
         onChange={handleChangeTheme}
       />
-      <label htmlFor='check'>Dark Mode</label>
-
-      <button className='nav-button' onClick={handleChangeTheme}>
-        <img src={DarkMode} alt='' id='img-dark-mode-toggle' />
-      </button>
+      <label htmlFor='darkMode' id='dark-mode-toggle'className='nav-button' >
+        {theme === 'dark' ? <Sun /> : <Moon />}
+      </label>
     </>
   );
 }

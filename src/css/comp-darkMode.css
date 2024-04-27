@@ -1,14 +1,14 @@
-
-#img-dark-mode-toggle:active {
-  transform: rotate(360deg);
-  transition: transform 0.5s ease-in-out;
+input[type="checkbox"] {
+  display: none; 
 }
-
-input:checked {
-  transform: rotate(360deg);
-  transition: transform 0.5s ease-in-out;
+#dark-mode-toggle {
+  display: inline-block;
+  background-color: transparent !important;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.8s ease;
 }
-/* input:not(:checked) {
-  transform: rotate(360deg);
-  transition: transform 0.5s ease-in-out;
-} */
+input[type="checkbox"]:checked + label {
+  transform: rotate(360deg); 
+}

@@ -73,13 +73,11 @@ header {
       background-color: var(--white-1);
       border-radius: var(--border-s);
       overflow: hidden;
-    }
-    img {
       width: 30px;
-      height: auto;
-      padding: 3px;
+      height: 30px;
     }
-    button, a:hover {
+   
+    button:hover, a:hover {
       /* border: 1px solid var(--white-1); */
       transform: scale(1.1);
       transition: transform 0.3s ease-in-out;

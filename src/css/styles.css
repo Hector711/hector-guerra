@@ -66,6 +66,14 @@ nav {
     /* border: 0.5px solid red; */
   }
 }
+svg {
+  /* background-color: #016bfe; */
+  padding: 3px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 
 section {
   margin-inline: auto;

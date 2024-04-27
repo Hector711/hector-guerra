@@ -1,22 +1,25 @@
 import React from 'react';
 import ContactLinks from './components/ContactLinks';
 import Section from '@/Sections/components/Section';
-import YouTube from '@/assets/YouTube.svg';
+import YouTube from '@/assets/YouTube';
+import cv from '@root/cv.json'
 
 export default function Hero() {
+  const basics = cv.basics;
+  const { nickname, name } = basics;
   return (
     <Section>
       <header>
         <div className='box-hero ' id='img-container'>
           <div id='header-container'>
-            <h1>Héctor Guerra</h1>
+            <h1>{name}</h1>
             <h3>Full Stack Developer</h3>
           </div>
             
             <ContactLinks />
         </div>
         <div className='box-hero' id='about'>
-          <h3 className=' dark:bg-fuchsia-700'>About</h3>
+          <h3 className='dark:bg-fuchsia-700'>About</h3>
           <p>
             Enthusiastic beginner developer eager to break into the tech
             industry. Seeking first job opportunity to kickstart a fulfilling
@@ -27,20 +30,16 @@ export default function Hero() {
         <a href='/' id='first-hero-section' className='hero-section-link'>
           <div id='video-resume'>
             <h3>1 minute video resume</h3>
-            <img src={YouTube} alt='' />
+            <YouTube />
           </div>
           <div id='video-resume-hover'>
             <h5>Tired of watching tons of portfolios?</h5>
-            <p className='caption'>
-              Let me show you what you need to know about me in a 1 minute
-              video!
-            </p>
           </div>
         </a>
 
         <a href='/' className='hero-section-link' id='sec-hero-section'>
           <h3>Discover</h3>
-          <h3 className='bold'>NEO SOCIAL</h3>
+          <h3 className='bold'>NEO SIMULATION</h3>
         </a>
         <a
           href='https://calendly.com/hector-guerra/llamada-1-a-1'

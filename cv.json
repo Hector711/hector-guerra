@@ -12,19 +12,13 @@
       "countryCode": "ES",
       "city": "Madrid",
       "postalCode": "28004"
-    }
+    },
+    "email": "hectorluengo.xx@gmail.com",
+    "phone": "+34 722396259"
   },
+
+
   "contact": [
-    {
-      "network": "Mail",
-      "username": "hectorluengo.xx@gmail.com",
-      "url": "..."
-    },
-    {
-      "network": "Phone",
-      "username": "+34 722396259",
-      "url": "whatsapp://send?phone=+34722396259"
-    },
     {
       "network": "LinkedIn",
       "username": "@Hector711",
