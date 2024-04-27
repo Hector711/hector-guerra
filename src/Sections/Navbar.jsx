@@ -1,7 +1,8 @@
 import React from 'react';
-import DarkMode from '@/assets/DarkMode.svg';
 import Language from '@/assets/Language.svg';
 import CarouselQuotes from '@/Sections/CarouselQuotes';
+import DarkModeToggle from './components/DarkModeToggle';
+import Toggle from './Toggle';
 
 export default function Navbar() {
   return (
@@ -19,12 +20,13 @@ export default function Navbar() {
         {/* <VideoResume /> */}
 
         <div className='flex justify-center items-center gap-4 '>
+
+          {/* <Toggle /> */}
           <button className='nav-button'>
             <img src={Language} alt='' />
           </button>
-          <button className='nav-button'>
-            <img src={DarkMode} alt='' />
-          </button>
+          
+          <DarkModeToggle />
         </div>
       </div>
     </nav>

@@ -2,134 +2,87 @@
   "basics": {
     "nickname": "Héctor",
     "name": "Héctor Guerra",
-    "label": "--TR--",
+    "label": "---------",
     "image": "https://i.ibb.co/YhTCcWd/carnet2024.jpg",
-    "image2": "https://i.ibb.co/HNq6rdk/IMG-8747-2.jpg",
-    "email": "hectorluengo.xx@gmail.com",
-    "phone": "+34 722396259",
-    "url": "https://www.linkedin.com/in/hector711/",
-    "dni": "06020333Z",
+    "web-page": "https://hector711.github.io",
     "birth": "15/04/1997",
-    "summary": "--TR--",
+    "summary": "---------",
     "location": {
-      "postalCode": "28004",
-      "city": "Madrid",
+      "country": "Spain",
       "countryCode": "ES",
-      "region": "Spain"
+      "city": "Madrid",
+      "postalCode": "28004"
+    }
+  },
+  "contact": [
+    {
+      "network": "Mail",
+      "username": "hectorluengo.xx@gmail.com",
+      "url": "..."
     },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "@Hector711",
-        "url": "https://www.linkedin.com/in/hector711/",
-        "icon": "https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-512.png"
-      },
-      {
-        "network": "GitHub",
-        "username": "@Hector711",
-        "url": "https://github.com/Hector711",
-        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
-      },
-      {
-        "network": "X",
-        "username": "@vltrasensorial",
-        "url": "https://twitter.com/vltrasensorial",
-        "icon": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-512.png"
-      },
-      {
-        "network": "Instagram",
-        "username": "@hectoor.xx",
-        "url": "https://www.instagram.com/hectoor.xx?igsh=MWp5dTBubDl3YjY0ag%3D%3D&utm_source=qr",
-        "icon": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-512.png"
-      }
-    ]
-  },
-  "technologies": {
-    "main":[
-      {
-        "name": "ReactJS",
-        "icon": "..."
-      },
-      {
-        "name": "MongoDB",
-        "icon": "..."
-      },
-      {
-        "name": "Astro",
-        "icon": "..."
-      },
-      {
-        "name": "TailwindCSS",
-        "icon": "..."
-      }
-    ],
-    "auxiliary": [
-      {
-        "name": "HTML",
-        "icon": "..."
-      },
-      {
-        "name": "JavaScript",
-        "icon": "..."
-      },
-      {
-        "name": "CSS",
-        "icon": "..."
-      }
-    ]
-  },
+    {
+      "network": "Phone",
+      "username": "+34 722396259",
+      "url": "whatsapp://send?phone=+34722396259"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "@Hector711",
+      "url": "https://www.linkedin.com/in/hector711/"
+    },
+    {
+      "network": "GitHub",
+      "username": "@Hector711",
+      "url": "https://github.com/Hector711"
+    },
+    {
+      "network": "X",
+      "username": "@vltrasensorial",
+      "url": "https://twitter.com/vltrasensorial"
+    },
+    {
+      "network": "Instagram",
+      "username": "@hectoor.xx",
+      "url": "https://www.instagram.com/hectoor.xx?igsh=MWp5dTBubDl3YjY0ag%3D%3D&utm_source=qr"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React"
+    },
+    {
+      "name": "MongoDB"
+    },
+    {
+      "name": "Astro"
+    },
+    {
+      "name": "TailwindCSS"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "Node"
+    },
+    {
+      "name": "Express"
+    }
+  ],
   "work": [
     {
-      "company": "--TR--",
-      "position": "--TR--",
-      "url": "https://www.google.com/maps?hl=es&gl=es&um=1&ie=UTF-8&fb=1&sa=X&ftid=0xd4229b14463e331:0xf703f76022ca0f93",
-      "startDate": "1/1/2023",
-      "endDate": "1/4/2024",
-      "summary": "--TR--",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "Harvey's Cockatil Bar",
-      "position": "Bartender",
-      "url": "https://www.elconfidencial.com/espana/madrid/2021-12-07/conceteles-norteamericanos-fuencarral_3336105/",
-      "startDate": "1/6/2022",
-      "endDate": "1/6/2023",
-      "summary": "--TR--",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "--TR--",
-      "position": "--TR--",
-      "url": "https://elpais.com/elviajero/2020/01/16/actualidad/1579167119_415633.html#",
-      "startDate": "1/11/2020",
-      "endDate": "1/11/2021",
-      "summary": "--TR--",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "We Are Sales",
-      "position": "--TR--",
-      "url": "https://www.wearesales.es/",
-      "startDate": "1/11/2019",
-      "endDate": "1/11/2020",
-      "summary": "--TR--",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "Música Creativa",
-      "position": "--TR--",
-      "url": "https://musicacreativa.com/",
-      "startDate": "1/5/2018",
-      "endDate": "1/10/2019",
-      "summary": "--TR--",
+      "company": "Frutería Conde Duque",
+      "position": "---------",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "---------",
       "highlights": [
         ""
       ]
@@ -139,19 +92,19 @@
     {
       "name": "Full Stack Web Developer",
       "institution": "The Bridge School",
-      "endDate": "--TR--",
+      "endDate": "17/04/2024",
       "url": "https://www.thebridge.tech"
     },
     {
       "name": "Bartender",
       "institution": "ESCOM",
-      "endDate": "--TR--",
+      "endDate": "30/06/2022",
       "url": "https://www.escuelacocteleria.es"
     },
     {
-      "name": "--TR--",
+      "name": "---------",
       "institution": "Escuela Música Creativa",
-      "endDate": "--TR--",
+      "endDate": "30/06/2021",
       "url": "https://musicacreativa.com"
     }
   ],
@@ -160,7 +113,7 @@
       "name": "Mera Parivar MVP",
       "isActive": true,
       "year": "2024",
-      "description": "--TR--",
+      "summary": "---------",
       "highlights": [
         "ReactJS",
         "Tailwind",
@@ -173,11 +126,11 @@
   ],
   "languages": [
     {
-      "language": "--TR--",
-      "fluency": "--TR--"
+      "language": "---------",
+      "fluency": "---------"
     },
     {
-      "language": "--TR--",
+      "language": "---------",
       "fluency": "C1"
     }
   ]

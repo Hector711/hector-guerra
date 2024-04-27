@@ -6,7 +6,7 @@ import GitHub from '@/assets/GitHub.svg';
 import Instagram from '@/assets/Instagram.svg';
 import LinkedIn from '@/assets/LinkedIn.svg';
 
-export default function SocialIcons() {
+export default function ContactLinks() {
   const handleCopyToClipboard = () => {
     const email = 'hectorluengo.xx@gmail.com';
     navigator.clipboard.writeText(email)

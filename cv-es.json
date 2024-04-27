@@ -1,135 +1,85 @@
 {
   "basics": {
-    "nickname": "Héctor",
-    "name": "Héctor Guerra",
-    "label": "Programador Full Stack",
-    "image": "https://i.ibb.co/YhTCcWd/carnet2024.jpg",
-    "image2": "https://i.ibb.co/HNq6rdk/IMG-8747-2.jpg",
-    "email": "hectorluengo.xx@gmail.com",
-    "phone": "+34 722396259",
-    "url": "https://www.linkedin.com/in/hector711/",
-    "dni": "06020333Z",
-    "birth": "15/04/1997",
-    "summary": "Desarrollador principiante con un profundo interés en la programación y una firme determinación de ingresar al mundo tecnológico. Busco activamente mi primera oportunidad laboral como programador, con la ambición de construir una carrera sólida y duradera.",
+    "nickname": "",
+    "name": "",
+    "label": "---------",
+    "image": "",
+    "web-page": "",
+    "birth": "",
+    "summary": "---------",
     "location": {
-      "postalCode": "28004",
-      "city": "Madrid",
-      "countryCode": "ES",
-      "region": "Spain"
+      
+    }
+  },
+  "contact": [
+    {
+      "network": "",
+      "username": "",
+      "url": ""
     },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "@Hector711",
-        "url": "https://www.linkedin.com/in/hector711/",
-        "icon": "https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-512.png"
-      },
-      {
-        "network": "GitHub",
-        "username": "@Hector711",
-        "url": "https://github.com/Hector711",
-        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
-      },
-      {
-        "network": "X",
-        "username": "@vltrasensorial",
-        "url": "https://twitter.com/vltrasensorial",
-        "icon": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-512.png"
-      },
-      {
-        "network": "Instagram",
-        "username": "@hectoor.xx",
-        "url": "https://www.instagram.com/hectoor.xx?igsh=MWp5dTBubDl3YjY0ag%3D%3D&utm_source=qr",
-        "icon": "https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-512.png"
-      }
-    ]
-  },
-  "technologies": {
-    "main":[
-      {
-        "name": "ReactJS",
-        "icon": "..."
-      },
-      {
-        "name": "MongoDB",
-        "icon": "..."
-      },
-      {
-        "name": "Astro",
-        "icon": "..."
-      },
-      {
-        "name": "TailwindCSS",
-        "icon": "..."
-      }
-    ],
-    "auxiliary": [
-      {
-        "name": "HTML",
-        "icon": "..."
-      },
-      {
-        "name": "JavaScript",
-        "icon": "..."
-      },
-      {
-        "name": "CSS",
-        "icon": "..."
-      }
-    ]
-  },
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    },
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    },
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    },
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    },
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ],
   "work": [
     {
       "company": "Frutería Conde Duque",
-      "position": "Autónomo",
-      "url": "https://www.google.com/maps?hl=es&gl=es&um=1&ie=UTF-8&fb=1&sa=X&ftid=0xd4229b14463e331:0xf703f76022ca0f93",
-      "startDate": "1/1/2023",
-      "endDate": "1/4/2024",
-      "summary": "En este negocio me encargé junto con mi padre de todas las operaciones del negocio, administración, atención al cliente, diseño de productos, organizacion, optimización de procesos y lo que hicise falta.",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "Harvey's Cockatil Bar",
-      "position": "Bartender",
-      "url": "https://www.elconfidencial.com/espana/madrid/2021-12-07/conceteles-norteamericanos-fuencarral_3336105/",
-      "startDate": "1/6/2022",
-      "endDate": "1/6/2023",
-      "summary": "Trabajé como bartender en un lugar de alto prestigio. Desarrollé habilidades en mixología, manejo de bandeja y atención al cliente.",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "Restaurante A'BARRA",
-      "position": "Camarero",
-      "url": "https://elpais.com/elviajero/2020/01/16/actualidad/1579167119_415633.html#",
-      "startDate": "1/11/2020",
-      "endDate": "1/11/2021",
-      "summary": "Presté servicios en un restaurante galardonado con una estrella Michelin, un entorno de alta exigencia y presión.",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "We Are Sales",
-      "position": "Comercial de ventas",
-      "url": "https://www.wearesales.es/",
-      "startDate": "1/11/2019",
-      "endDate": "1/11/2020",
-      "summary": "Aquí desarrollé mis habilidades de ventas a puerta fría. Demostré capacidad para establecer relaciones efectivas con clientes potenciales y alcanzar objetivos de ventas en un entorno impredecible y desafiante.",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "company": "Música Creativa",
-      "position": "Técnico Sonido",
-      "url": "https://musicacreativa.com/",
-      "startDate": "1/5/2018",
-      "endDate": "1/10/2019",
-      "summary": "Como técnico de sonido, gestioné el montaje y la operación de equipos de audio en eventos en vivo.",
+      "position": "---------",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "---------",
       "highlights": [
         ""
       ]
@@ -137,48 +87,44 @@
   ],
   "education": [
     {
-      "name": "Full Stack Web Developer",
-      "institution": "The Bridge School",
-      "endDate": "Abril 2024",
-      "url": "https://www.thebridge.tech"
+      "name": "",
+      "institution": "",
+      "endDate": "",
+      "url": ""
     },
     {
-      "name": "Bartender",
-      "institution": "ESCOM",
-      "endDate": "Junio 2022",
-      "url": "https://www.escuelacocteleria.es"
+      "name": "",
+      "institution": "",
+      "endDate": "",
+      "url": ""
     },
     {
-      "name": "Técnico Sonido",
-      "institution": "Escuela Música Creativa",
-      "endDate": "Junio 2021",
-      "url": "https://musicacreativa.com"
+      "name": "---------",
+      "institution": "",
+      "endDate": "",
+      "url": ""
     }
   ],
   "projects": [
     {
-      "name": "Mera Parivar MVP",
-      "isActive": true,
-      "year": "2024",
-      "description": "Dirigí el equipo Full Stack, colaborando con UX/UI, Marketing, Data Science y Ciberseguridad. Nuestro objetivo: desarrollar una solución tecnológica que permitiera optimizar sus procesos, ampliar su alcance y aumentar la recaudación.",
+      "name": "",
+      "isActive": "",
+      "year": "",
+      "summary": "---------",
       "highlights": [
-        "ReactJS",
-        "Tailwind",
-        "SQL",
-        "Prisma",
-        "Stripe"
+        
       ],
-      "url": "https://mera-parivar-web-page.vercel.app"
+      "url": ""
     }
   ],
   "languages": [
     {
-      "language": "Español",
-      "fluency": "Nativo"
+      "language": "---------",
+      "fluency": "---------"
     },
     {
-      "language": "Inglés",
-      "fluency": "C1"
+      "language": "---------",
+      "fluency": ""
     }
   ]
 }

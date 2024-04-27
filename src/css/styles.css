@@ -1,6 +1,4 @@
 :root {
-  /* detecta el modo del usuario (OSCURO / CLARO) */
-  /* color-scheme: light dark; */
   color: var(--white-1);
   background-color: var(--color-main-0);
 
@@ -12,9 +10,13 @@
 
   --black-0: #000000;
   --black-1: #101010;
+  --black-2: #2c2c2c;
 
   --color-main-0: #080811;
   --color-main-1: #31323e;
+
+  --color-main-light-0: #c6c5cf;
+  --color-main-light-1: #69696a;
 
   --color-sec-0: #e09545;
 
@@ -31,11 +33,14 @@
   --shadow-s: 0 0 10px 0 var(--white-2);
   --shadow-m: 0 0 20px 0.5px var(--color-main-1);
   --shadow-text-black: 0 0 30px var(--black-0);
+
+  transition: all 0.5s ease-in-out;
 }
 
 * {
   /* border: 0.5px solid #ffffff; */
 }
+
 
 nav {
   width: 100%;
@@ -109,15 +114,13 @@ html {
   align-items: center;
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: rgb(120, 75, 75);
-    background-color: #973232;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
+
+[data-theme='dark'] {
+  background-color: var(--color-main-0);
+  color: var(--white-1);
+}
+[data-theme='light'] {
+  background-color: var(--color-main-light-0);
+  color: var(--black-2);
+
+}

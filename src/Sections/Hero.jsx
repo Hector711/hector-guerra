@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialIcons from './components/SocialIcons';
+import ContactLinks from './components/ContactLinks';
 import Section from '@/Sections/components/Section';
 import YouTube from '@/assets/YouTube.svg';
 
@@ -7,16 +7,16 @@ export default function Hero() {
   return (
     <Section>
       <header>
-        <div className='box-hero' id='img-container'>
+        <div className='box-hero ' id='img-container'>
           <div id='header-container'>
             <h1>Héctor Guerra</h1>
             <h3>Full Stack Developer</h3>
           </div>
             
-            <SocialIcons />
+            <ContactLinks />
         </div>
         <div className='box-hero' id='about'>
-          <h3>About</h3>
+          <h3 className=' dark:bg-fuchsia-700'>About</h3>
           <p>
             Enthusiastic beginner developer eager to break into the tech
             industry. Seeking first job opportunity to kickstart a fulfilling

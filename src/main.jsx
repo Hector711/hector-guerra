@@ -11,6 +11,8 @@ import './css/reset/reset.css';
 import './css/styles.css';
 import './css/init.css';
 import './css/comp-hero.css';
+import './css/comp-darkMode.css';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
