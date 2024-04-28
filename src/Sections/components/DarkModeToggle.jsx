@@ -32,7 +32,7 @@ export default function DarkModeToggle() {
         className='toggle'
         onChange={handleChangeTheme}
       />
-      <label htmlFor='darkMode' id='dark-mode-toggle'className='nav-button' >
+      <label htmlFor='darkMode' id='dark-mode-toggle' className='left-buttons' >
         {theme === 'dark' ? <Sun /> : <Moon />}
       </label>
     </>

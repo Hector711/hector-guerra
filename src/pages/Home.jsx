@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '@/Sections/Hero';
 import Projects from '@/Sections/Projects';
 import WorkExperience from '@/Sections/WorkExperience';
+import Education from '@/Sections/Education';
 import Skills from '@/Sections/Skills';
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       <WorkExperience />
       <hr />
       <Skills />
+      <hr />
+      <Education />
     </>
   );
 }

@@ -1,15 +1,14 @@
 import React from 'react';
 import Language from '@/assets/Language';
-import CarouselQuotes from '@/Sections/CarouselQuotes';
+import CarouselQuotes from '@/Sections/components/CarouselQuotes';
 import DarkModeToggle from './components/DarkModeToggle';
-import Toggle from './Toggle';
 
 export default function Navbar() {
   return (
     <nav>
       <div id='nav-container' className='flex justify-between'>
-        <div className='flex justify-center items-center'>
-          <button className='nav-button'>
+        <div className='flex justify-center items-center' id='right-nav-container'>
+          <button className='nav-buttons' id='cv-button' >
             <a href='https://hector-minimalist-cv.netlify.app' target='_blank'>
               Minimal CV
             </a>
@@ -17,12 +16,9 @@ export default function Navbar() {
         </div>
 
         <CarouselQuotes />
-        {/* <VideoResume /> */}
-
-        <div className='flex justify-center items-center gap-4 '>
-
-          {/* <Toggle /> */}
-          <button className='nav-button'>
+          
+        <div className='flex justify-center items-center gap-4' id='left-nav-container'>
+          <button className='left-buttons nav-buttons' id='inter-button'>
             <Language />
           </button>
           

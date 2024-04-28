@@ -19,7 +19,7 @@ export default function Hero() {
             <ContactLinks />
         </div>
         <div className='box-hero' id='about'>
-          <h3 className='dark:bg-fuchsia-700'>About</h3>
+          {/* <h3 className='dark:bg-fuchsia-700'>About</h3> */}
           <p>
             Enthusiastic beginner developer eager to break into the tech
             industry. Seeking first job opportunity to kickstart a fulfilling
@@ -42,7 +42,7 @@ export default function Hero() {
           <h3 className='bold'>NEO SIMULATION</h3>
         </a>
         <a
-          href='https://calendly.com/hector-guerra/llamada-1-a-1'
+          href='https://calendar.notion.so/meet/hectoor_xx/z81iw4hiq'
           target='_blank'
           className='hero-section-link'
           id='third-hero-section'
