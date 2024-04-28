@@ -7,10 +7,10 @@ import { Autoplay, Navigation } from 'swiper/modules';
 
 export default function carouselQuotes() {
   const quotes = [
-    {
-      quote: 'Héctor Guerra',
-      className: 'bold',
-    },
+    // {
+    //   quote: 'Héctor Guerra',
+    //   className: 'bold',
+    // },
     {
       quote: 'DIE TRYING',
     },
@@ -29,7 +29,7 @@ export default function carouselQuotes() {
       loop={true}
       centeredSlides={true}
       autoplay={{
-        delay: 1800,
+        delay: 3000,
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Navigation]}

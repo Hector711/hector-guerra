@@ -23,27 +23,35 @@ nav {
 }
 .nav-buttons {
   border-radius: 8px;
-  padding: 0.6em 1.2em;
+  /* padding: 0.6em auto; */
+  height: 40px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   transition: border-color 0.25s;
 }
 #cv-button {
   border-radius: 8px;
-  padding: 0.6em 1.2em;
+  padding: 0 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
 }
 
 #left-nav-container {
-  .left-buttons {
-    
+  .right-buttons {
+    /* border: 1px solid var(--white-2); */
+  }
+  .right-buttons:hover {
+    background-color: var(--black-2);
   }
   #inter-button {
-
+    /* width: 40px; */
+    padding: 0 1em;
   }
   #dark-mode-toggle {
     display: inline-block;

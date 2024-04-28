@@ -18,7 +18,7 @@ export default function Navbar() {
         <CarouselQuotes />
           
         <div className='flex justify-center items-center gap-4' id='left-nav-container'>
-          <button className='left-buttons nav-buttons' id='inter-button'>
+          <button className='right-buttons nav-buttons' id='inter-button'>
             <Language />
           </button>
           

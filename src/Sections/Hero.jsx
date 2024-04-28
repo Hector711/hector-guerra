@@ -37,7 +37,7 @@ export default function Hero() {
         </a>
 
         <a href='/' className='hero-section-link' id='sec-hero-section'>
-          <h3>Discover</h3>
+          {/* <h3>Discover</h3> */}
           <h3 className='bold'>NEO SIMULATION</h3>
         </a>
         <a
