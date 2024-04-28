@@ -13,7 +13,8 @@ import './css/styles.css';
 import './css/init.css';
 import './css/comp-hero.css';
 import './css/comp-navbar.css';
-import './css/comp.footer.css';
+import './css/comp-footer.css';
+import './css/comp-projects.css';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,15 +1,17 @@
 import React from 'react';
 import Section from '@/Sections/components/Section';
+import MeraParivarMVP from '@/assets/mera-parivar-mvp.png'
 
 export default function Projects() {
   return (
     <Section>
       <h2>Projects</h2>
       <ul id='projects'>
-        <li>Project 1</li>
-        <li>Project 2</li>
-        <li>Project 3</li>
-        <li>Project 4</li>
+        <li class='card-project'>
+          <h3>Mera Parivar MVP</h3>
+          <img src={MeraParivarMVP} alt="" id='mera-parivar-img' />
+        </li>
+        
       </ul>
     </Section>
   );

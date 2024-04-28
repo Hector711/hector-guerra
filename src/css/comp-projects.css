@@ -1,3 +1,16 @@
 #projects {
   
 }
+.card-project{
+  border: 1px solid white;
+  width: 600px;
+  overflow: hidden;
+  border-radius: 20px;
+  /* background-color: aquamarine; */
+  height: 500px;
+  
+}
+#mera-parivar-img {
+  /* scale: 1.1; */
+  background-position: 0 50%;
+}

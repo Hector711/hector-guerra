@@ -15,7 +15,6 @@ export default function Hero() {
             <h1>{name}</h1>
             <h3>Full Stack Developer</h3>
           </div>
-            
             <ContactLinks />
         </div>
         <div className='box-hero' id='about'>
