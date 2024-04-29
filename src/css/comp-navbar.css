@@ -11,7 +11,7 @@ nav {
     max-width: var(--width);
   }
 }
-.mySwiper {
+.myNavSwiper {
   height: 50px;
   width: 60%;
   display: flex;

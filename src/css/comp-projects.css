@@ -1,16 +1,89 @@
+#title-projects-section {
+  padding-bottom: 1.2rem ;
+}
 #projects {
   
 }
+* {
+  /* border: 1px solid wheat; */
+}
+
 .card-project{
-  border: 1px solid white;
-  width: 600px;
-  overflow: hidden;
+  width: 100%;
   border-radius: 20px;
-  /* background-color: aquamarine; */
-  height: 500px;
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr  1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "header header"
+    "img content"
+    "img content"
+    "img content";
+  justify-content: center;
+  align-content: center;
+  .header-card-project {
+    grid-area: header ;
+    font-size: 2rem;
+    height: max-content;
+    text-align:left;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2.5rem 1.2rem;
+  }
+  #img-card-project {
+    grid-area: img;
+    
+    .myProjectSwiper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 550px;
+      height: 340px;
+      /* border: 1px solid white; */
+      border-radius: 10px;
+      /* background-color: var(--color-dark-2); */
+      padding: 10px;
+      img {
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgb(124, 124, 124);
+      }
+    }
+  }
+}
+
+#content-card-project {
   
-}
-#mera-parivar-img {
-  /* scale: 1.1; */
-  background-position: 0 50%;
-}
+  grid-area: content;
+  /* padding: 1rem; */
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  h5 {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 5px;
+  }
+  p{
+    /* margin: 10px; */
+    font-size: 18px;
+  }
+  div {
+    display: flex;
+    align-self: center;
+    justify-self: end;
+    /* background-color: bisque; */
+    margin-top: auto;
+    margin-bottom: 10px;
+    gap: 30px;
+    a {
+      background-color: aliceblue;
+      border-radius: 5px;
+      padding: 5px 10px;
+      color: var(--color-dark-1);
+    }
+  }
+} 

@@ -33,7 +33,7 @@ export default function carouselQuotes() {
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Navigation]}
-      className='mySwiper'
+      className='myNavSwiper'
     >
       {/* <SwiperSlide><h1>HECTOR</h1></SwiperSlide> */}
       {quotes.map(({ quote, className }, index) => (
