@@ -42,9 +42,7 @@
       align-items: center;
       width: 550px;
       height: 340px;
-      /* border: 1px solid white; */
       border-radius: 10px;
-      /* background-color: var(--color-dark-2); */
       padding: 10px;
       img {
         border-radius: 10px;
@@ -66,6 +64,7 @@
     font-size: 21px;
     font-weight: 600;
     margin: 5px;
+    text-align: left;
   }
   p{
     /* margin: 10px; */
