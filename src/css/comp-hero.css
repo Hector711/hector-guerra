@@ -42,11 +42,9 @@ header {
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
-    /* height: 100px; */
     margin: 1rem;
     margin-top: 2rem;
     width: max-content;
-    /* padding: 0; */
   }
   #confirm-copy-text {
     backdrop-filter: blur(4px);
@@ -62,18 +60,10 @@ header {
     padding: 8px;
     margin-bottom: 18px;
     justify-content: space-around;
-    button,
-    a {
-      text-decoration: inherit;
-      border-radius: var(--border-s);
+    button, a {
       overflow: hidden;
       width: 30px;
       height: 30px;
-    }
-    button:hover,
-    a:hover {
-      transform: scale(1.1);
-      transition: transform 0.3s ease-in-out;
     }
   }
 }
@@ -94,7 +84,6 @@ header {
 }
 
 #first-hero-section {
-  border: 1px solid var(--color-youtube);
   backdrop-filter: blur(4px);
   grid-column: 2/3;
   grid-row: 2/3;
@@ -123,16 +112,14 @@ header {
     opacity: 1;
   }
 }
-#first-hero-section:hover {
+#first-hero-section:hover, #third-hero-section:hover {
   box-shadow: var(--shadow-s);
-  transform: scale(1.01);
-  transition: transform 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 #sec-hero-section {
   grid-column: 3 / 4;
   grid-row: 2/3;
-  border: 1px solid var(--color-matrix);
   backdrop-filter: blur(4px);
   position: relative;
   display: flex;
@@ -147,11 +134,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--color-calendly);
   transition: transform 0.3s ease-in-out;
 }
-#third-hero-section:hover {
-  box-shadow: var(--shadow-s);
-  transform: scale(1.01);
-  transition: transform 0.5s ease-in-out;
-}
+

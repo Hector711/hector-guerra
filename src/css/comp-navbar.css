@@ -23,7 +23,6 @@ nav {
 }
 .nav-buttons {
   border-radius: 8px;
-  /* padding: 0.6em auto; */
   height: 40px;
   font-size: 1em;
   font-weight: 500;
@@ -38,12 +37,9 @@ nav {
   padding: 0 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
 }
 #right-nav-container {
-  .right-buttons:hover {
-    /* background-color: var(--black-2); */
-  }
+  
   #inter-button {
     padding: 0 1em;
   }

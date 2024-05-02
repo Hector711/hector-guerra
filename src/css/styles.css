@@ -50,41 +50,29 @@
 
   nav {
     background-color: #121214;
-    .left-buttons {
-      background-color: var(--color-dark-2);
-      color: var(--color-light-0);
-    }
-    .nav-button:hover {
-      background-color: var(--color-light-0);
-      color: var(--color-dark-1);
-      box-shadow: 0 0 10px 0 #aaaaaac7;
-    }
     #cv-button {
       background-color: var(--color-light-1);
       color: var(--color-dark-1);
     }
     #cv-button:hover {
       background-color: var(--color-light-0);
-      color: var(--color-dark-0);
-      box-shadow: 0 0 10px 0 #aaaaaac7;
     }
   }
   /* HERO */
-  #about {
-    /* background: var(--color-dark-2);
-    border: 0.5px solid #222222; */
-    box-shadow: 0 0 20px 0 #151515;
-  }
 
-  #first-hero-section {
-    background: var(--color-dark-1);
-    #video-resume-hover {
-      background-color: #180a0ae6;
-    }
+  #video-resume-hover {
+    background-color: #06060693;
   }
+  #about,
+  #first-hero-section,
   #sec-hero-section,
   #third-hero-section {
-    background: var(--color-dark-1);
+    background: var(--black-1);
+    border: 0.5px solid #222222;
+    box-shadow: 0 0 20px 0 #151515;
+  }
+  #first-hero-section:hover {
+    border: 0.5px solid var(--color-youtube);
   }
   #confirm-copy-text {
     background-color: #21212192;
@@ -92,19 +80,27 @@
   #social-icons-container {
     backdrop-filter: blur(2px);
     background-color: #21212192;
-    button,
-    a {
-      background-color: var(--white-1);
-    }
   }
+  button.social-icons,
+  a.social-icons {
+    background-color: var(--white-1);
+    color: var(--black-2);
+    fill: var(--black-2);
+  }
+  #mail,
+  #x {
+    stroke: var(--black-2);
+  }
+
   /* PROYECTS */
   .card-project {
-    .header-card-project {
-    }
     #img-card-project {
       .myProjectSwiper {
         img {
           box-shadow: 0 0 10px 0 #7c7c7c;
+        }
+        img:hover {
+          box-shadow: 0 0 5px 0 white;
         }
       }
     }
@@ -113,7 +109,6 @@
   label.project {
     background-color: var(--color-light-1);
     color: #2c2c2c !important;
-    box-shadow: 0 0 4px 0 #aaaaaac7;
   }
   label.skills {
     background-color: transparent;
@@ -147,7 +142,7 @@ section {
   margin-block: 50px;
 }
 
-/* #working {
+#working {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -160,12 +155,13 @@ section {
   padding-top: 300px;
   align-items: center;
   z-index: 3;
-} */
+}
 
 .hover-1:hover {
   background-color: var(--color-light-0);
   color: var(--color-dark-0);
   box-shadow: 0 0 10px 0 #aaaaaac7;
+  transition: all 0.5s ease-in-out;
 }
 
 .skills-icons {

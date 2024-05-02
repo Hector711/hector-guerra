@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
         <div className='box-hero' id='about'>
           <h1 className='sec'>Full Stack Web Developer</h1>
-          <p>I just wanna make a change in the world.</p>
+          <p>I just wanna make a change.</p>
         </div>
         {/* FIRST */}
         <a href='/' id='first-hero-section' className='hero-section-link'>

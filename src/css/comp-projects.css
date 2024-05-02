@@ -28,6 +28,9 @@
   }
   #img-card-project {
     grid-area: img;
+    button:hover, a:hover {
+      box-shadow: 0 0 10px 0 white;
+    }
 
     .myProjectSwiper {
       display: flex;
@@ -68,7 +71,6 @@
     display: flex;
     align-self: center;
     justify-self: end;
-    /* background-color: bisque; */
     margin-top: auto;
     margin-bottom: 10px;
     gap: 30px;

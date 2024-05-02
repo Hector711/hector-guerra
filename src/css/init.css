@@ -28,6 +28,7 @@ h1 {
   text-shadow: var(--shadow-text-black);
   font-size: 1.9rem;
   letter-spacing: 5px;
+  font-weight: 600;
 }
 h1.sec {
   font-weight: 500;
@@ -97,4 +98,16 @@ svg {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+button.social-icons, a.social-icons {
+  border-radius: var(--border-s);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+button.white-hover, a.white-hover {
+  transition: box-shadow 0.3s ease-in-out;
+}
+button.white-hover:hover, a.white-hover:hover {
+  box-shadow: 0 0 5px 0 white;
+  transition: box-shadow 0.3s ease-in-out;
 }

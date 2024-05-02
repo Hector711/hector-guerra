@@ -13,7 +13,6 @@ export default function Navbar() {
         >
           <h1 className='nav bold'>Héctor Guerra</h1>
         </div>
-        {/* <CarouselQuotes /> */}
 
         <div
           className='flex justify-center items-center gap-4'
@@ -23,15 +22,15 @@ export default function Navbar() {
             <Language />
           </button>
           <DarkModeToggle />
-          <button className='nav-buttons' id='cv-button'>
             <a
               href='https://hector-minimalist-cv.netlify.app'
               rel='noopener noreferrer'
               target='_blank'
+              className='nav-buttons white-hover'
+              id='cv-button'
             >
               Minimal CV
             </a>
-          </button>
         </div>
       </div>
     </nav>
