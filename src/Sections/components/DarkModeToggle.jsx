@@ -4,7 +4,6 @@ import Sun from '@/assets/Sun';
 import Moon from '@/assets/Moon';
 
 export default function DarkModeToggle() {
-  
   const [theme, setTheme] = useState(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       return 'dark';
@@ -32,7 +31,7 @@ export default function DarkModeToggle() {
         className='toggle'
         onChange={handleChangeTheme}
       />
-      <label htmlFor='darkMode' id='dark-mode-toggle' className='right-buttons' >
+      <label htmlFor='darkMode' id='dark-mode-toggle' className='right-buttons'>
         {theme === 'dark' ? <Sun /> : <Moon />}
       </label>
     </>

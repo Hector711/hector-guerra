@@ -17,8 +17,6 @@
     "email": "hectorluengo.xx@gmail.com",
     "phone": "+34 722396259"
   },
-
-
   "contact": [
     {
       "network": "LinkedIn",
@@ -43,31 +41,40 @@
   ],
   "skills": [
     {
-      "name": "React"
+      "name": "React",
+      "icon": "ReactIcon"
     },
     {
-      "name": "MongoDB"
+      "name": "MongoDB",
+      "icon": "ReactIcon"
     },
     {
-      "name": "Astro"
+      "name": "Astro",
+      "icon": "ReactIcon"
     },
     {
-      "name": "TailwindCSS"
+      "name": "Tailwind",
+      "icon": "ReactIcon"
     },
     {
-      "name": "HTML"
+      "name": "HTML",
+      "icon": "ReactIcon"
     },
     {
-      "name": "JavaScript"
+      "name": "JavaScript",
+      "icon": "ReactIcon"
     },
     {
-      "name": "CSS"
+      "name": "CSS",
+      "icon": "ReactIcon"
     },
     {
-      "name": "Node"
+      "name": "Node",
+      "icon": "ReactIcon"
     },
     {
-      "name": "Express"
+      "name": "Express",
+      "icon": "ReactIcon"
     }
   ],
   "work": [
@@ -109,7 +116,7 @@
       "isActive": true,
       "year": "2024",
       "summary": "---------",
-      "highlights": [
+      "technologies": [
         "ReactJS",
         "Tailwind",
         "SQL",

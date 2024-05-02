@@ -2,7 +2,7 @@ import React from 'react';
 import ContactLinks from './components/ContactLinks';
 import Section from '@/Sections/components/Section';
 import YouTube from '@/assets/YouTube';
-import cv from '@root/cv.json'
+import cv from '@root/cv.json';
 
 export default function Hero() {
   const basics = cv.basics;
@@ -15,7 +15,7 @@ export default function Hero() {
             <h1>{name}</h1>
             <h3>Full Stack Developer</h3>
           </div>
-            <ContactLinks />
+          <ContactLinks />
         </div>
         <div className='box-hero' id='about'>
           {/* <h3 className='dark:bg-fuchsia-700'>About</h3> */}

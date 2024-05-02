@@ -9,8 +9,9 @@
   --black-1: #101010;
   --black-2: #2c2c2c;
 
-  --color-dark-0: #080811;
-  --color-dark-1: #0f0f18;
+  --color-dark-0: #131316;
+  /* --color-dark-0: #17171d; */
+  --color-dark-1: #17171c;
   --color-dark-2: #31323e;
 
   --color-main-0: #080811;
@@ -19,16 +20,16 @@
   --color-light-0: #c6c5cf;
   --color-light-1: #9d9ca4;
 
-  --color-main-light-0: #c6c5cf;
+  --color-main-light-0: #b8b8be;
   --color-main-light-1: #69696a;
 
   --color-sec-0: #e09545;
 
   --color-thr-0: #a2a4a9;
 
-  --color-calendly: #016bfe;
-  --color-youtube: #cc1f1f;
-  --color-matrix: #0ba003;
+  --color-calendly: #3362a3;
+  --color-youtube: #a33333;
+  --color-matrix: #398741;
 
   /* BORDERS */
   --border-s: 5px;
@@ -43,29 +44,30 @@
   transition: all 0.5s ease-in-out;
 }
 
-
 [data-theme='dark'] {
   background-color: var(--color-dark-0);
   color: var(--white-1);
-  
-  .left-buttons {
-    background-color: var(--color-dark-2);
-    color: var(--color-light-0);
-  }
-  .nav-button:hover {
-    background-color: var(--color-light-0);
-    color: var(--color-dark-1);
-    box-shadow: 0 0 10px 0 #aaaaaac7;
-  }
-  #cv-button {
-    background-color: var(--color-light-1);
-    color: var(--color-dark-1);
-  }
-  #cv-button:hover {
-    background-color: var(--color-light-0);
-    color: var(--color-dark-0);
-    box-shadow: 0 0 10px 0 #aaaaaac7;
 
+  nav {
+    background-color: #121214;
+    .left-buttons {
+      background-color: var(--color-dark-2);
+      color: var(--color-light-0);
+    }
+    .nav-button:hover {
+      background-color: var(--color-light-0);
+      color: var(--color-dark-1);
+      box-shadow: 0 0 10px 0 #aaaaaac7;
+    }
+    #cv-button {
+      background-color: var(--color-light-1);
+      color: var(--color-dark-1);
+    }
+    #cv-button:hover {
+      background-color: var(--color-light-0);
+      color: var(--color-dark-0);
+      box-shadow: 0 0 10px 0 #aaaaaac7;
+    }
   }
   /* HERO */
   #about {
@@ -81,7 +83,8 @@
       background-color: #180a0ae6;
     }
   }
-  #sec-hero-section, #third-hero-section {
+  #sec-hero-section,
+  #third-hero-section {
     background: var(--color-dark-1);
   }
   #confirm-copy-text {
@@ -90,13 +93,17 @@
   #social-icons-container {
     backdrop-filter: blur(2px);
     background-color: #21212192;
-    button, a {
+    button,
+    a {
       background-color: var(--white-1);
     }
   }
+  /* PROYECTS */
+  label {
+    background-color: var(--color-light-1);
+    color: #2c2c2c !important;
+  }
 }
-
-
 
 [data-theme='light'] {
   background-color: var(--color-main-light-0);
@@ -105,14 +112,11 @@
     background-color: var(--color-light-1);
     color: var(--color-dark-0);
   }
-  h1, h3{
+  h1,
+  h3 {
     color: var(--white-1);
   }
 }
-
-
-
-
 
 * {
   /* border: 0.5px solid #ffffff; */
@@ -124,7 +128,6 @@ section {
   max-width: var(--width);
   margin-block: 50px;
 }
-
 
 #working {
   position: absolute;
@@ -138,4 +141,15 @@ section {
   justify-content: flex-start;
   padding-top: 300px;
   align-items: center;
+}
+
+
+.hover-1:hover {
+  background-color: var(--color-light-0);
+  color: var(--color-dark-0);
+  box-shadow: 0 0 10px 0 #aaaaaac7;
+}
+
+.skills-icons {
+  fill:red;
 }

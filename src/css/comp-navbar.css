@@ -5,10 +5,10 @@ nav {
   justify-content: center;
   align-items: center;
   box-shadow: var(--shadow-m);
-
   #nav-container {
     width: 100%;
     max-width: var(--width);
+    padding-inline: .5rem;
   }
 }
 .myNavSwiper {
@@ -31,7 +31,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
   transition: border-color 0.25s;
 }
 #cv-button {
@@ -41,22 +40,18 @@ nav {
   font-weight: 500;
   font-family: inherit;
 }
-
-#left-nav-container {
+#right-nav-container {
+  /* margin-right: 1rem; */
   .right-buttons {
-    /* border: 1px solid var(--white-2); */
   }
   .right-buttons:hover {
     background-color: var(--black-2);
   }
   #inter-button {
-    /* width: 40px; */
     padding: 0 1em;
   }
   #dark-mode-toggle {
     display: inline-block;
-    background-color: transparent !important;
-    /* color: white; */
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.8s ease;
@@ -65,16 +60,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: .5px solid white; */
     border-radius: 50px;
-    /* margin-inline: .5em; */
-    
   }
-  input[type="checkbox"] {
-    display: none; 
+  input[type='checkbox'] {
+    display: none;
   }
-  input[type="checkbox"]:checked + label {
-    transform: rotate(360deg); 
+  input[type='checkbox']:checked + label {
+    transform: rotate(360deg);
   }
 }
-

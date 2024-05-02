@@ -65,6 +65,10 @@ p {
 p.caption {
   font-size: 0.9rem;
 }
+p.bold {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 hr {
   width: 50%;
   margin: 0;

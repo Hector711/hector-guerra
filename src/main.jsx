@@ -16,7 +16,6 @@ import './css/comp-navbar.css';
 import './css/comp-footer.css';
 import './css/comp-projects.css';
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

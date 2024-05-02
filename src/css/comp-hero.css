@@ -62,14 +62,16 @@ header {
     padding: 8px;
     margin-bottom: 18px;
     justify-content: space-around;
-    button, a {
+    button,
+    a {
       text-decoration: inherit;
       border-radius: var(--border-s);
       overflow: hidden;
       width: 30px;
       height: 30px;
     }
-    button:hover, a:hover {
+    button:hover,
+    a:hover {
       transform: scale(1.1);
       transition: transform 0.3s ease-in-out;
     }
@@ -102,8 +104,6 @@ header {
   justify-content: center;
   align-items: center;
 
-  
-
   #video-resume-hover {
     position: absolute;
     top: 0;
@@ -129,7 +129,6 @@ header {
   transform: scale(1.01);
   transition: transform 0.5s ease-in-out;
 }
-
 
 #sec-hero-section {
   grid-column: 3 / 4;
