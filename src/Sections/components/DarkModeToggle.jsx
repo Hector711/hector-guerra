@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import Sun from '@/assets/Sun';
-import Moon from '@/assets/Moon';
+import Sun from '@/assets/nav/Sun';
+import Moon from '@/assets/nav/Moon';
 
 export default function DarkModeToggle() {
   const [theme, setTheme] = useState(() => {

@@ -26,7 +26,7 @@ export default function Projects() {
   ];
   return (
     <Section>
-      <h2 id='title-projects-section'>Projects</h2>
+      <h2 className='title-section'>Projects</h2>
       <ul id='projects'>
         <li className='card-project'>
           <h3 className='header-card-project'>Mera Parivar MVP</h3>
@@ -38,18 +38,23 @@ export default function Projects() {
             <CarouselProject projectImages={projectImages} />
           </a>
           <div id='content-card-project'>
-            <h5>Minimum Viable Product for Mera Parivar NGO</h5>
             <p>
-              I led the Full Stack team, collaborating with UX/UI, Marketing, Data
-              Science, and Cybersecurity. Our goal: to develop a technological solution that would optimize
-              their processes, expand their reach, and increase revenue.
+              I led the Full Stack team, collaborating with UX/UI, Marketing,
+              Data Science, and Cybersecurity.
+              <br />
+              We created a Minimum Viable Product for Mera Parivar NGO with a
+              very clear objetive: to develop a technological solution that
+              would optimize their processes, expand their reach, and increase
+              revenue.
             </p>
-            
+
             <div id='labels-project'>
               <p className='bold'>Technologies Used:</p>
               <div id='labels-container'>
                 {projects[0].technologies.map((technology, index) => (
-                  <label key={index}>{technology}</label>
+                  <label className='project' key={index}>
+                    {technology}
+                  </label>
                 ))}
               </div>
             </div>

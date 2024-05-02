@@ -1,24 +1,22 @@
 import React from 'react';
-import Mail from '@/assets/Mail';
-import WhatsApp from '@/assets/WhatsApp';
-import X from '@/assets/X';
-import GitHub from '@/assets/GitHub';
-import Instagram from '@/assets/Instagram';
-import LinkedIn from '@/assets/LinkedIn';
-import YouTube from '@/assets/YouTube';
+import Mail from '@/assets/social/Mail';
+import WhatsApp from '@/assets/social/WhatsApp';
+import X from '@/assets/social/X';
+import GitHub from '@/assets/social/GitHub';
+import Instagram from '@/assets/social/Instagram';
+import LinkedIn from '@/assets/social/LinkedIn';
+import YouTube from '@/assets/social/YouTube';
 
 import cv from '@root/cv.json';
 
-export default function ContactLinks() {
-  const contact = cv.contact;
+export default function SocialLinks() {
+  const social = cv.social;
   const basics = cv.basics;
-  const ContactIcons = {
+  const SocialIcons = {
     X,
     GitHub,
     Instagram,
     LinkedIn,
-    WhatsApp,
-    Mail,
     YouTube,
   };
 
@@ -47,7 +45,7 @@ export default function ContactLinks() {
           onClick={handleCopyToClipboard}
           id='copy-button'
         >
-          <ContactIcons.Mail />
+          <Mail />
         </button>
         <a
           href={`whatsapp://send?phone=${basics.phone}`}
@@ -55,11 +53,11 @@ export default function ContactLinks() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <ContactIcons.WhatsApp />
+          <WhatsApp />
         </a>
 
-        {contact.map(({ network, username, url }) => {
-          const Icon = ContactIcons[network];
+        {social.map(({ network, username, url }) => {
+          const Icon = SocialIcons[network];
           return (
             <a
               key={network}

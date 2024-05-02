@@ -1,5 +1,5 @@
 import React from 'react';
-import Language from '@/assets/Language';
+import Language from '@/assets/nav/Language';
 // import CarouselQuotes from '@/Sections/components/CarouselQuotes';
 import DarkModeToggle from './components/DarkModeToggle';
 
@@ -18,7 +18,7 @@ export default function Navbar() {
           </button>
         </div>
         {/* <CarouselQuotes /> */}
-        
+
         <div
           className='flex justify-center items-center gap-4'
           id='right-nav-container'

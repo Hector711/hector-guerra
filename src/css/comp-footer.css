@@ -1,6 +1,5 @@
 footer {
   width: 100%;
-  margin-top: auto;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -17,5 +16,8 @@ footer {
     width: 100%;
     max-width: var(--width);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
   }
 }

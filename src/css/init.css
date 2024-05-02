@@ -16,6 +16,9 @@ html {
   letter-spacing: -0.0025rem;
   position: relative;
 }
+main {
+  padding-bottom: 5rem;
+}
 h1 {
   font-size: 2.3rem;
   font-weight: 500;
@@ -26,6 +29,12 @@ h2 {
   font-weight: 500;
   text-align: center;
   padding-inline: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2.title-section {
+  padding: 10px;
 }
 h3 {
   font-size: 1.4rem;
@@ -68,6 +77,11 @@ p.caption {
 p.bold {
   font-size: 1.3rem;
   font-weight: 600;
+}
+label {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
 }
 hr {
   width: 50%;

@@ -17,7 +17,7 @@
     "email": "hectorluengo.xx@gmail.com",
     "phone": "+34 722396259"
   },
-  "contact": [
+  "social": [
     {
       "network": "LinkedIn",
       "username": "@Hector711",
@@ -42,39 +42,39 @@
   "skills": [
     {
       "name": "React",
-      "icon": "ReactIcon"
-    },
-    {
-      "name": "MongoDB",
-      "icon": "ReactIcon"
-    },
-    {
-      "name": "Astro",
-      "icon": "ReactIcon"
-    },
-    {
-      "name": "Tailwind",
-      "icon": "ReactIcon"
-    },
-    {
-      "name": "HTML",
-      "icon": "ReactIcon"
-    },
-    {
-      "name": "JavaScript",
-      "icon": "ReactIcon"
-    },
-    {
-      "name": "CSS",
-      "icon": "ReactIcon"
+      "icon": "ReactJS"
     },
     {
       "name": "Node",
-      "icon": "ReactIcon"
+      "icon": "NodeJS"
     },
     {
       "name": "Express",
-      "icon": "ReactIcon"
+      "icon": "ExpressJS"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "MongoDB"
+    },
+    {
+      "name": "Astro",
+      "icon": "Astro"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "TailwindCSS"
+    },
+    {
+      "name": "HTML",
+      "icon": "HTML"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "JavaScript"
+    },
+    {
+      "name": "CSS",
+      "icon": "CSS"
     }
   ],
   "work": [
