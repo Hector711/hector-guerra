@@ -9,7 +9,7 @@ export default function CarouselProject({ projectImages }) {
   return (
     <Swiper
       // direction={'vertical'}
-      speed={2000}
+      speed={3000}
       spaceBetween={25}
       loop={true}
       centeredSlides={true}

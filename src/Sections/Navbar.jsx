@@ -12,7 +12,7 @@ export default function Navbar() {
           id='left-nav-container'
         >
           <button className='nav-buttons' id='cv-button'>
-            <a href='https://hector-minimalist-cv.netlify.app' target='_blank'>
+            <a href='https://hector-minimalist-cv.netlify.app' rel="noopener noreferrer" target='_blank'>
               Minimal CV
             </a>
           </button>
