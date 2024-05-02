@@ -9,7 +9,7 @@
   --black-1: #101010;
   --black-2: #2c2c2c;
 
-  --color-dark-0: #131316;
+  --color-dark-0: #101012;
   /* --color-dark-0: #17171d; */
   --color-dark-1: #17171c;
   --color-dark-2: #31323e;
@@ -39,7 +39,7 @@
   /* SHADOWS */
   --shadow-s: 0 0 10px 0 var(--white-2);
   --shadow-m: 0 0 20px 0.5px var(--color-main-1);
-  --shadow-text-black: 0 0 30px var(--black-0);
+  --shadow-text-black: 0 0 10px #616161;
 
   transition: all 0.5s ease-in-out;
 }
@@ -71,12 +71,11 @@
   }
   /* HERO */
   #about {
-    background: var(--color-dark-1);
-    border: 1px solid var(--white-2);
+    /* background: var(--color-dark-2);
+    border: 0.5px solid #222222; */
+    box-shadow: 0 0 20px 0 #151515;
   }
-  #header-container {
-    background-color: #21212192;
-  }
+
   #first-hero-section {
     background: var(--color-dark-1);
     #video-resume-hover {
@@ -99,6 +98,18 @@
     }
   }
   /* PROYECTS */
+  .card-project {
+    .header-card-project {
+    }
+    #img-card-project {
+      .myProjectSwiper {
+        img {
+          box-shadow: 0 0 10px 0 #7c7c7c;
+        }
+      }
+    }
+  }
+
   label.project {
     background-color: var(--color-light-1);
     color: #2c2c2c !important;
@@ -136,7 +147,7 @@ section {
   margin-block: 50px;
 }
 
-#working {
+/* #working {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -149,7 +160,7 @@ section {
   padding-top: 300px;
   align-items: center;
   z-index: 3;
-}
+} */
 
 .hover-1:hover {
   background-color: var(--color-light-0);

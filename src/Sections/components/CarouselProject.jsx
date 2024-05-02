@@ -21,7 +21,6 @@ export default function CarouselProject({ projectImages }) {
       modules={[Autoplay, Navigation, Pagination]}
       className='myProjectSwiper'
     >
-      {/* <SwiperSlide><h1>HECTOR</h1></SwiperSlide> */}
       {projectImages.map(({ image }, index) => (
         <SwiperSlide key={index}>
           <img src={image} alt='' />

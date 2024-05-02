@@ -40,7 +40,6 @@
       z-index: 1;
       img {
         border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgb(124, 124, 124);
       }
     }
   }

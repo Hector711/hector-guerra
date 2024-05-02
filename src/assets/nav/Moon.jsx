@@ -3,9 +3,6 @@ import * as React from 'react';
 export default function Moon(props) {
   return (
     <svg
-      xmlns='http://www.w3.org/2000/svg'
-      width={30}
-      height={30}
       fill='none'
       stroke='currentColor'
       strokeWidth={2}

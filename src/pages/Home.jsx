@@ -8,10 +8,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      {/* <hr /> */}
       <Projects />
       <Skills />
-      {/* <Education /> */}
     </>
   );
 }

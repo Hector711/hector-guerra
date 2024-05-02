@@ -2,19 +2,14 @@ import * as React from 'react';
 
 export default function Sun(props) {
   return (
-    <svg
-      width={30}
-      height={30}
-      fill='none'
-      stroke='currentColor'
-      strokeWidth={2}
-      strokeLinecap='round'
-      strokeLinejoin='round'
-      className='icon icon-tabler icons-tabler-outline icon-tabler-sun'
-      {...props}
-    >
-      <path d='M0 0h24v24H0z' stroke='none' />
-      <path d='M8 12a4 4 0 108 0 4 4 0 10-8 0M3 12h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7' />
+    <svg viewBox='0 0 24 24' fill='none' {...props}>
+      <g strokeWidth={1.5}>
+        <circle cx={12} cy={12} r={5} />
+        <path
+          d='M12 2v2M12 20v2M4 12H2M22 12h-2M19.778 4.223l-2.222 2.031M4.222 4.223l2.222 2.031M6.444 17.556l-2.222 2.222M19.778 19.777l-2.222-2.222'
+          strokeLinecap='round'
+        />
+      </g>
     </svg>
   );
 }

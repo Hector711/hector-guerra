@@ -12,18 +12,14 @@ export default function Hero() {
       <header>
         <div className='box-hero ' id='img-container'>
           <div id='header-container'>
-            <h1>{name}</h1>
-            <h3>Full Stack Developer</h3>
+            {/* <h1>{name}</h1> */}
+            {/* <h4 className=''>Full Stack Developer</h4> */}
           </div>
           <SocialLinks />
         </div>
         <div className='box-hero' id='about'>
-          {/* <h3 className='dark:bg-fuchsia-700'>About</h3> */}
-          <p>
-            Enthusiastic beginner developer eager to break into the tech
-            industry. Seeking first job opportunity to kickstart a fulfilling
-            programming career.
-          </p>
+          <h1 className='sec'>Full Stack Web Developer</h1>
+          <p>I just wanna make a change in the world.</p>
         </div>
         {/* FIRST */}
         <a href='/' id='first-hero-section' className='hero-section-link'>
