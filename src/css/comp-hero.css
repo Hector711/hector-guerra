@@ -60,7 +60,8 @@ header {
     padding: 8px;
     margin-bottom: 18px;
     justify-content: space-around;
-    button, a {
+    button,
+    a {
       overflow: hidden;
       width: 30px;
       height: 30px;
@@ -112,7 +113,8 @@ header {
     opacity: 1;
   }
 }
-#first-hero-section:hover, #third-hero-section:hover {
+#first-hero-section:hover,
+#third-hero-section:hover {
   box-shadow: var(--shadow-s);
   transition: all 0.4s ease-in-out;
 }
@@ -136,4 +138,3 @@ header {
   align-items: center;
   transition: transform 0.3s ease-in-out;
 }
-

@@ -36,7 +36,7 @@ footer {
       min-width: max-content;
       .icons-made-by {
         height: 30px;
-        fill: var(--white-1)
+        fill: var(--white-1);
       }
     }
   }

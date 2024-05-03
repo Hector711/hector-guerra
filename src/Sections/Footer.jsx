@@ -19,7 +19,10 @@ export default function Footer() {
             <WhatsApp className='footer-icon' />
           </a>
         </div>
-          <p id ='made-by'>Made by Héctor with <Heart className='icons-made-by'/> and React <ReactJS className='icons-made-by'/></p>
+        <p id='made-by'>
+          Made by Héctor with <Heart className='icons-made-by' /> and React{' '}
+          <ReactJS className='icons-made-by' />
+        </p>
         <a
           href='https://github.com/Hector711/hector711.github.io'
           rel='noopener noreferrer'

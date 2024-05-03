@@ -13,7 +13,7 @@ export default function X(props) {
       id='x'
     >
       <path d='M0 0h24v24H0z' stroke='none' />
-      <path d='M4 4l11.733 16H20L8.267 4zM4 20l6.768-6.768m2.46-2.46L20 4'  />
+      <path d='M4 4l11.733 16H20L8.267 4zM4 20l6.768-6.768m2.46-2.46L20 4' />
     </svg>
   );
 }

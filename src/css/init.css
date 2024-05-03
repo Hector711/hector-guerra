@@ -106,15 +106,18 @@ section {
   max-width: var(--width);
   margin-block: 50px;
 }
-button.social-icons, a.social-icons {
+button.social-icons,
+a.social-icons {
   border-radius: var(--border-s);
   transition: box-shadow 0.3s ease-in-out;
 }
 
-button.white-hover, a.white-hover {
+button.white-hover,
+a.white-hover {
   transition: box-shadow 0.3s ease-in-out;
 }
-button.white-hover:hover, a.white-hover:hover {
+button.white-hover:hover,
+a.white-hover:hover {
   box-shadow: 0 0 5px 0 white;
   transition: box-shadow 0.3s ease-in-out;
 }

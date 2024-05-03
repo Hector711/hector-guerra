@@ -1,7 +1,7 @@
 import React from 'react';
 import Language from '@/assets/nav/Language';
-// import CarouselQuotes from '@/Sections/components/CarouselQuotes';
 import DarkModeToggle from './components/DarkModeToggle';
+import LanguageSelection from './components/LanguageSelection';
 
 export default function Navbar() {
   return (
@@ -21,16 +21,17 @@ export default function Navbar() {
           <button className='right-buttons nav-buttons' id='inter-button'>
             <Language />
           </button>
+          <LanguageSelection />
           <DarkModeToggle />
-            <a
-              href='https://hector-minimalist-cv.netlify.app'
-              rel='noopener noreferrer'
-              target='_blank'
-              className='nav-buttons white-hover'
-              id='cv-button'
-            >
-              Minimal CV
-            </a>
+          <a
+            href='https://hector-minimalist-cv.netlify.app'
+            rel='noopener noreferrer'
+            target='_blank'
+            className='nav-buttons white-hover'
+            id='cv-button'
+          >
+            Minimal CV
+          </a>
         </div>
       </div>
     </nav>

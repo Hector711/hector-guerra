@@ -11,8 +11,7 @@ export default function Hero() {
     <Section>
       <header>
         <div className='box-hero ' id='img-container'>
-          <div id='header-container'>
-          </div>
+          <div id='header-container'></div>
           <SocialLinks />
         </div>
         <div className='box-hero' id='about'>
