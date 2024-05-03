@@ -18,6 +18,7 @@ html {
 }
 main {
   padding-bottom: 5rem;
+  margin-inline: 1rem;
 }
 h1 {
   font-family: 'Cinzel Decorative';
@@ -98,6 +99,12 @@ svg {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+section {
+  margin-inline: auto;
+  width: 100%;
+  max-width: var(--width);
+  margin-block: 50px;
 }
 button.social-icons, a.social-icons {
   border-radius: var(--border-s);

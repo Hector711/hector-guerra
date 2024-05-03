@@ -1,0 +1,78 @@
+
+/* ============ DARK THEME ============ */
+/* ============ ========= ============ */
+[data-theme='dark'] {
+  background-color: var(--color-dark-0);
+  color: var(--white-1);
+
+  nav {
+    background-color: #121214;
+    #cv-button {
+      background-color: var(--color-light-1);
+      color: var(--color-dark-1);
+    }
+    #cv-button:hover {
+      background-color: var(--color-light-0);
+    }
+  }
+  /* HERO */
+  #video-resume-hover {
+    background-color: #06060693;
+  }
+  #about,
+  #first-hero-section,
+  #sec-hero-section,
+  #third-hero-section {
+    background: var(--black-1);
+    border: 0.5px solid #222222;
+    box-shadow: 0 0 20px 0 #151515;
+  }
+  #first-hero-section:hover {
+    border: 0.5px solid var(--color-youtube);
+  }
+  #third-hero-section:hover {
+    border: 0.5px solid var(--color-calendly);
+  }
+  #confirm-copy-text {
+    background-color: #21212192;
+  }
+  #social-icons-container {
+    backdrop-filter: blur(2px);
+    background-color: #21212192;
+  }
+  button.social-icons,
+  a.social-icons {
+    background-color: var(--white-1);
+    color: var(--black-2);
+    fill: var(--black-2);
+  }
+  #mail,
+  #x {
+    stroke: var(--black-2);
+  }
+
+  /* PROYECTS */
+  .card-project {
+    #img-card-project {
+      .myProjectSwiper {
+        img {
+          box-shadow: 0 0 10px 0 #7c7c7c;
+        }
+        img:hover {
+          box-shadow: 0 0 5px 0 white;
+        }
+      }
+    }
+  }
+
+  label.project {
+    background-color: var(--color-light-1);
+    color: #2c2c2c !important;
+  }
+  label.skills {
+    background-color: transparent;
+    color: var(--white-1);
+    font-weight: 500;
+    font-size: 15px;
+  }
+}

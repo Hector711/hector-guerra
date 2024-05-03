@@ -1,0 +1,17 @@
+
+/* ============ LIGHT THEME ============ */
+/* ============ ========= ============ */
+[data-theme='light'] {
+  background-color: var(--color-main-light-0);
+  color: var(--black-2);
+  .nav-button {
+    background-color: var(--color-light-1);
+    color: var(--color-dark-0);
+  }
+  h1,
+  h3 {
+    color: var(--white-1);
+  }
+}
+
+

@@ -12,14 +12,12 @@ export default function Hero() {
       <header>
         <div className='box-hero ' id='img-container'>
           <div id='header-container'>
-            {/* <h1>{name}</h1> */}
-            {/* <h4 className=''>Full Stack Developer</h4> */}
           </div>
           <SocialLinks />
         </div>
         <div className='box-hero' id='about'>
           <h1 className='sec'>Full Stack Web Developer</h1>
-          <p>I just wanna make a change.</p>
+          <p>I just wanna make a difference.</p>
         </div>
         {/* FIRST */}
         <a href='/' id='first-hero-section' className='hero-section-link'>
