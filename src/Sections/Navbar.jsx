@@ -18,10 +18,10 @@ export default function Navbar() {
           className='flex justify-center items-center gap-4'
           id='right-nav-container'
         >
+          <LanguageSelection />
           <button className='right-buttons nav-buttons' id='inter-button'>
             <Language />
           </button>
-          <LanguageSelection />
           <DarkModeToggle />
           <a
             href='https://hector-minimalist-cv.netlify.app'

@@ -24,7 +24,7 @@
   --color-dark-2: #31323e;
 
   --color-light-0: #d5d4dc;
-  --color-light-1: #9d9ca4;
+  --color-light-1: rgb(221, 220, 235);
 
   --color-calendly: #3362a3;
   --color-youtube: #a33333;
@@ -46,12 +46,6 @@
   /* border: 0.5px solid #ffffff; */
 }
 
-/* .hover-1:hover {
-  background-color: var(--color-light-0);
-  color: var(--color-dark-0);
-  box-shadow: 0 0 10px 0 #aaaaaac7;
-  transition: all 0.5s ease-in-out;
-} */
 
 .skills-icons {
   width: 50px;

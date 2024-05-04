@@ -3,24 +3,29 @@ import GitHub from '@/assets/social/GitHub';
 import WhatsApp from '@/assets/social/WhatsApp';
 import ReactJS from '@/assets/skills/ReactJS';
 import Heart from '@/assets/Heart';
+import { useTranslation } from 'react-i18next';
+
+import cv from '@root/cv.json';
 
 export default function Footer() {
+  const basics = cv.basics;
+  const { t } = useTranslation()
   return (
     <footer>
       <div id='footer-container'>
         <div>
           <a
-            href=''
+            href={`whatsapp://send?phone=${basics.phone}`}
             rel='noopener noreferrer'
             target='_blank'
             className='social-icons white-hover footer-links'
           >
-            Hire Me
+            {t("footer.hire-me")}
             <WhatsApp className='footer-icon' />
           </a>
         </div>
         <p id='made-by'>
-          Made by Héctor with <Heart className='icons-made-by' /> and React{' '}
+        {t("footer.made-by-1")} <Heart className='icons-made-by' /> {t("footer.made-by-2")}
           <ReactJS className='icons-made-by' />
         </p>
         <a
@@ -29,7 +34,7 @@ export default function Footer() {
           target='_blank'
           className='social-icons white-hover footer-links'
         >
-          GitHub Repository
+          {t("footer.repo-link")}
           <GitHub className='footer-icon' />
         </a>
       </div>

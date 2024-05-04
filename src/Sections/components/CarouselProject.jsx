@@ -8,7 +8,6 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 export default function CarouselProject({ projectImages }) {
   return (
     <Swiper
-      // direction={'vertical'}
       speed={3000}
       spaceBetween={25}
       loop={true}

@@ -9,14 +9,16 @@
     box-shadow: 0 0 10px 0 var(--white-2);
     h1 {
       text-shadow: 0 0 7px #686868;
-
     }
     #cv-button {
       background-color: var(--color-light-1);
       color: var(--color-dark-1);
+      /*  */
+      /*  */
     }
     #cv-button:hover {
       background-color: var(--color-light-0);
+      /*  */
     }
     #right-nav-container {
       #inter-button {
@@ -30,6 +32,7 @@
   }
   /* ============ HERO ============ */
   /* ============ ========= ============ */
+
   #video-resume-hover {
     background-color: #06060693;
   }
@@ -38,8 +41,16 @@
   #sec-hero-section,
   #third-hero-section {
     background: var(--black-1);
-    border: 0.5px solid #222222;
-    box-shadow: 0 0 20px 0 #151515;
+  }
+  #img-container,
+  #about,
+  #first-hero-section,
+  #sec-hero-section,
+  #third-hero-section {
+    box-shadow: 0 0 7px 0 #5b5959;
+  }
+  h1 {
+    /*  */
   }
   #first-hero-section:hover {
     border: 2px solid var(--color-youtube);
@@ -67,18 +78,16 @@
   h3.calendly {
     color: var(--color-calendly);
   }
-
   /* ============ SPACE ============ */
   /* ============ ========= ============ */
   #space {
-    hr{
+    hr {
       background-color: #151515;
     }
     #space-icon {
       stroke: var(--white-1);
     }
   }
-
   /* ============ PROJECTS ============ */
   /* ============ ========= ============ */
   .card-project {
@@ -95,13 +104,13 @@
     }
     #links-project {
       a {
-        background-color: aliceblue;
-        color: var(--color-dark-1);
+        background-color: var(--white-0);
+        color: var(--color-dark-2);
       }
     }
     label.project {
-      background-color: var(--color-light-1);
-      color: #2c2c2c !important;
+      background-color: var(--white-2);
+      color: var(--white-0);
     }
     label.skills {
       background-color: transparent;
@@ -110,13 +119,11 @@
       font-size: 15px;
     }
   }
-
   /* ============ SKILLS ============ */
   /* ============ ========= ============ */
   .skills-icons {
-    fill: var(--color-light-1);
+    fill: var(--white-2);
   }
-
   /* ============ FOOTER ============ */
   /* ============ ========= ============ */
   footer {

@@ -3,8 +3,10 @@ import SocialLinks from './components/SocialLinks';
 import Section from '@/Sections/components/Section';
 import YouTube from '@/assets/social/YouTube';
 import cv from '@root/cv.json';
+import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
+  const { t } = useTranslation();
   const basics = cv.basics;
   const { nickname, name } = basics;
   return (
@@ -21,7 +23,7 @@ export default function Hero() {
         {/* FIRST */}
         <a href='/' id='first-hero-section' className='hero-section-link'>
           <div id='video-resume'>
-            <h3>1 minute video resume</h3>
+            <h3>{t("hero.video-resume")}</h3>
             <YouTube />
           </div>
           <div id='video-resume-hover'>
@@ -40,8 +42,7 @@ export default function Hero() {
           id='third-hero-section'
         >
           <h3>
-            Schedule a <br />1 to 1 <br />
-            call on
+          {t("hero.schedule")}
           </h3>
           <h3 className='calendly'>Calendly</h3>
         </a>

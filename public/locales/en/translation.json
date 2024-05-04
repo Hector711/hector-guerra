@@ -1,5 +1,18 @@
 {
-  "main": {
-    "header" : "english text"
+  "hero": {
+    "email-copied": "Email copied to clipboard",
+    "video-resume": "1 minute video resume",
+    "schedule": "Schedule a 1 to 1 call on "
+  },
+  "projects": {
+    "title": "Proyects",
+    "presentation-link": "LinkedIn Presentation",
+    "deploy-link": "Deployed Project"
+  },
+  "footer" : {
+    "hire-me": "Hire Me!",
+    "made-by-1": "Made by Héctor with",
+    "made-by-2": "and React",
+    "repo-link": "GitHub Repository"
   }
 }

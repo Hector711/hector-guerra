@@ -5,10 +5,12 @@ import MeraParivar2 from '@/assets/mera-parivar_2.jpg';
 import MeraParivar3 from '@/assets/mera-parivar_3.jpg';
 import MeraParivar4 from '@/assets/mera-parivar_4.jpg';
 import CarouselProject from './components/CarouselProject';
+import { useTranslation } from 'react-i18next';
 import cv from '@root/cv';
 
 export default function Projects() {
   const projects = cv.projects;
+  const { t } = useTranslation()
 
   const projectImages = [
     {
@@ -26,7 +28,7 @@ export default function Projects() {
   ];
   return (
     <Section>
-      <h2 className='title-section'>Projects</h2>
+      <h2 className='title-section'>{t("projects.title")}</h2>
       <ul id='projects'>
         <li className='card-project'>
           <h3 className='header-card-project'>Mera Parivar MVP</h3>
@@ -62,16 +64,16 @@ export default function Projects() {
               <a
                 href='https://www.linkedin.com/feed/update/urn:li:activity:7186802359304372226/'
                 target='_blank'
-                className='hover-1'
+                className='white-hover'
               >
-                LinkedIn Presentation
+                {t("projects.presentation-link")}
               </a>
               <a
                 href='https://mera-parivar-web-page.vercel.app'
                 target='_blank'
-                className='hover-1'
+                className='white-hover'
               >
-                Deployed Project
+                {t("projects.deploy-link")}
               </a>
             </div>
           </div>

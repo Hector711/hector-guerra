@@ -1,11 +1,4 @@
 import React from 'react';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import { Autoplay, Navigation, Virtual } from 'swiper/modules';
-
 import Section from '@/Sections/components/Section';
 import ReactJS from '@/assets/skills/ReactJS';
 import NodeJS from '@/assets/skills/NodeJS';
@@ -32,7 +25,7 @@ export default function Skills() {
     CSS,
   };
   return (
-    <Section>
+    <Section id='skills-section'>
       <h2 className='title-section'>Skills</h2>
       <div className='flex justify-between'>
         {skills.map(({ name, icon }, index) => {
