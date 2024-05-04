@@ -8,7 +8,7 @@ export default function Hero() {
   const basics = cv.basics;
   const { nickname, name } = basics;
   return (
-    <Section>
+    <Section id='header-section'>
       <header>
         <div className='box-hero ' id='img-container'>
           <div id='header-container'></div>

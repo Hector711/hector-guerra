@@ -1,14 +1,122 @@
-/* ============ LIGHT THEME ============ */
-/* ============ ========= ============ */
 [data-theme='light'] {
-  background-color: var(--color-main-light-0);
+  background-color: var(--color-light-0);
   color: var(--black-2);
-  .nav-button {
-    background-color: var(--color-light-1);
-    color: var(--color-dark-0);
+
+  /* ============ NAV ============ */
+  /* ============ ========= ============ */
+  nav {
+    /* background-color: var(--color-light-0); */
+    box-shadow: 0 0 10px 0  var(--white-2);
+    #cv-button {
+      background-color: var(--color-light-1);
+      color: var(--color-dark-1);
+    }
+    #cv-button:hover {
+      background-color: var(--white-2);
+    }
+    #right-nav-container {
+      #inter-button {
+      }
+      #dark-mode-toggle {
+      }
+      .nav-icons {
+        stroke: var(--black-1);
+      }
+    }
   }
-  h1,
-  h3 {
-    color: var(--white-1);
+  /* ============ HERO ============ */
+  /* ============ ========= ============ */
+  #video-resume-hover {
+    background-color: #06060693;
+  }
+  #about,
+  #first-hero-section,
+  #sec-hero-section,
+  #third-hero-section {
+    background: var(--white-1);
+
+    box-shadow: 0 0 10px 0 #757575;
+  }
+  h1 {
+    text-shadow: 0 0 10px #a5a5a5;
+  }
+  #first-hero-section:hover {
+    border: 1px solid var(--color-youtube);
+  }
+  #third-hero-section:hover {
+    border: 1px solid var(--color-calendly);
+  }
+  #confirm-copy-text {
+    background-color: #21212192;
+  }
+  #social-icons-container {
+    backdrop-filter: blur(2px);
+    background-color: #21212192;
+  }
+  button.social-icons,
+  a.social-icons {
+    background-color: var(--white-1);
+    color: var(--black-2);
+    fill: var(--black-2);
+  }
+  #mail,
+  #x {
+    stroke: var(--black-2);
+  }
+  h3.calendly {
+    color: var(--color-calendly);
+  }
+
+  /* ============ PROJECTS ============ */
+  /* ============ ========= ============ */
+  .card-project {
+    box-shadow: 0 0 10px 0 #7c7c7c;
+    #img-card-project {
+      .myProjectSwiper {
+        img {
+          box-shadow: 0 0 10px 0 #7c7c7c;
+        }
+        img:hover {
+          box-shadow: 0 0 5px 0 white;
+        }
+      }
+    }
+    #links-project {
+      a {
+        background-color: aliceblue;
+        color: var(--color-dark-1);
+      }
+    }
+    label.project {
+      background-color: var(--color-light-1);
+      color: #2c2c2c !important;
+    }
+    label.skills {
+      background-color: transparent;
+      color: var(--white-1);
+      font-weight: 500;
+      font-size: 15px;
+    }
+  }
+
+  /* ============ SKILLS ============ */
+  /* ============ ========= ============ */
+  .skills-icons {
+    fill: var(--black-2);
+  }
+
+  
+  /* ============ FOOTER ============ */
+  /* ============ ========= ============ */
+  footer {
+    box-shadow: 0 0 10px 0  var(--white-2);
+    #footer-container {
+      #made-by {
+        .icons-made-by {
+          fill: var(--white-1);
+        }
+      }
+    }
   }
 }
+

@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid wheat; */
+  /* border: .5px solid wheat; */
 }
 
 .card-project {
@@ -16,44 +16,45 @@
     'img content';
   justify-content: center;
   align-content: center;
+  padding: 10px 16px;
   .header-card-project {
     grid-area: header;
-    font-size: 2rem;
     height: max-content;
     text-align: left;
-    height: 30px;
     display: flex;
     align-items: center;
-    padding: 2.5rem 1.2rem;
+    padding: 1rem 1.4rem;
+    /* border: 1px solid ; */
+    font-size: 1.8rem;
   }
   #img-card-project {
     grid-area: img;
-    button:hover,
-    a:hover {
-      box-shadow: 0 0 10px 0 white;
+    button:hover, a:hover {
+      box-shadow: 0 0 15px 0 rgb(233, 181, 36);
     }
-
     .myProjectSwiper {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 550px;
-      height: 340px;
+      width: 490px;
       border-radius: 10px;
-      padding: 10px;
+      padding: 20px;
       z-index: 1;
       img {
         border-radius: 10px;
+        height: 270px;
+        object-fit: cover;
       }
     }
   }
 }
 
-#content-card-project {
+.content-card-project {
   grid-area: content;
-  padding-inline: 2rem;
+  padding: 15px 1.3rem;
   display: flex;
   flex-direction: column;
+  width: 580px;
   p {
     font-size: 18px;
   }
@@ -76,10 +77,8 @@
     margin-bottom: 10px;
     gap: 30px;
     a {
-      background-color: aliceblue;
       border-radius: 5px;
       padding: 5px 10px;
-      color: var(--color-dark-1);
     }
   }
 }

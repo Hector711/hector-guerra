@@ -44,6 +44,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 h2.title-section {
   padding: 10px;
@@ -56,7 +58,6 @@ h3 {
 h3.calendly {
   font-family: 'Gilroy';
   font-size: 1.6rem;
-  color: var(--color-calendly);
   border-radius: var(--border-m);
   padding: 5px;
 }
@@ -88,7 +89,6 @@ label {
 hr {
   width: 50%;
   margin: 0;
-  border: 0.5px solid var(--white-1);
 }
 ol,
 ul {
@@ -104,14 +104,13 @@ section {
   margin-inline: auto;
   width: 100%;
   max-width: var(--width);
-  margin-block: 50px;
+  margin-block: 30px;
 }
 button.social-icons,
 a.social-icons {
   border-radius: var(--border-s);
   transition: box-shadow 0.3s ease-in-out;
 }
-
 button.white-hover,
 a.white-hover {
   transition: box-shadow 0.3s ease-in-out;

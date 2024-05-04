@@ -1,11 +1,12 @@
-/* ============ DARK THEME ============ */
-/* ============ ========= ============ */
 [data-theme='dark'] {
   background-color: var(--color-dark-0);
   color: var(--white-1);
 
+  /* ============ NAV ============ */
+  /* ============ ========= ============ */
   nav {
     background-color: #121214;
+    box-shadow: 0 0 10px 0 var(--white-2);
     #cv-button {
       background-color: var(--color-light-1);
       color: var(--color-dark-1);
@@ -13,8 +14,18 @@
     #cv-button:hover {
       background-color: var(--color-light-0);
     }
+    #right-nav-container {
+      #inter-button {
+      }
+      #dark-mode-toggle {
+      }
+      .nav-icons {
+        stroke: var(--white-1);
+      }
+    }
   }
-  /* HERO */
+  /* ============ HERO ============ */
+  /* ============ ========= ============ */
   #video-resume-hover {
     background-color: #06060693;
   }
@@ -49,29 +60,58 @@
   #x {
     stroke: var(--black-2);
   }
+  h3.calendly {
+    color: var(--color-calendly);
+  }
 
-  /* PROYECTS */
+  /* ============ PROJECTS ============ */
+  /* ============ ========= ============ */
   .card-project {
+    box-shadow: 0 0 10px 0 #7c7c7c;
     #img-card-project {
       .myProjectSwiper {
         img {
-          box-shadow: 0 0 10px 0 #7c7c7c;
+          box-shadow: 0 0 5px 0 #ffffff;
         }
         img:hover {
           box-shadow: 0 0 5px 0 white;
         }
       }
     }
+    #links-project {
+      a {
+        background-color: aliceblue;
+        color: var(--color-dark-1);
+      }
+    }
+    label.project {
+      background-color: var(--color-light-1);
+      color: #2c2c2c !important;
+    }
+    label.skills {
+      background-color: transparent;
+      color: var(--white-1);
+      font-weight: 500;
+      font-size: 15px;
+    }
   }
 
-  label.project {
-    background-color: var(--color-light-1);
-    color: #2c2c2c !important;
+  /* ============ SKILLS ============ */
+  /* ============ ========= ============ */
+  .skills-icons {
+    fill: var(--color-light-1);
   }
-  label.skills {
-    background-color: transparent;
-    color: var(--white-1);
-    font-weight: 500;
-    font-size: 15px;
+
+  /* ============ FOOTER ============ */
+  /* ============ ========= ============ */
+  footer {
+    box-shadow: var(--shadow-m);
+    #footer-container {
+      #made-by {
+        .icons-made-by {
+          fill: var(--white-1);
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,16 @@
+#space {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+
+  hr{
+    width: 70%;
+  }
+  #space-icon {
+    width: 80px;
+    stroke: var(--white-1);
+  }
+}

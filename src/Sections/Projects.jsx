@@ -37,7 +37,7 @@ export default function Projects() {
           >
             <CarouselProject projectImages={projectImages} />
           </a>
-          <div id='content-card-project'>
+          <div className='content-card-project'>
             <p>
               I led the Full Stack team, collaborating with UX/UI, Marketing,
               Data Science, and Cybersecurity.

@@ -1,5 +1,8 @@
+#header-section {
+}
 header {
   height: 350px;
+  margin-block: 40px;
   padding: 1rem;
   border-radius: var(--border-l);
   display: grid;

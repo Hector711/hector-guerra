@@ -31,7 +31,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: border-color 0.25s;
+  transition: border- 0.25s;
 }
 #cv-button {
   border-radius: 8px;
