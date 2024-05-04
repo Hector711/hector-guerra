@@ -18,7 +18,7 @@ export default function CarouselProject({ projectImages }) {
         disableOnInteraction: false,
       }}
       pagination={true}
-      modules={[Autoplay, Navigation, Pagination]}
+      modules={[Autoplay, Navigation]}
       className='myProjectSwiper'
     >
       {projectImages.map(({ image }, index) => (

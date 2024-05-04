@@ -7,6 +7,10 @@
   nav {
     background-color: #121214;
     box-shadow: 0 0 10px 0 var(--white-2);
+    h1 {
+      text-shadow: 0 0 7px #686868;
+
+    }
     #cv-button {
       background-color: var(--color-light-1);
       color: var(--color-dark-1);
@@ -38,10 +42,10 @@
     box-shadow: 0 0 20px 0 #151515;
   }
   #first-hero-section:hover {
-    border: 0.5px solid var(--color-youtube);
+    border: 2px solid var(--color-youtube);
   }
   #third-hero-section:hover {
-    border: 0.5px solid var(--color-calendly);
+    border: 2px solid var(--color-calendly);
   }
   #confirm-copy-text {
     background-color: #21212192;
@@ -62,6 +66,17 @@
   }
   h3.calendly {
     color: var(--color-calendly);
+  }
+
+  /* ============ SPACE ============ */
+  /* ============ ========= ============ */
+  #space {
+    hr{
+      background-color: #151515;
+    }
+    #space-icon {
+      stroke: var(--white-1);
+    }
   }
 
   /* ============ PROJECTS ============ */
@@ -105,7 +120,7 @@
   /* ============ FOOTER ============ */
   /* ============ ========= ============ */
   footer {
-    box-shadow: var(--shadow-m);
+    box-shadow: 0 0 10px 0 var(--white-2);
     #footer-container {
       #made-by {
         .icons-made-by {
