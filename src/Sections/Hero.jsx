@@ -2,7 +2,7 @@ import React from 'react';
 import SocialLinks from './components/SocialLinks';
 import Section from '@/Sections/components/Section';
 import YouTube from '@/assets/social/YouTube';
-import cv from '@root/cv.json';
+import cv from '@locales/cv.json';
 import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
@@ -23,7 +23,7 @@ export default function Hero() {
         {/* FIRST */}
         <a href='/' id='first-hero-section' className='hero-section-link'>
           <div id='video-resume'>
-            <h3>{t("hero.video-resume")}</h3>
+            <h3>{t("translations:hero.video-resume")}</h3>
             <YouTube />
           </div>
           <div id='video-resume-hover'>
@@ -42,7 +42,7 @@ export default function Hero() {
           id='third-hero-section'
         >
           <h3>
-          {t("hero.schedule")}
+          {t("translations:hero.schedule")}
           </h3>
           <h3 className='calendly'>Calendly</h3>
         </a>

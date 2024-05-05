@@ -5,7 +5,7 @@ import ReactJS from '@/assets/skills/ReactJS';
 import Heart from '@/assets/Heart';
 import { useTranslation } from 'react-i18next';
 
-import cv from '@root/cv.json';
+import cv from '@locales/cv.json';
 
 export default function Footer() {
   const basics = cv.basics;
@@ -20,12 +20,12 @@ export default function Footer() {
             target='_blank'
             className='social-icons white-hover footer-links'
           >
-            {t("footer.hire-me")}
+            {t("translations:footer.hire-me")}
             <WhatsApp className='footer-icon' />
           </a>
         </div>
         <p id='made-by'>
-        {t("footer.made-by-1")} <Heart className='icons-made-by' /> {t("footer.made-by-2")}
+        {t("translations:footer.made-by-1")} <Heart className='icons-made-by' /> {t("translations:footer.made-by-2")}
           <ReactJS className='icons-made-by' />
         </p>
         <a
@@ -34,7 +34,7 @@ export default function Footer() {
           target='_blank'
           className='social-icons white-hover footer-links'
         >
-          {t("footer.repo-link")}
+          {t("translations:footer.repo-link")}
           <GitHub className='footer-icon' />
         </a>
       </div>

@@ -7,7 +7,7 @@ import Instagram from '@/assets/social/Instagram';
 import LinkedIn from '@/assets/social/LinkedIn';
 import YouTube from '@/assets/social/YouTube';
 
-import cv from '@root/cv.json';
+import cv from '@locales/cv';
 
 export default function SocialLinks() {
   const social = cv.social;

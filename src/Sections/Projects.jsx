@@ -6,7 +6,7 @@ import MeraParivar3 from '@/assets/mera-parivar_3.jpg';
 import MeraParivar4 from '@/assets/mera-parivar_4.jpg';
 import CarouselProject from './components/CarouselProject';
 import { useTranslation } from 'react-i18next';
-import cv from '@root/cv';
+import cv from '@locales/cv.json';
 
 export default function Projects() {
   const projects = cv.projects;
@@ -28,7 +28,7 @@ export default function Projects() {
   ];
   return (
     <Section>
-      <h2 className='title-section'>{t("projects.title")}</h2>
+      <h2 className='title-section'>{t("translations:projects.title")}</h2>
       <ul id='projects'>
         <li className='card-project'>
           <h3 className='header-card-project'>Mera Parivar MVP</h3>
@@ -66,14 +66,14 @@ export default function Projects() {
                 target='_blank'
                 className='white-hover'
               >
-                {t("projects.presentation-link")}
+                {t("translations:projects.presentation-link")}
               </a>
               <a
                 href='https://mera-parivar-web-page.vercel.app'
                 target='_blank'
                 className='white-hover'
               >
-                {t("projects.deploy-link")}
+                {t("translations:projects.deploy-link")}
               </a>
             </div>
           </div>

@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@root": path.resolve(__dirname, "."),
+      "@locales": path.resolve(__dirname, "./public/locales/"),
       "@": path.resolve(__dirname, "src")
     },
   },

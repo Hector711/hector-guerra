@@ -13,6 +13,7 @@ i18next
     interpolation: {
       escapeValue: false,
     },
+    ns:['translations', 'cv']
   });
 
 export default i18next;
