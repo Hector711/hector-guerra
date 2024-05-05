@@ -5,6 +5,7 @@
 @import url('./comp-navbar.css');
 @import url('./comp-projects.css');
 @import url('./comp-footer.css');
+@import url('./comp-language.css');
 @import url('./themes/dark-theme.css');
 @import url('./themes/light-theme.css');
 :root {

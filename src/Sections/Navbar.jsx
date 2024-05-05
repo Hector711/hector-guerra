@@ -1,12 +1,11 @@
 import React from 'react';
-import Language from '@/assets/nav/Language';
 import DarkModeToggle from './components/DarkModeToggle';
 import LanguageSelection from './components/LanguageSelection';
 
 export default function Navbar() {
   return (
     <nav>
-      <div id='nav-container' className='flex justify-between'>
+      <div id='nav-container' className='flex justify-between items-center'>
         <div
           className='flex justify-center items-center gap-5'
           id='left-nav-container'
@@ -19,10 +18,12 @@ export default function Navbar() {
           id='right-nav-container'
         >
           <LanguageSelection />
-          <button className='right-buttons nav-buttons' id='inter-button'>
-            <Language />
-          </button>
           <DarkModeToggle />
+          {/* <LanguageSelection /> */}
+          
+          {/* <button className='right-buttons nav-buttons' id='inter-button'>
+            <Language />
+          </button> */}
           <a
             href='https://hector-minimalist-cv.netlify.app'
             rel='noopener noreferrer'

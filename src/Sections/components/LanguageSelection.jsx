@@ -1,36 +1,60 @@
+import React from 'react';
+import SpainFlag from '../../assets/nav/SpainFlag';
+import AmericanFlag from '../../assets/nav/AmericanFlag';
+import Language from '@/assets/nav/Language';
 import { useTranslation } from 'react-i18next';
-
-import i18next from 'i18next';
 
 const LANGUAGES = [
   {
     label: 'Español',
     code: 'es',
+    flag: 'SpainFlag',
   },
   {
     label: 'English',
     code: 'en',
+    flag: 'AmericanFlag',
   },
 ];
 
-export default function LanguageSelector() {
+const FLAGS = { SpainFlag, AmericanFlag };
+
+export default function LanguageSelection() {
   const { i18n } = useTranslation();
-  const onChangeLang = e => {
-    const lang_code = e.target.value;
-    i18n.changeLanguage(lang_code);
-    console.log(i18next.t('main.header'));
+  const onClickLang = async (e) => {
+    const langCode = e.target.value;
+    const reloadPage = () => window.location.reload();
+    const changeLanguageI18n = () => i18n.changeLanguage(langCode);
+    await reloadPage();
+    await changeLanguageI18n();
   };
+
   return (
-    <select
-      defaultValue={i18n.language}
-      onChange={onChangeLang}
-      id='language-selector'
-    >
-      {LANGUAGES.map(({ code, label }) => (
-        <option key={code} value={code}>
-          {label}
-        </option>
-      ))}
-    </select>
+    <div className='dropdown'>
+      <span className='dd_head'>
+        <Language className='nav-icons' />
+      </span>
+
+      <div className='dd_content'>
+        <ul className='dd_ul'>
+          {LANGUAGES.map(({ code, label, flag }) => {
+            const FlagIcon = FLAGS[flag];
+            return (
+              <li key={code} className='dd_li'>
+                <button
+                  onClick={onClickLang}
+                  value={code}
+                  className='dd_anchor'
+                >
+                  {FlagIcon ? <FlagIcon /> : ''} {label}
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
   );
 }
+
+

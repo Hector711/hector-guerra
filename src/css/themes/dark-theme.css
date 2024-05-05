@@ -26,7 +26,8 @@
       #dark-mode-toggle {
       }
       .nav-icons {
-        stroke: var(--white-1);
+        stroke: inherit;
+        /* stroke: var(--white-1); */
       }
     }
   }
