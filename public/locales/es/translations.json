@@ -1,11 +1,13 @@
 {
   "hero": {
     "email-copied": "Email copiado al portapapeles",
-    "video-resume": "Te lo resumo en 1 minuto",
-    "schedule": "Reserva una llamada en"
+    "first-hero-section": "Conoce mi canal de YT",
+    "sec-hero-section": "NEO Blog",
+    "third-hero-section": "Reserva una llamada"
   },
   "projects": {
     "title": "Projectos",
+    "technologies": "Tecnologías usadas:",
     "presentation-link": "Presentación en LinkedIn",
     "deploy-link": "Proyecto desplegado"
   },

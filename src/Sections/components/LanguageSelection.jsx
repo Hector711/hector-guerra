@@ -21,12 +21,14 @@ const FLAGS = { SpainFlag, AmericanFlag };
 
 export default function LanguageSelection() {
   const { i18n } = useTranslation();
-  const onClickLang = async (e) => {
+  const onClickLang = async e => {
     const langCode = e.target.value;
     const reloadPage = () => window.location.reload();
     const changeLanguageI18n = () => i18n.changeLanguage(langCode);
-    await reloadPage();
-    await changeLanguageI18n();
+    if (langCode != i18n.language) {
+      await changeLanguageI18n();
+      // await reloadPage();
+    }
   };
 
   return (
@@ -56,5 +58,3 @@ export default function LanguageSelection() {
     </div>
   );
 }
-
-

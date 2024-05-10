@@ -15,5 +15,6 @@ i18next
     },
     ns:['translations', 'cv']
   });
+  
 
 export default i18next;

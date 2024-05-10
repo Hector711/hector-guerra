@@ -1,0 +1,141 @@
+{
+  "basics": {
+    "nickname": "",
+    "name": "",
+    "label": "---------",
+    "image": "",
+    "web-page": "",
+    "minimal-cv": "",
+    "birth": "",
+    "summary-long": "---------",
+    "summary-short": "---------",
+    "location": {
+      "country": "",
+      "countryCode": "",
+      "city": "",
+      "postalCode": ""
+    },
+    "email": "",
+    "phone": ""
+  },
+  "social": [
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    },
+    {
+      "network": "",
+      "username": "@",
+      "url": ""
+    },
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    },
+    {
+      "network": "",
+      "username": "",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    },
+    {
+      "name": "",
+      "icon": ""
+    }
+  ],
+  "work": [
+    {
+      "company": "",
+      "position": "---------",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "---------",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Full Stack Web Developer",
+      "institution": "The Bridge School",
+      "endDate": "17/04/2024",
+      "url": "https://www.thebridge.tech"
+    },
+    {
+      "name": "Bartender",
+      "institution": "ESCOM",
+      "endDate": "30/06/2022",
+      "url": "https://www.escuelacocteleria.es"
+    },
+    {
+      "name": "---------",
+      "institution": "Escuela Música Creativa",
+      "endDate": "30/06/2021",
+      "url": "https://musicacreativa.com"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mera Parivar MVP",
+      "isActive": true,
+      "year": "2024",
+      "summary-1": "---------",
+      "summary-2": "---------",
+      "technologies": [
+        "ReactJS",
+        "Tailwind",
+        "SQL",
+        "Prisma",
+        "Stripe"
+      ],
+      "url": "https://mera-parivar-web-page.vercel.app"
+    }
+  ],
+  "languages": [
+    {
+      "language": "---------",
+      "fluency": "---------"
+    },
+    {
+      "language": "---------",
+      "fluency": "C1"
+    }
+  ]
+}

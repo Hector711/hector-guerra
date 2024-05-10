@@ -51,7 +51,7 @@ export default function Projects() {
             </p>
 
             <div id='labels-project'>
-              <p className='bold'>Technologies Used:</p>
+              <p className='bold'>{t("translations:projects.technologies")}</p>
               <div id='labels-container'>
                 {projects[0].technologies.map((technology, index) => (
                   <label className='project' key={index}>

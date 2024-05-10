@@ -7,7 +7,8 @@
     "web-page": "https://hector711.github.io",
     "minimal-cv": "https://hector-minimalist-cv.netlify.app/",
     "birth": "15/04/1997",
-    "summary": "---------",
+    "summary-long": "---------",
+    "summary-short": "---------",
     "location": {
       "country": "Spain",
       "countryCode": "ES",
@@ -115,7 +116,8 @@
       "name": "Mera Parivar MVP",
       "isActive": true,
       "year": "2024",
-      "summary": "---------",
+      "summary-1": "---------",
+      "summary-2": "---------",
       "technologies": [
         "ReactJS",
         "Tailwind",

@@ -13,7 +13,7 @@ import '@/css/styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Suspense fallback='loading'>
+    <Suspense fallback={<h2 id='suspense'>LOADING...</h2>}>
       <App />
     </Suspense>
   </React.StrictMode>,

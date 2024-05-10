@@ -24,6 +24,7 @@
       #inter-button {
       }
       #dark-mode-toggle {
+        stroke: var(--white-1);
       }
       .nav-icons {
         stroke: inherit;

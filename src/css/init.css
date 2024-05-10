@@ -15,6 +15,7 @@ html {
     sans-serif;
   letter-spacing: -0.0025rem;
   position: relative;
+  background-color: var(--color-dark-0);
 }
 main {
   padding-bottom: 5rem;
@@ -58,7 +59,7 @@ h2.title-section {
  
 }
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 400;
   text-align: center;
 }
@@ -121,4 +122,14 @@ button.white-hover:hover,
 a.white-hover:hover {
   box-shadow: 0 0 5px 0 white;
   transition: box-shadow 0.3s ease-in-out;
+}
+
+
+#suspense {
+  background-color: var(--color-dark-0);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

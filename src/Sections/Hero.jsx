@@ -22,18 +22,12 @@ export default function Hero() {
         </div>
         {/* FIRST */}
         <a href='/' id='first-hero-section' className='hero-section-link'>
-          <div id='video-resume'>
-            <h3>{t("translations:hero.video-resume")}</h3>
-            <YouTube />
-          </div>
-          <div id='video-resume-hover'>
-            <h5>Tired of watching tons of portfolios?</h5>
-          </div>
+            <h3 className='title-hero-section'>{t("translations:hero.first-hero-section")}</h3>
+            <YouTube id='yt-icon'/>
         </a>
 
         <a href='/' className='hero-section-link' id='sec-hero-section'>
-          {/* <h3>Discover</h3> */}
-          <h3 className='bold'>NEO SIMULATION</h3>
+          <h3 className='bold'>{t("translations:hero.sec-hero-section")}</h3>
         </a>
         <a
           href='https://calendar.notion.so/meet/hectoor_xx/z81iw4hiq'
@@ -42,8 +36,7 @@ export default function Hero() {
           id='third-hero-section'
         >
           <h3>
-          {t("translations:hero.schedule")}
-          </h3>
+          {t("translations:hero.third-hero-section")}          </h3>
           <h3 className='calendly'>Calendly</h3>
         </a>
       </header>

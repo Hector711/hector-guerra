@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <Space />
       <Projects />
-      <Skills />
+      <Skills className="animate-fade-in-up"/>
     </>
   );
 }
