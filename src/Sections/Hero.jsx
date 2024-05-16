@@ -30,7 +30,7 @@ export default function Hero() {
           <h3 className='bold'>{t("translations:hero.sec-hero-section")}</h3>
         </a>
         <a
-          href='https://calendar.notion.so/meet/hectoor_xx/z81iw4hiq'
+          href='https://calendly.com/hector-guerra/llamada-1-a-1'
           target='_blank'
           className='hero-section-link'
           id='third-hero-section'
