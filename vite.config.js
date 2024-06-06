@@ -12,5 +12,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src")
     },
   },
-  base: 'https://hector711.github.io',
+  base: 'https://Hector711.github.io/hector-guerra.com',
 });
