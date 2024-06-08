@@ -55,7 +55,7 @@
   /* ============ PROJECTS ============ */
   /* ============ ========= ============ */
   .card-project {
-    box-shadow: 0 0 10px 0 #7c7c7c;
+    box-shadow: 4px 2px 8px 0 #a98a71;
     #img-card-project {
       .myProjectSwiper {
         img {

@@ -13,8 +13,10 @@ i18next
     interpolation: {
       escapeValue: false,
     },
-    ns:['translations', 'cv']
+    ns:['translations', 'cv'],
+    backend: {
+      loadPath: 'http://localhost:5174/hector-guerra.com/locales/{{lng}}/{{ns}}.json',
+    },
   });
   
-
 export default i18next;

@@ -19,10 +19,12 @@ html {
 h1 {
   font-family: 'Cinzel Decorative';
   font-size: 2.7rem;
-  text-shadow: 5px 6px 6px #8b5e39;
+  /* text-shadow: 5px 5px 7px #8e5b31; */
+  text-shadow: 2px 2px 7px #f97203;
   letter-spacing: 2px;
   font-weight: 500;
   color: var(--color-orange-0);
+  /* color: transparent; */
 }
 h2 {
   font-size: 1.5rem;
@@ -35,8 +37,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 600;
+  padding: 2rem ;
 }
 h4 {
   font-size: 1.1rem;
