@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-export default function Section({title, children}) {
-  return (
-    <section id='model'>
+const Section = forwardRef(({ title, children }, ref) => {
+ return (
+    <section id='model' ref={ref}>
       <h3>{title}</h3>
       {children}
     </section>
   )
-}
+})
+
+
+export default Section;

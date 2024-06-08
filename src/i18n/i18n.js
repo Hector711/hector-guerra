@@ -15,7 +15,7 @@ i18next
     },
     ns:['translations', 'cv'],
     backend: {
-      loadPath: 'http://localhost:5174/hector-guerra.com/locales/{{lng}}/{{ns}}.json',
+      loadPath: 'http://localhost:5173/hector-guerra.com/locales/{{lng}}/{{ns}}.json',
     },
   });
   

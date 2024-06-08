@@ -7,10 +7,12 @@ import CarouselProject from './components/CarouselProject';
 import { useTranslation } from 'react-i18next';
 import cv from '@locales/cv.json';
 import Section from './components/Section';
+import { usePortfolio } from '@/context/PortfolioContext';
 
 export default function Projects() {
   const projects = cv.projects;
   const { t } = useTranslation();
+  const { sectionRef } = usePortfolio()
 
   const projectImages = [
     {
@@ -27,7 +29,7 @@ export default function Projects() {
     },
   ];
   return (
-    <Section title={t('translations:projects.title')}>
+    <Section title={t('translations:projects.title')} ref={sectionRef}>
       <ul id='projects'>
         <li className='card-project'>
           <h3 className='header-card-project'>Mera Parivar MVP</h3>
