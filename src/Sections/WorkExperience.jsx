@@ -1,9 +1,8 @@
 import React from 'react';
-import Section from '@/Sections/components/Section';
 
 export default function WorkExperience() {
   return (
-    <Section>
+    <section>
       <h2>Work Experience</h2>
       <ul>
         <li>Work 1</li>
@@ -11,6 +10,6 @@ export default function WorkExperience() {
         <li>Work 3</li>
         <li>Work 4</li>
       </ul>
-    </Section>
+    </section>
   );
 }

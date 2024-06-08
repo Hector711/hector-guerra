@@ -32,14 +32,14 @@ export default function SocialLinks() {
   };
 
   return (
-    <div className='flex flex-col relative'>
+    <div>
       <p
         className='absolute top-[-30px] left-[40px] hidden'
         id='confirm-copy-text'
       >
         Copied to clipboard
       </p>
-      <div id='social-icons-container'>
+      <span id='social-icons-container'>
         <button
           title={`Copiar email al portapapeles`}
           onClick={handleCopyToClipboard}
@@ -73,7 +73,7 @@ export default function SocialLinks() {
             </a>
           );
         })}
-      </div>
+      </span>
     </div>
   );
 }

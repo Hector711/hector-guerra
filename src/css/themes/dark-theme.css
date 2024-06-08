@@ -6,7 +6,7 @@
   /* ============ ========= ============ */
   nav {
     background-color: #121214;
-    box-shadow: 0 0 10px 0 var(--white-2);
+    box-shadow: 0 0 10px 0 #ec8533;
     h1 {
       text-shadow: 0 0 7px #686868;
     }

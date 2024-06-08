@@ -1,135 +1,45 @@
-html {
-  font-family:
-    'Gabarito Variable',
-    'Onest Variable',
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
-  letter-spacing: -0.0025rem;
-  position: relative;
-  background-color: var(--color-dark-0);
-}
-main {
-  padding-bottom: 5rem;
-  margin-inline: 1rem;
-}
-h1 {
-  font-family: 'Cinzel Decorative';
-  font-size: 1.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: var(--shadow-text-black);
-  font-size: 1.9rem;
-  letter-spacing: 5px;
-  font-weight: 600;
-}
-h1.sec {
-  font-weight: 500;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-}
-h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  text-align: center;
-  padding-inline: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  padding: 10px;
-}
-section {
-  margin-inline: auto;
-  width: 100%;
-  max-width: var(--width);
-  margin-block: 30px;
-}
-h2.title-section {
- 
-}
-h3 {
-  font-size: 1.3rem;
-  font-weight: 400;
-  text-align: center;
-}
-h3.calendly {
-  font-family: 'Gilroy';
-  font-size: 1.6rem;
-  border-radius: var(--border-m);
-  padding: 5px;
+
+:root {
+  --width: 1100px;
+
+  /* COLORS */
+  --white-0: #ffffff;
+  --white-1: #d6d6d6;
+  --white-2: #7b7b7b;
+
+  --black-0: #000000;
+  --black-1: #101010;
+  --black-2: #2c2c2c;
+
+  --color-dark-0: #101012;
+  --color-dark-1: #17171c;
+  --color-dark-2: #31323e;
+
+  --color-light-0: #d5d4dc;
+  --color-light-1: rgb(221, 220, 235);
+
+  --color-calendly: #3362a3;
+  --color-youtube: #a33333;
+
+  /* BORDERS */
+  --border-s: 5px;
+  --border-m: 10px;
+  --border-l: 30px;
+
+  /* SHADOWS */
+  --shadow-s: 0 0 10px 0 var(--white-2);
+  --shadow-m: 0 0 20px 0.5px var(--color-main-1);
+  --shadow-text-black: 0 0 10px #616161;
+
+  transition: all 0.5s ease-in-out;
 }
 
-h5 {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
-  text-align: center;
-}
-p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  text-wrap: pretty;
-  word-wrap: break-word;
-  padding-inline: auto;
-}
-p.caption {
-  font-size: 0.9rem;
-}
-p.bold {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-label {
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-size: 13px;
-}
-hr {
-  width: 50%;
-  margin: 0;
-}
-ol,
-ul {
-  list-style: none;
-}
-svg {
-  padding: 3px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-button.social-icons,
-a.social-icons {
-  border-radius: var(--border-s);
-  transition: box-shadow 0.3s ease-in-out;
-}
-button.white-hover,
-a.white-hover {
-  transition: box-shadow 0.3s ease-in-out;
-}
-button.white-hover:hover,
-a.white-hover:hover {
-  box-shadow: 0 0 5px 0 white;
-  transition: box-shadow 0.3s ease-in-out;
+* {
+  /* border: 0.5px solid #ffffff; */
 }
 
 
-#suspense {
-  background-color: var(--color-dark-0);
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.skills-icons {
+  width: 50px;
+  height: 80px;
 }

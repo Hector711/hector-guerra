@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from '@/Sections/components/Section';
 import ReactJS from '@/assets/skills/ReactJS';
 import NodeJS from '@/assets/skills/NodeJS';
 import MongoDB from '@/assets/skills/MongoDB';
@@ -25,7 +24,7 @@ export default function Skills() {
     CSS,
   };
   return (
-    <Section id='skills-section'>
+    <section id='skills-section'>
       <h2 className='title-section'>Skills</h2>
       <div className='flex justify-between'>
         {skills.map(({ name, icon }, index) => {
@@ -42,6 +41,6 @@ export default function Skills() {
           );
         })}
       </div>
-    </Section>
+    </section>
   );
 }

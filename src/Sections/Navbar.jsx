@@ -10,7 +10,7 @@ export default function Navbar() {
           className='flex justify-center items-center gap-5'
           id='left-nav-container'
         >
-          <h1 className='nav bold'>Héctor Guerra</h1>
+
         </div>
 
         <div

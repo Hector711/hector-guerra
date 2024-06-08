@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from '@/Sections/components/Section';
 import MeraParivar1 from '@/assets/mera-parivar_1.jpg';
 import MeraParivar2 from '@/assets/mera-parivar_2.jpg';
 import MeraParivar3 from '@/assets/mera-parivar_3.jpg';
@@ -27,7 +26,7 @@ export default function Projects() {
     },
   ];
   return (
-    <Section>
+    <section>
       <h2 className='title-section'>{t("translations:projects.title")}</h2>
       <ul id='projects'>
         <li className='card-project'>
@@ -79,6 +78,6 @@ export default function Projects() {
           </div>
         </li>
       </ul>
-    </Section>
+    </section>
   );
 }
