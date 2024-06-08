@@ -32,48 +32,40 @@ export default function SocialLinks() {
   };
 
   return (
-    <div>
-      <p
-        className='absolute top-[-30px] left-[40px] hidden'
-        id='confirm-copy-text'
+    <footer className='social-links'>
+      <button
+        title={`Copiar email al portapapeles`}
+        onClick={handleCopyToClipboard}
+        id='copy-button'
+        className='social-icons white-hover'
       >
-        Copied to clipboard
-      </p>
-      <span id='social-icons-container'>
-        <button
-          title={`Copiar email al portapapeles`}
-          onClick={handleCopyToClipboard}
-          id='copy-button'
-          className='social-icons white-hover'
-        >
-          <Mail />
-        </button>
-        <a
-          href={`whatsapp://send?phone=${basics.phone}`}
-          title={`Send WhatsApp message to ${basics.username}`}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='social-icons white-hover'
-        >
-          <WhatsApp />
-        </a>
+        <Mail />
+      </button>
+      <a
+        href={`whatsapp://send?phone=${basics.phone}`}
+        title={`Send WhatsApp message to ${basics.username}`}
+        target='_blank'
+        rel='noopener noreferrer'
+        className='social-icons white-hover'
+      >
+        <WhatsApp />
+      </a>
 
-        {social.map(({ network, username, url }) => {
-          const Icon = SocialIcons[network];
-          return (
-            <a
-              key={network}
-              href={url}
-              title={`Visitar el perfil de ${username} en ${network}`}
-              target='_blank'
-              rel='noopener noreferrer'
-              className='social-icons white-hover'
-            >
-              <Icon />
-            </a>
-          );
-        })}
-      </span>
-    </div>
+      {social.map(({ network, username, url }) => {
+        const Icon = SocialIcons[network];
+        return (
+          <a
+            key={network}
+            href={url}
+            title={`Visitar el perfil de ${username} en ${network}`}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='social-icons white-hover'
+          >
+            <Icon />
+          </a>
+        );
+      })}
+    </footer>
   );
 }

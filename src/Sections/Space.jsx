@@ -3,11 +3,13 @@ import ArrowDown from '@/assets/ArrowDown';
 
 export default function Space() {
   return (
-    <section >
-      <div id='space'>
+    <section className='space'>
+      <figure>
         <hr />
-        <ArrowDown id='space-icon' />
-      </div>
+        <button>
+          <ArrowDown id='space-icon' />
+        </button>
+      </figure>
     </section>
   );
 }

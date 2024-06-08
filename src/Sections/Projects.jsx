@@ -6,10 +6,11 @@ import MeraParivar4 from '@/assets/mera-parivar_4.jpg';
 import CarouselProject from './components/CarouselProject';
 import { useTranslation } from 'react-i18next';
 import cv from '@locales/cv.json';
+import Section from './components/Section';
 
 export default function Projects() {
   const projects = cv.projects;
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   const projectImages = [
     {
@@ -26,8 +27,7 @@ export default function Projects() {
     },
   ];
   return (
-    <section>
-      <h2 className='title-section'>{t("translations:projects.title")}</h2>
+    <Section title={t('translations:projects.title')}>
       <ul id='projects'>
         <li className='card-project'>
           <h3 className='header-card-project'>Mera Parivar MVP</h3>
@@ -50,7 +50,7 @@ export default function Projects() {
             </p>
 
             <div id='labels-project'>
-              <p className='bold'>{t("translations:projects.technologies")}</p>
+              <p className='bold'>{t('translations:projects.technologies')}</p>
               <div id='labels-container'>
                 {projects[0].technologies.map((technology, index) => (
                   <label className='project' key={index}>
@@ -65,19 +65,19 @@ export default function Projects() {
                 target='_blank'
                 className='white-hover'
               >
-                {t("translations:projects.presentation-link")}
+                {t('translations:projects.presentation-link')}
               </a>
               <a
                 href='https://mera-parivar-web-page.vercel.app'
                 target='_blank'
                 className='white-hover'
               >
-                {t("translations:projects.deploy-link")}
+                {t('translations:projects.deploy-link')}
               </a>
             </div>
           </div>
         </li>
       </ul>
-    </section>
+    </Section>
   );
 }

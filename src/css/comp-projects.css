@@ -1,7 +1,10 @@
 * {
   /* border: .5px solid wheat; */
 }
-
+section.projects {
+  max-width: var(--width);
+  width: 100%;
+}
 .card-project {
   width: 100%;
   

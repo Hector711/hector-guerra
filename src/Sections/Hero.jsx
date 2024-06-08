@@ -10,16 +10,21 @@ export default function Hero() {
   const basics = cv.basics;
   const { nickname, name } = basics;
   return (
-    <section id='hero-section'>
-      <header>
-        <h1>Héctor Guerra</h1>
-        <h2>Full Stack Web Developer</h2>
-      <SocialLinks />
+    <article className='hero'>
+      <header className='hero'>
+        <h1 className='hero'>Héctor Guerra</h1>
+        <h2 className='hero'>Full Stack Web Developer</h2>
       </header>
-      <figure>
+      <section className='about'>
+        <h4 className='about'>
+        Desarrollador junior con un profundo interés en la programación y una firme determinación de ingresar al mundo tecnológico. Busco activamente mi primera oportunidad laboral como programador, con la ambición de construir una carrera sólida y duradera.
+        </h4>
+      </section>
+      <SocialLinks />
+      <aside className='profile-photo'>
         <div id='profile-photo'></div>
-      </figure>
-    </section>
+      </aside>
+    </article>
   );
 }
 

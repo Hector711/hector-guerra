@@ -5,11 +5,7 @@
   /* ============ NAV ============ */
   /* ============ ========= ============ */
   nav {
-    /*  */
-    box-shadow: 0 0 10px 0 var(--white-2);
-    h1 {
-      text-shadow: 0 0 7px #9d9d9f;
-    }
+
     #cv-button {
       background-color: var(--color-dark-2);
       color: var(--color-light-1);
@@ -33,39 +29,6 @@
   /* ============ HERO ============ */
   /* ============ ========= ============ */
 
-  #video-resume-hover {
-    background-color: #06060693;
-  }
-  #about,
-  #first-hero-section,
-  #sec-hero-section,
-  #third-hero-section {
-    background: #b3b5c1;
-  }
-  #img-container,
-  #about,
-  #first-hero-section,
-  #sec-hero-section,
-  #third-hero-section {
-    box-shadow: 0 0 7px 0 #4f5052;
-  }
-  h1 {
-    text-shadow: 0 0 10px #a5a5a5;
-  }
-  #first-hero-section:hover {
-    border: 2px solid var(--color-youtube);
-  }
-  #third-hero-section:hover {
-    border: 2px solid var(--color-calendly);
-  }
-  #confirm-copy-text {
-    background-color: var(--white-2);
-    color: white;
-  }
-  #social-icons-container {
-    backdrop-filter: blur(2px);
-    background-color: var(--white-2);
-  }
   button.social-icons,
   a.social-icons {
     background-color: var(--white-0);
@@ -75,9 +38,6 @@
   #mail,
   #x {
     stroke: var(--black-2);
-  }
-  h3.calendly {
-    color: var(--color-calendly);
   }
   /* ============ SPACE ============ */
   /* ============ ========= ============ */

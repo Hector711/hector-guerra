@@ -1,15 +1,13 @@
 [data-theme='dark'] {
-  background-color: var(--color-dark-0);
+  /* background-color: var(--black-2); */
+  background: linear-gradient(45grad, #221f1a, #111316, #111316);
+
+
   color: var(--white-1);
 
   /* ============ NAV ============ */
   /* ============ ========= ============ */
   nav {
-    background-color: #121214;
-    box-shadow: 0 0 10px 0 #ec8533;
-    h1 {
-      text-shadow: 0 0 7px #686868;
-    }
     #cv-button {
       background-color: var(--color-light-1);
       color: var(--color-dark-1);
@@ -34,39 +32,7 @@
   }
   /* ============ HERO ============ */
   /* ============ ========= ============ */
-
-  #video-resume-hover {
-    background-color: #06060693;
-  }
-  #about,
-  #first-hero-section,
-  #sec-hero-section,
-  #third-hero-section {
-    background: var(--black-1);
-  }
-  #img-container,
-  #about,
-  #first-hero-section,
-  #sec-hero-section,
-  #third-hero-section {
-    box-shadow: 0 0 7px 0 #5b5959;
-  }
-  h1 {
-    /*  */
-  }
-  #first-hero-section:hover {
-    border: 2px solid var(--color-youtube);
-  }
-  #third-hero-section:hover {
-    border: 2px solid var(--color-calendly);
-  }
-  #confirm-copy-text {
-    background-color: #21212192;
-  }
-  #social-icons-container {
-    backdrop-filter: blur(2px);
-    background-color: #21212192;
-  }
+  
   button.social-icons,
   a.social-icons {
     background-color: var(--white-1);
@@ -76,9 +42,6 @@
   #mail,
   #x {
     stroke: var(--black-2);
-  }
-  h3.calendly {
-    color: var(--color-calendly);
   }
   /* ============ SPACE ============ */
   /* ============ ========= ============ */
@@ -129,7 +92,7 @@
   /* ============ FOOTER ============ */
   /* ============ ========= ============ */
   footer {
-    box-shadow: 0 0 10px 0 var(--white-2);
+    /* box-shadow: bottom 0 0 10px 0 var(--white-2); */
     #footer-container {
       #made-by {
         .icons-made-by {

@@ -9,6 +9,7 @@ import TailwindCSS from '@/assets/skills/TailwindCSS';
 import ExpressJS from '@/assets/skills/ExpressJS';
 import CSS from '@/assets/skills/CSS';
 import cv from '@locales/cv';
+import Section from './components/Section';
 
 export default function Skills() {
   const skills = cv.skills;
@@ -24,23 +25,23 @@ export default function Skills() {
     CSS,
   };
   return (
-    <section id='skills-section'>
-      <h2 className='title-section'>Skills</h2>
-      <div className='flex justify-between'>
-        {skills.map(({ name, icon }, index) => {
-          const Icon = skillsIcons[icon];
-          return (
-            <div
-              className='flex flex-col justify-center items-center'
-              id='icon-container'
-              key={index}
-            >
-              {Icon ? <Icon className='skills-icons' /> : 'no icon'}
-              <label className='skills'>{name}</label>
-            </div>
-          );
-        })}
-      </div>
-    </section>
+    <Section title='Skills'>
+        <div className='flex justify-between'>
+          {skills.map(({ name, icon }, index) => {
+            const Icon = skillsIcons[icon];
+            return (
+              <div
+                className='flex flex-col justify-center items-center'
+                id='icon-container'
+                key={index}
+              >
+                {Icon ? <Icon className='skills-icons' /> : 'no icon'}
+                <label className='skills'>{name}</label>
+              </div>
+            );
+          })}
+        </div>
+
+    </Section>
   );
 }

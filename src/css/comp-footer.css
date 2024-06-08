@@ -8,7 +8,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: var(--shadow-m);
+  /* box-shadow: var(--shadow-m); */
+  margin-top: 40px;
   #footer-container {
     width: 100%;
     max-width: var(--width);
