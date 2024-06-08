@@ -1,16 +1,15 @@
 article.hero {
   display: grid;
   grid-template-areas:
-    'header header aside'
-    'section section aside'
-    'footer footer aside';
-  grid-template-columns: 30% 30% 33%;
+    'header header empty aside'
+    'section section empty aside'
+    'footer footer empty aside';
+  grid-template-columns: 30% 30% 10% 30%;
   grid-template-rows: min-content 33% 1fr;
   width: 100%;
   max-width: var(--width);
-  margin-block: 60px 70px;
+  margin-block: 60px 160px;
   justify-content: space-between;
-  /* overflow: hidden; */
 
   * {
     /* border: 1px solid; */
@@ -45,8 +44,8 @@ article.hero {
 
   aside.profile-photo {
     grid-area: aside;
-    width: 350px;
-    height: 350px;
+    width: 100%;
+
     border-radius: var(--border-l);
     overflow: hidden;
     box-shadow: 5px 3px 7px 2px #724017;

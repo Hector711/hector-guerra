@@ -8,7 +8,6 @@ nav {
   #nav-container {
     width: 100%;
     max-width: var(--width);
-    padding-inline: 0.5rem;
     margin-inline: 1rem;
   }
 }

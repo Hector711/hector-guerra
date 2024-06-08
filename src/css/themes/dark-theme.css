@@ -1,7 +1,6 @@
 [data-theme='dark'] {
   /* background-color: var(--black-2); */
-  background: linear-gradient(45grad, #221f1a, #111316, #111316);
-
+  background: linear-gradient(45grad, #221f1a, #221f1a, #111316, #111316);
 
   color: var(--white-1);
 
