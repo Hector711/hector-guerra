@@ -12,7 +12,7 @@ export default function App() {
         <HashRouter>
           <Navbar />
           <main
-          // className="animate-fade-in-up"
+          className="animate-fade-in-up"
           >
             <Routes>
               <Route path='/' element={<Home />} />

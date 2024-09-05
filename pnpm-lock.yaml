@@ -62,6 +62,9 @@ importers:
       use-local-storage:
         specifier: ^3.0.0
         version: 3.0.0(react@18.3.1)
+      webfontloader:
+        specifier: ^1.6.28
+        version: 1.6.28
     devDependencies:
       '@types/react':
         specifier: ^18.2.66
@@ -1833,6 +1836,9 @@ packages:
   void-elements@3.1.0:
     resolution: {integrity: sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==}
     engines: {node: '>=0.10.0'}
+
+  webfontloader@1.6.28:
+    resolution: {integrity: sha512-Egb0oFEga6f+nSgasH3E0M405Pzn6y3/9tOVanv/DLfa1YBIgcv90L18YyWnvXkRbIM17v5Kv6IT2N6g1x5tvQ==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -3761,6 +3767,8 @@ snapshots:
       sass: 1.78.0
 
   void-elements@3.1.0: {}
+
+  webfontloader@1.6.28: {}
 
   webidl-conversions@3.0.1: {}
 

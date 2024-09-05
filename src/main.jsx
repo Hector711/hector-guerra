@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import '@/i18n/i18n.js';
+import '@/fontLoader';
 // Supports weights 100-900
 import '@fontsource-variable/onest';
 // Supports weights 400-900
