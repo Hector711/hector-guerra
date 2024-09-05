@@ -17,7 +17,7 @@ export default function Navbar() {
           className='flex justify-center items-center gap-4'
           id='right-nav-container'
         >
-
+          <div>Reserva llamada</div>
           <a
             href='https://hector-minimalist-cv.netlify.app'
             rel='noopener noreferrer'

@@ -7,6 +7,8 @@ import '@fontsource-variable/onest';
 // Supports weights 400-900
 import '@fontsource-variable/gabarito';
 // import '@pixelpay/fonts/dist/gilroy.css';
+
+
 // Supports weights 100-900
 import '@fontsource-variable/lexend-zetta';
 // Supports weights 100-900
@@ -26,7 +28,6 @@ import '@/css/comp-navbar.scss';
 import '@/css/comp-projects.scss';
 import '@/css/comp-footer.scss';
 import '@/css/comp-language.scss';
-import '@/css/themes/light-theme.scss';
 import '@/css/themes/dark-theme.scss';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
