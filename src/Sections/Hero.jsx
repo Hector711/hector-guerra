@@ -1,29 +1,47 @@
 import React from 'react';
 import SocialLinks from './components/SocialLinks';
-
+import { useState, useEffect } from 'react';
 import YouTube from '@/assets/social/YouTube';
 import cv from '@locales/cv.json';
 import { useTranslation } from 'react-i18next';
+import supabase from '@/api/supabase';
 
 export default function Hero() {
-  const { t } = useTranslation();
-  const basics = cv.basics;
-  const { nickname, name } = basics;
+  const [basics, setBasics] = useState([]);
+  
+    useEffect(() => {
+      getBasics();
+    }, []);
+  
+    async function getBasics() {
+      const { data } = await supabase
+        .from("Basics")
+        .select()
+        .eq('lng', 'ES')
+        .single()
+      setBasics(data);
+    }
+
+    console.log(basics);
+
+  // const { t } = useTranslation();
+  // const basics = cv.basics;
+  // const { nickname, name } = basics;
   return (
     <article className='hero'>
       <header className='hero'>
-        {/* <h1 className='hero'>Héctor Guerra</h1> */}
-        <h2 className='hero'>Full Stack Developer AI Specialist</h2>
+        <h2 className='hero'>{basics.label}</h2>
       </header>
       <section className='about'>
         <h4 className='about'>
-        Desarrollador junior con un profundo interés en la programación y una firme determinación de ingresar al mundo tecnológico. Busco activamente mi primera oportunidad laboral como programador, con la ambición de construir una carrera sólida y duradera.
+        {/* {basics.about} */}
+        
         </h4>
       </section>
       <SocialLinks />
-      <aside className='profile-photo'>
+      {/* <aside className='profile-photo'>
         <div id='profile-photo'></div>
-      </aside>
+      </aside> */}
     </article>
   );
 }

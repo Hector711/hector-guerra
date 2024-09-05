@@ -20,6 +20,7 @@
     "@fontsource/krona-one": "^5.0.14",
     "@midudev/tailwind-animations": "^0.0.7",
     "@pixelpay/fonts": "^1.0.29",
+    "@supabase/supabase-js": "^2.45.3",
     "i18next": "^23.11.3",
     "i18next-browser-languagedetector": "^7.2.1",
     "i18next-http-backend": "^2.5.1",
