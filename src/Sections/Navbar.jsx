@@ -10,15 +10,15 @@ export default function Navbar() {
           className='flex justify-center items-center gap-5'
           id='left-nav-container'
         >
-
+                  <h1 className='hero'>Héctor Guerra</h1>
         </div>
 
         <div
           className='flex justify-center items-center gap-4'
           id='right-nav-container'
         >
-          <LanguageSelection />
-          <DarkModeToggle />
+          {/* <LanguageSelection /> */}
+          {/* <DarkModeToggle /> */}
           {/* <LanguageSelection /> */}
           
           {/* <button className='right-buttons nav-buttons' id='inter-button'>

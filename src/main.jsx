@@ -6,20 +6,28 @@ import '@/i18n/i18n.js';
 import '@fontsource-variable/onest';
 // Supports weights 400-900
 import '@fontsource-variable/gabarito';
-import '@fontsource/cinzel-decorative';
-import '@pixelpay/fonts/dist/gilroy.css';
+// import '@pixelpay/fonts/dist/gilroy.css';
+// Supports weights 100-900
+import '@fontsource-variable/lexend-zetta';
+// Supports weights 100-900
+import '@fontsource-variable/lexend-mega';
+
+import '@fontsource/krona-one';
+
+
+
+
 // CSS
-import '@/css/reset/reset.css';
-import '@/css/init.css';
-import '@/css/elements.css';
-import '@/css/comp-hero.css';
-import '@/css/comp-space.css';
-import '@/css/comp-navbar.css';
-import '@/css/comp-projects.css';
-import '@/css/comp-footer.css';
-import '@/css/comp-language.css';
-import '@/css/themes/light-theme.css';
-import '@/css/themes/dark-theme.css';
+import '@/css/reset/reset.scss';
+// import '@/css/globals.scss';
+import '@/css/comp-hero.scss';
+import '@/css/comp-space.scss';
+import '@/css/comp-navbar.scss';
+import '@/css/comp-projects.scss';
+import '@/css/comp-footer.scss';
+import '@/css/comp-language.scss';
+import '@/css/themes/light-theme.scss';
+import '@/css/themes/dark-theme.scss';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

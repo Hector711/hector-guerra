@@ -1,18 +1,13 @@
-* {
-  /* border: 1px solid white; */
-}
-
 footer {
   width: 100%;
   height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* box-shadow: var(--shadow-m); */
   margin-top: 40px;
   #footer-container {
     width: 100%;
-    max-width: var(--width);
+    max-width: $width;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +33,7 @@ footer {
       min-width: max-content;
       .icons-made-by {
         height: 30px;
-        fill: var(--white-1);
+        fill: $white-1;
       }
     }
   }

@@ -12,8 +12,8 @@ export default function Hero() {
   return (
     <article className='hero'>
       <header className='hero'>
-        <h1 className='hero'>Héctor Guerra</h1>
-        <h2 className='hero'>Full Stack Web Developer</h2>
+        {/* <h1 className='hero'>Héctor Guerra</h1> */}
+        <h2 className='hero'>Full Stack Developer AI Specialist</h2>
       </header>
       <section className='about'>
         <h4 className='about'>

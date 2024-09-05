@@ -1,8 +1,5 @@
-* {
-  /* border: .5px solid wheat; */
-}
 section.projects {
-  max-width: var(--width);
+  max-width: $width;
   width: 100%;
 }
 .card-project {

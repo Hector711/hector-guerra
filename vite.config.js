@@ -12,5 +12,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src")
     },
   },
-  base: 'https://Hector711.github.io/hector-guerra.com',
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@/css/globals.scss";`,
+      },
+    },
+  },
 });

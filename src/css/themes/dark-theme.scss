@@ -1,62 +1,62 @@
-[data-theme='light'] {
-  background-color: var(--color-light-0);
-  color: var(--color-dark-2);
-
+// [data-theme='dark'] {
+  :root{
+    background: linear-gradient(45grad, #221f1a, #221f1a, #111316, #111316);
+    color: $white-1 ;
+  }
   /* ============ NAV ============ */
   /* ============ ========= ============ */
   nav {
-
     #cv-button {
-      background-color: var(--color-dark-2);
-      color: var(--color-light-1);
-      box-shadow: 0 0 10px 0 #757575;
-      transition: all 0.3s ease-in-out;
+      background-color: $color-light-1 ;
+      color: $color-dark-1;
     }
     #cv-button:hover {
-      background-color: var(--white-2);
-      transition: all 0.3s ease-in-out;
+      background-color: $color-light-0 ;
+      /*  */
     }
     #right-nav-container {
       #inter-button {
       }
       #dark-mode-toggle {
+        stroke: $white-1 ;
       }
       .nav-icons {
-        stroke: var(--color-dark-2);
+        stroke: inherit;
+        /* stroke: $white-1 ; */
       }
     }
   }
   /* ============ HERO ============ */
   /* ============ ========= ============ */
-
+  
   button.social-icons,
   a.social-icons {
-    background-color: var(--white-0);
-    color: var(--black-2);
-    fill: var(--black-2);
+    background-color: $white-1 ;
+    color: $black-2 ;
+    fill: $black-2 ;
   }
   #mail,
   #x {
-    stroke: var(--black-2);
+    stroke: $black-2 ;
   }
   /* ============ SPACE ============ */
   /* ============ ========= ============ */
   #space {
     hr {
-      border: 1px solid;
+      background-color: #151515;
     }
     #space-icon {
-      stroke: var(--color-dark-2);
+      stroke: $white-1 ;
     }
   }
   /* ============ PROJECTS ============ */
   /* ============ ========= ============ */
   .card-project {
-    box-shadow: 0 0 10px 0 #7c7c7c;
+    box-shadow: 4px 2px 8px 0 #a98a71;
     #img-card-project {
       .myProjectSwiper {
         img {
-          box-shadow: 0 0 10px 0 #7c7c7c;
+          box-shadow: 0 0 5px 0 #ffffff;
         }
         img:hover {
           box-shadow: 0 0 5px 0 white;
@@ -65,20 +65,17 @@
     }
     #links-project {
       a {
-        background-color: var(--white-0);
-        color: var(--color-dark-2);
-      }
-      a:hover {
-        box-shadow: 0 0 5px 0 var(--color-dark-2);
+        background-color: $white-0 ;
+        color: $color-dark-2 ;
       }
     }
     label.project {
-      background-color: var(--white-2);
-      color: var(--white-0);
+      background-color: $white-2 ;
+      color: $white-0 ;
     }
     label.skills {
       background-color: transparent;
-      color: var(--white-1);
+      color: $white-1 ;
       font-weight: 500;
       font-size: 15px;
     }
@@ -86,28 +83,18 @@
   /* ============ SKILLS ============ */
   /* ============ ========= ============ */
   .skills-icons {
-    fill: var(--white-2);
+    fill: $white-2 ;
   }
-
   /* ============ FOOTER ============ */
   /* ============ ========= ============ */
   footer {
-    box-shadow: 0 0 10px 0 var(--white-2);
+    /* box-shadow: bottom 0 0 10px 0 $white-2 ; */
     #footer-container {
       #made-by {
         .icons-made-by {
-          fill: var(--color-dark-2);
+          fill: $white-1 ;
         }
       }
     }
   }
-  button.white-hover,
-  a.white-hover {
-    transition: box-shadow 0.3s ease-in-out;
-  }
-  button.white-hover:hover,
-  a.white-hover:hover {
-    box-shadow: 0 0 5px 0 var(--color-dark-2);
-    transition: box-shadow 0.3s ease-in-out;
-  }
-}
+// }

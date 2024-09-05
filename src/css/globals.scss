@@ -1,3 +1,5 @@
+@import '_variables.scss';
+
 html {
   font-family:
     'Gabarito Variable',
@@ -17,14 +19,17 @@ html {
   position: relative;
 }
 h1 {
-  font-family: 'Cinzel Decorative';
-  font-size: 2.7rem;
+  font-family: 'Lexend Mega Variable';
+  font-size: 2.5rem;
   /* text-shadow: 5px 5px 7px #8e5b31; */
-  text-shadow: 2px 2px 7px #f97203;
+  text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 500;
-  color: var(--color-orange-0);
+  font-weight: 250;
+
   /* color: transparent; */
+  background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $color-orange-0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h2 {
   font-size: 1.5rem;
@@ -87,7 +92,7 @@ svg {
 
 button.social-icons,
 a.social-icons {
-  border-radius: var(--border-s);
+  border-radius: $border-s;
   transition: box-shadow 0.3s ease-in-out;
 }
 button.white-hover,
@@ -101,10 +106,21 @@ a.white-hover:hover {
 }
 
 #suspense {
-  background-color: var(--color-dark-0);
+  background-color: $color-dark-0;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.skills-icons {
+  width: 50px;
+  height: 80px;
+}
+section#model {
+  max-width: $width;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 200px;
 }

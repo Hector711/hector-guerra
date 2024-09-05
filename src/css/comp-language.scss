@@ -3,18 +3,17 @@
   position: relative;
   padding: 0;
   height: auto;
-  stroke: var(--color-light-1);
-  color: var(--color-light-1);
+  stroke: $color-light-1;
+  color: $color-light-1;
 }
 .dropdown:hover {
   --rows: 1fr;
-  --bg-dd: var(--color-light-1);
-  --text-dd: var(--black-1);
-  --border-dd: var(--color-dark-0);
-  stroke: var(--black-1);
-  color: var(--black-1);
+  --bg-dd: $color-light-1;
+  --text-dd: $black-1;
+  --border-dd: $color-dark-0;
+  stroke: $black-1;
+  color: $black-1;
 }
-
 .dd_head {
   padding: 1em 0.7em;
   text-decoration: none;
@@ -24,9 +23,8 @@
   height: 40px;
   margin: 0;
   background-color: var(--bg-dd, transparent);
-  border-radius: var(--border-s);
+  border-radius: $border-s;
   border: 2px solid var(--border-dd, #ffffff00);
-
   transition: all 0.8s ease-in-out;
 }
 .dd_content {
@@ -41,7 +39,7 @@
 .dd_ul {
   overflow: hidden;
   background-color: var(--bg-dd, transparent);
-  border-radius: var(--border-s);
+  border-radius: $border-s;
   border: 2px solid var(--border-dd, #ffffff00);
   transition: all 0.8s ease-in-out;
 }
@@ -69,5 +67,5 @@
   width: 100%;
 }
 .dd_anchor:hover {
-  background-color: rgb(199, 199, 208);
+  background-color: #c7c7d0;
 }

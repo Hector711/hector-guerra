@@ -1,0 +1,113 @@
+// [data-theme='light'] {
+//   background-color: $color-light-0 ;
+//   color: $color-dark-2 ;
+
+//   /* ============ NAV ============ */
+//   /* ============ ========= ============ */
+//   nav {
+
+//     #cv-button {
+//       background-color: $color-dark-2 ;
+//       color: $color-light-1 ;
+//       box-shadow: 0 0 10px 0 #757575;
+//       transition: all 0.3s ease-in-out;
+//     }
+//     #cv-button:hover {
+//       background-color: $white-2 ;
+//       transition: all 0.3s ease-in-out;
+//     }
+//     #right-nav-container {
+//       #inter-button {
+//       }
+//       #dark-mode-toggle {
+//       }
+//       .nav-icons {
+//         stroke: $color-dark-2 ;
+//       }
+//     }
+//   }
+//   /* ============ HERO ============ */
+//   /* ============ ========= ============ */
+
+//   button.social-icons,
+//   a.social-icons {
+//     background-color: $white-0 ;
+//     color: $black-2 ;
+//     fill: $black-2 ;
+//   }
+//   #mail,
+//   #x {
+//     stroke: $black-2 ;
+//   }
+//   /* ============ SPACE ============ */
+//   /* ============ ========= ============ */
+//   #space {
+//     hr {
+//       border: 1px solid;
+//     }
+//     #space-icon {
+//       stroke: $color-dark-2 ;
+//     }
+//   }
+//   /* ============ PROJECTS ============ */
+//   /* ============ ========= ============ */
+//   .card-project {
+//     box-shadow: 0 0 10px 0 #7c7c7c;
+//     #img-card-project {
+//       .myProjectSwiper {
+//         img {
+//           box-shadow: 0 0 10px 0 #7c7c7c;
+//         }
+//         img:hover {
+//           box-shadow: 0 0 5px 0 white;
+//         }
+//       }
+//     }
+//     #links-project {
+//       a {
+//         background-color: $white-0 ;
+//         color: $color-dark-2 ;
+//       }
+//       a:hover {
+//         box-shadow: 0 0 5px 0 $color-dark-2 ;
+//       }
+//     }
+//     label.project {
+//       background-color: $white-2 ;
+//       color: $white-0 ;
+//     }
+//     label.skills {
+//       background-color: transparent;
+//       color: $white-1 ;
+//       font-weight: 500;
+//       font-size: 15px;
+//     }
+//   }
+//   /* ============ SKILLS ============ */
+//   /* ============ ========= ============ */
+//   .skills-icons {
+//     fill: $white-2 ;
+//   }
+
+//   /* ============ FOOTER ============ */
+//   /* ============ ========= ============ */
+//   footer {
+//     box-shadow: 0 0 10px 0 $white-2 ;
+//     #footer-container {
+//       #made-by {
+//         .icons-made-by {
+//           fill: $color-dark-2 ;
+//         }
+//       }
+//     }
+//   }
+//   button.white-hover,
+//   a.white-hover {
+//     transition: box-shadow 0.3s ease-in-out;
+//   }
+//   button.white-hover:hover,
+//   a.white-hover:hover {
+//     box-shadow: 0 0 5px 0 $color-dark-2 ;
+//     transition: box-shadow 0.3s ease-in-out;
+//   }
+// }

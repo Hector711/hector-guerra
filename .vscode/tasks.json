@@ -3,10 +3,10 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "dev",
+      "script": "start:ide",
       "runOptions": {
         "runOn": "folderOpen"
-	    }
+      }
     }
   ]
 }

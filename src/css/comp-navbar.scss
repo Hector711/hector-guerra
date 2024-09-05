@@ -4,10 +4,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: var(--shadow-m);
+
   #nav-container {
     width: 100%;
-    max-width: var(--width);
+    max-width: $width;
     margin-inline: 1rem;
   }
 }

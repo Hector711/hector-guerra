@@ -3,7 +3,7 @@ section.space {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-width: var(--width);
+  max-width: $width;
   width: 100%;
   height: 100px;
   margin-bottom: 130px;
