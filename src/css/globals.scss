@@ -20,7 +20,7 @@ h1 {
   font-weight: 300;
 
   /* color: transparent; */
-  background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $color-orange-0);
+  background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -87,7 +87,24 @@ a.white-hover:hover {
   transition: box-shadow 0.3s ease-in-out;
 }
 .icon-hover{
-  filter: drop-shadow(1px 1px 1px #f87732);
+  filter: drop-shadow(2px 2px 2px #000000);
+}
+.icon-hover:hover{
+    transition: all 0.3s ease-in-out;
+  .icons-fill{
+    fill: $orange-0;
+    transition: fill 0.3s ease-in-out;
+  }
+  #x {
+    path{
+      stroke: $orange-0;
+      transition: stroke 0.3s ease-in-out;
+    }
+  }
+  #mail{
+    stroke: $orange-0;
+    transition: stroke 0.3s ease-in-out;
+  }
 
 }
 

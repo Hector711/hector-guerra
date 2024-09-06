@@ -38,7 +38,6 @@ export default function Hero() {
               <br /><br />
             </React.Fragment>
           ))}
-
         </h4>
       </section>
       <SocialLinks />

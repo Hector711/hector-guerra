@@ -8,7 +8,7 @@ export default function X(props) {
       strokeLinecap='round'
       strokeLinejoin='round'
       viewBox='1 1 22 22'
-      className='icon icon-tabler icons-tabler-outline icon-tabler-brand-x'
+      className='icons'
       {...props}
       id='x'
     >

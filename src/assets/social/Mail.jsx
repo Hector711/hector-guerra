@@ -9,6 +9,7 @@ export default function Mail(props) {
       strokeWidth={1.7}
       strokeLinecap='round'
       strokeLinejoin='round'
+      className='icons'
       {...props}
       id='mail'
     >

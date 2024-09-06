@@ -21,7 +21,7 @@ article.hero {
       padding: 10px;
       color: #efe8e2;
       text-transform: uppercase;
-      background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $color-orange-0);
+      background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       text-align: center;
@@ -40,11 +40,11 @@ article.hero {
     justify-content: space-between;
     height: min-content;
     width: max-content;
-    gap: 15px;
+    gap: 30px;
     backdrop-filter: blur(2px);
     .social-icons {
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
       border-radius: $border-s;
     }
   }
