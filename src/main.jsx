@@ -15,6 +15,9 @@ import '@fontsource-variable/lexend-zetta';
 // Supports weights 100-900
 import '@fontsource-variable/lexend-mega';
 
+// Supports weights 100-900
+import '@fontsource-variable/lexend-exa';
+
 import '@fontsource/krona-one';
 
 

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import cv from '@locales/cv';
 import Section from '@/components/Section';
 import { usePortfolio } from '@/context/PortfolioContext';
+import meraParivar from '@/assets/mera-parivar-mvp-1.png';
 
 export default function Projects() {
   const projects = cv.projects;
@@ -19,6 +20,7 @@ export default function Projects() {
             target='_blank'
             id='img-card-project'
           >
+      <img src={meraParivar} alt="Mera Parivar MVP" />
           </a>
           <div className='content-card-project'>
             <p>

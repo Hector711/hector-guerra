@@ -11,6 +11,9 @@ importers:
       '@fontsource-variable/gabarito':
         specifier: ^5.0.3
         version: 5.0.5
+      '@fontsource-variable/lexend-exa':
+        specifier: ^5.0.21
+        version: 5.0.21
       '@fontsource-variable/lexend-mega':
         specifier: ^5.0.19
         version: 5.0.19
@@ -386,6 +389,9 @@ packages:
 
   '@fontsource-variable/gabarito@5.0.5':
     resolution: {integrity: sha512-u33uCiy2sz5D9X99APo3yt1H6DN0SGuRgZcMXbvj7ZkPDf8BrGPmNT6gFAhEIoJs/Gt2G1vBhz2SdREeq62Lew==}
+
+  '@fontsource-variable/lexend-exa@5.0.21':
+    resolution: {integrity: sha512-WGCJJwQ8zxlW99m5QuoU9Ib5a9vk6CElkUVelp+YT9RNGf1sjTG7HYcYiuzK4s6fp/MA6yXww3U0NW+sGYm1Jw==}
 
   '@fontsource-variable/lexend-mega@5.0.19':
     resolution: {integrity: sha512-Ol8pMJubHM3NbxLcSG9WJwhj7SCSmaqLarJ/5E0SL1/w+CoxOkSwhWDuKSorc2xS83HAQ7NBR6b90sVtT5FCWA==}
@@ -2143,6 +2149,8 @@ snapshots:
   '@eslint/js@8.57.0': {}
 
   '@fontsource-variable/gabarito@5.0.5': {}
+
+  '@fontsource-variable/lexend-exa@5.0.21': {}
 
   '@fontsource-variable/lexend-mega@5.0.19': {}
 
