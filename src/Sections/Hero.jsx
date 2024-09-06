@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialLinks from './components/SocialLinks';
+import SocialLinks from '../components/SocialLinks';
 import { useState, useEffect } from 'react';
 // import YouTube from '@/assets/social/YouTube';
 // import cv from '@locales/cv.json';
@@ -42,9 +42,6 @@ export default function Hero() {
         </h4>
       </section>
       <SocialLinks />
-      {/* <aside className='profile-photo'>
-        <div id='profile-photo'></div>
-      </aside> */}
     </article>
   );
 }

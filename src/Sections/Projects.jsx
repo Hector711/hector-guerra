@@ -1,12 +1,7 @@
 import React from 'react';
-import MeraParivar1 from '@/assets/mera-parivar_1.jpg';
-import MeraParivar2 from '@/assets/mera-parivar_2.jpg';
-import MeraParivar3 from '@/assets/mera-parivar_3.jpg';
-import MeraParivar4 from '@/assets/mera-parivar_4.jpg';
-import CarouselProject from './components/CarouselProject';
 import { useTranslation } from 'react-i18next';
-import cv from '@locales/cv.json';
-import Section from './components/Section';
+import cv from '@locales/cv';
+import Section from '@/components/Section';
 import { usePortfolio } from '@/context/PortfolioContext';
 
 export default function Projects() {
@@ -14,20 +9,6 @@ export default function Projects() {
   const { t } = useTranslation();
   const { sectionRef } = usePortfolio()
 
-  const projectImages = [
-    {
-      image: MeraParivar1,
-    },
-    {
-      image: MeraParivar2,
-    },
-    {
-      image: MeraParivar3,
-    },
-    {
-      image: MeraParivar4,
-    },
-  ];
   return (
     <Section title={t('translations:projects.title')} ref={sectionRef}>
       <ul id='projects'>
@@ -38,7 +19,6 @@ export default function Projects() {
             target='_blank'
             id='img-card-project'
           >
-            <CarouselProject projectImages={projectImages} />
           </a>
           <div className='content-card-project'>
             <p>

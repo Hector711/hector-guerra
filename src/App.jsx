@@ -1,8 +1,8 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from '@/pages/Home';
-import Navbar from '@/Sections/Navbar';
-import Footer from '@/Sections/Footer';
+import Navbar from '@/sections/Navbar';
+import Footer from '@/sections/Footer';
 import { PortfolioProvider } from '@/context/PortfolioContext';
 
 export default function App() {

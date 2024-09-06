@@ -9,7 +9,7 @@ import TailwindCSS from '@/assets/skills/TailwindCSS';
 import ExpressJS from '@/assets/skills/ExpressJS';
 import CSS from '@/assets/skills/CSS';
 import cv from '@locales/cv';
-import Section from './components/Section';
+import Section from '@/components/Section';
 
 export default function Skills() {
   const skills = cv.skills;

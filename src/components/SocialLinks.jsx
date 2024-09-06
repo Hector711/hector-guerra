@@ -37,7 +37,7 @@ export default function SocialLinks() {
         title={`Copiar email al portapapeles`}
         onClick={handleCopyToClipboard}
         id='copy-button'
-        className='social-icons white-hover'
+        className='social-icons icon-hover'
       >
         <Mail />
       </button>
@@ -46,7 +46,7 @@ export default function SocialLinks() {
         title={`Send WhatsApp message to ${basics.username}`}
         target='_blank'
         rel='noopener noreferrer'
-        className='social-icons white-hover'
+        className='social-icons icon-hover'
       >
         <WhatsApp />
       </a>
@@ -60,7 +60,7 @@ export default function SocialLinks() {
             title={`Visitar el perfil de ${username} en ${network}`}
             target='_blank'
             rel='noopener noreferrer'
-            className='social-icons white-hover'
+            className='social-icons icon-hover'
           >
             <Icon />
           </a>

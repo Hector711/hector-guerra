@@ -1,7 +1,3 @@
-import React from 'react';
-import DarkModeToggle from './components/DarkModeToggle';
-import LanguageSelection from './components/LanguageSelection';
-
 export default function Navbar() {
   return (
     <nav>

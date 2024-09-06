@@ -83,8 +83,12 @@ a.white-hover {
 }
 button.white-hover:hover,
 a.white-hover:hover {
-  box-shadow: 0 0 5px 0 white;
+  box-shadow: 0 0 3px 0 white;
   transition: box-shadow 0.3s ease-in-out;
+}
+.icon-hover{
+  filter: drop-shadow(1px 1px 1px #f87732);
+
 }
 
 #suspense {
