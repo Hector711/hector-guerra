@@ -25,23 +25,31 @@ export default function Skills() {
     CSS,
   };
   return (
-    <Section title='Skills'>
-        <div className='flex justify-between'>
-          {skills.map(({ name, icon }, index) => {
-            const Icon = skillsIcons[icon];
-            return (
-              <div
-                className='flex flex-col justify-center items-center'
-                id='icon-container'
-                key={index}
-              >
-                {Icon ? <Icon className='skills-icons' /> : 'no icon'}
-                <label className='skills'>{name}</label>
-              </div>
-            );
-          })}
-        </div>
-
+    <Section title='Siempre en evolución: Mi enfoque es el aprendizaje continuo'>
+      <p>
+        Como profesional, creo firmemente que no hay límites cuando se trata de
+        aprender. Mi habilidad más valiosa no es solo lo que ya sé, sino mi
+        compromiso con aprender lo que sea necesario para afrontar nuevos retos.
+        Ya sea en el desarrollo web, diseño o cualquier otro campo, mi objetivo
+        es adaptarme y expandir mis conocimientos constantemente.
+      </p>
+      <br />
+      <div className='flex justify-between'>
+        <p>Estas son algunas de las tecnologías con las que he trabajado:</p>
+        {skills.map(({ name, icon }, index) => {
+          const Icon = skillsIcons[icon];
+          return (
+            <div
+              className='flex flex-col justify-center items-center'
+              id='icon-container'
+              key={index}
+            >
+              {Icon ? <Icon className='skills-icons' /> : 'no icon'}
+              <label className='skills'>{name}</label>
+            </div>
+          );
+        })}
+      </div>
     </Section>
   );
 }

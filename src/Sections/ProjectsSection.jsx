@@ -5,10 +5,10 @@ import Section from '@/components/Section';
 import { usePortfolio } from '@/context/PortfolioContext';
 import meraParivar from '@/assets/mera-parivar-mvp-1.png';
 
-export default function Projects() {
+export default function ProjectsSection() {
   const projects = cv.projects;
   const { t } = useTranslation();
-  const { sectionRef } = usePortfolio()
+  const { sectionRef } = usePortfolio();
 
   return (
     <Section title={t('translations:projects.title')} ref={sectionRef}>
@@ -20,7 +20,7 @@ export default function Projects() {
             target='_blank'
             id='img-card-project'
           >
-      <img src={meraParivar} alt="Mera Parivar MVP" />
+            <img src={meraParivar} alt='Mera Parivar MVP' />
           </a>
           <div className='content-card-project'>
             <p>

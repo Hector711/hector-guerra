@@ -1,15 +1,16 @@
 import React from 'react';
 import Hero from '@/sections/Hero';
-import Projects from '@/sections/Projects';
+import ProjectsSection from '@/sections/ProjectsSection';
 import Skills from '@/sections/Skills';
-import Space from '@/sections/Space';
+
+import N3uralabSection from '@/sections/N3uralabSection';
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Space />
-      <Projects />
+      <N3uralabSection />
+      {/* <ProjectsSection /> */}
       <Skills className="animate-fade-in-up"/>
     </>
   );

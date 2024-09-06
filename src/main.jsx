@@ -9,7 +9,6 @@ import '@fontsource-variable/onest';
 import '@fontsource-variable/gabarito';
 // import '@pixelpay/fonts/dist/gilroy.css';
 
-
 // Supports weights 100-900
 import '@fontsource-variable/lexend-zetta';
 // Supports weights 100-900
@@ -27,7 +26,6 @@ import '@fontsource/krona-one';
 import '@/css/reset/reset.scss';
 // import '@/css/globals.scss';
 import '@/css/comp-hero.scss';
-import '@/css/comp-space.scss';
 import '@/css/comp-navbar.scss';
 import '@/css/comp-projects.scss';
 import '@/css/comp-footer.scss';

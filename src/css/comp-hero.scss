@@ -1,6 +1,6 @@
 article.hero {
   *{
-    // border: 1px solid white;
+    border: 0.5px solid white;
   }
   display: flex;
   flex-direction: column;
@@ -16,11 +16,9 @@ article.hero {
       font-size: 2.2rem;
       letter-spacing: -0.1rem !important;
       font-weight: 200;
-      padding-inline: 2rem;
       display: flex;
       margin-bottom: 20px;
       padding: 10px;
-      color: #efe8e2;
       text-transform: uppercase;
       background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
       -webkit-background-clip: text;
@@ -47,6 +45,33 @@ article.hero {
       width: 40px;
       height: 40px;
       border-radius: $border-s;
+    }
+  }
+}
+
+
+
+
+footer.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $width;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 130px;
+  figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    hr {
+      width: 70%;
+      border: 0.5px solid ;
+    }
+    #space-icon {
+      width: 80px;
     }
   }
 }

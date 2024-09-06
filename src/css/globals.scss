@@ -27,12 +27,6 @@ h1 {
 }
 
 
-h3 {
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 2rem ;
-}
-
 
 h5 {
   font-size: 1.1rem;
@@ -127,4 +121,17 @@ section#model {
   width: 100%;
   margin-inline: auto;
   margin-bottom: 200px;
+  h3 {
+    font-family: 'Lexend Exa Variable';
+    font-size: 1.8rem;
+    letter-spacing: -0.1rem !important;
+    font-weight: 200;
+    display: flex;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
+  }
 }
