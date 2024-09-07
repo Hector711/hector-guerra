@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 
 export default function Navbar() {
-  
-
   return (
     <nav>
       <div id='nav-container' className='flex justify-between items-center'>

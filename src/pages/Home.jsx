@@ -3,7 +3,6 @@ import Hero from '@/sections/Hero';
 import ProjectsSection from '@/sections/ProjectsSection';
 import SkillsSection from '@/sections/SkillsSection';
 import NeoSection from '@/sections/NeoSection';
-
 import N3uralabSection from '@/sections/N3uralabSection';
 
 export default function Home() {
