@@ -1,56 +1,80 @@
-article.hero {
-  *{
-    border: 0.5px solid white;
-  }
+div.hero {
   display: flex;
   flex-direction: column;
   margin-block: 60px 160px;
   align-items: center;
   width: 650px;
-  header.hero {
+}
+
+header.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-family: 'Lexend Exa Variable';
+    font-size: 2.2rem;
+    letter-spacing: -0.1rem !important;
+    font-weight: 200;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    h2 {
-      font-family: 'Lexend Exa Variable';
-      font-size: 2.2rem;
-      letter-spacing: -0.1rem !important;
-      font-weight: 200;
-      display: flex;
-      margin-bottom: 20px;
-      padding: 10px;
-      text-transform: uppercase;
-      background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-align: center;
-    }
-  }
-  section.about {
-    h4 {
-      font-size: 1.1rem;
-      line-height: 1.5;
-      text-align: center;
-    }
-  }
-  footer.social-links {
-    grid-area: footer;
-    display: flex;
-    justify-content: space-between;
-    height: min-content;
-    width: max-content;
-    gap: 30px;
-    backdrop-filter: blur(2px);
-    .social-icons {
-      width: 40px;
-      height: 40px;
-      border-radius: $border-s;
-    }
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    @include gradient-color;
   }
 }
 
-
-
+section.hero.about {
+  h4 {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  div.social-links-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin-block: 2rem;
+    .social-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35px;
+      height: 35px;
+      .icons-fill {
+        color: white;
+        fill: $white-1;
+      }
+      #mail,
+      #x {
+        stroke: $white-1;
+      }
+      #whatsapp-icon {
+        margin-block: auto;
+      }
+    }
+    .icons-hover {
+      filter: drop-shadow(2px 2px 2px #000000);
+    }
+    .icons-hover:hover {
+      transition: all 0.3s ease-in-out;
+      .icons-fill {
+        fill: $orange-0;
+        transition: fill 0.3s ease-in-out;
+      }
+      #x {
+        path {
+          stroke: $orange-0;
+          transition: stroke 0.3s ease-in-out;
+        }
+      }
+      #mail {
+        stroke: $orange-0;
+        transition: stroke 0.3s ease-in-out;
+      }
+    }
+  }
+}
 
 footer.hero {
   display: flex;
@@ -61,17 +85,7 @@ footer.hero {
   width: 100%;
   height: 100px;
   margin-bottom: 130px;
-  figure {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    hr {
-      width: 70%;
-      border: 0.5px solid ;
-    }
-    #space-icon {
-      width: 80px;
-    }
+  #arrow-down-icon {
+    width: 80px;
   }
 }

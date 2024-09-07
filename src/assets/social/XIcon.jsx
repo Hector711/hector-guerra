@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function X(props) {
+export default function XIcon(props) {
   return (
     <svg
       fill='none'

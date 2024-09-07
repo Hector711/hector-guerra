@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function GitHub(props) {
+export default function GitHubIcon(props) {
   return (
     <svg viewBox='0 0 98 98' className='icons icons-fill' {...props}>
       <path

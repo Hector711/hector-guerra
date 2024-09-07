@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default function YouTube(props) {
+export default function YouTubeIcon(props) {
   return (
     <svg
       fill='#cc1f1f'

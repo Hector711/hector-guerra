@@ -1,12 +1,11 @@
 @import '_variables.scss';
-
+:root {
+  background: linear-gradient(45grad, #221f1a, #221f1a, #111316, #111316);
+  color: $white-1;
+}
 html {
-  font-family:
-    'Onest Variable',
-    'Gabarito Variable',
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: 'Onest Variable', 'Gabarito Variable', 'Open Sans',
+    'Helvetica Neue', sans-serif;
   letter-spacing: -0.0025rem;
   position: relative;
   font-weight: 200;
@@ -15,18 +14,10 @@ h1 {
   font-family: 'Lexend Zetta Variable';
   letter-spacing: -0.2rem !important;
   font-size: 2rem;
-  /* text-shadow: 5px 5px 7px #8e5b31; */
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 300;
-
-  /* color: transparent; */
-  background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include gradient-color;
 }
-
-
 
 h5 {
   font-size: 1.1rem;
@@ -61,46 +52,9 @@ ul {
   list-style: none;
 }
 svg {
-  padding: 3px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-}
-
-button.social-icons,
-a.social-icons {
-  border-radius: $border-s;
-  transition: box-shadow 0.3s ease-in-out;
-}
-button.white-hover,
-a.white-hover {
-  transition: box-shadow 0.3s ease-in-out;
-}
-button.white-hover:hover,
-a.white-hover:hover {
-  box-shadow: 0 0 3px 0 white;
-  transition: box-shadow 0.3s ease-in-out;
-}
-.icon-hover{
-  filter: drop-shadow(2px 2px 2px #000000);
-}
-.icon-hover:hover{
-    transition: all 0.3s ease-in-out;
-  .icons-fill{
-    fill: $orange-0;
-    transition: fill 0.3s ease-in-out;
-  }
-  #x {
-    path{
-      stroke: $orange-0;
-      transition: stroke 0.3s ease-in-out;
-    }
-  }
-  #mail{
-    stroke: $orange-0;
-    transition: stroke 0.3s ease-in-out;
-  }
-
 }
 
 #suspense {
@@ -119,7 +73,7 @@ a.white-hover:hover {
 section#model {
   max-width: $width;
   width: 100%;
-  margin-inline: auto;
+  margin-inline: 1rem;
   margin-bottom: 200px;
   h3 {
     font-family: 'Lexend Exa Variable';
@@ -128,10 +82,6 @@ section#model {
     font-weight: 200;
     display: flex;
     margin-bottom: 20px;
-    text-transform: uppercase;
-    background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: max-content;
+    @include gradient-color;
   }
 }

@@ -11,7 +11,7 @@ import CSS from '@/assets/skills/CSS';
 import cv from '@locales/cv';
 import Section from '@/components/Section';
 
-export default function Skills() {
+export default function SkillsSection() {
   const skills = cv.skills;
   const skillsIcons = {
     ReactJS,
@@ -25,7 +25,7 @@ export default function Skills() {
     CSS,
   };
   return (
-    <Section title='Siempre en evolución: Mi enfoque es el aprendizaje continuo'>
+    <Section title='Mi enfoque es el aprendizaje continuo'>
       <p>
         Como profesional, creo firmemente que no hay límites cuando se trata de
         aprender. Mi habilidad más valiosa no es solo lo que ya sé, sino mi

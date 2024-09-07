@@ -13,28 +13,5 @@ footer {
     align-items: center;
     gap: 10rem;
     margin-inline: 1rem;
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 3px 10px;
-      height: 35px;
-      gap: 5px;
-      text-wrap: nowrap;
-      .footer-icon {
-        height: 30px;
-      }
-    }
-    #made-by {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-wrap: nowrap;
-      min-width: max-content;
-      .icons-made-by {
-        height: 30px;
-        fill: $white-1;
-      }
-    }
   }
 }

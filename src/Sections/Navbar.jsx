@@ -13,17 +13,13 @@ export default function Navbar() {
         >
           <h1 className='hero'>Héctor Guerra</h1>
         </div>
-        
-
         <div
           className='flex justify-center items-center gap-4'
           id='right-nav-container'
         >
-          <Link to='/'>N3URALAB</Link>
           <Link to='/'>Mi Historia</Link>
           <Link to='/'>Proyectos</Link>
           <Link to='/'>Manifiesto</Link>
-          
           <a
             href='https://hector-minimalist-cv.netlify.app'
             rel='noopener noreferrer'

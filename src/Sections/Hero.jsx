@@ -1,15 +1,10 @@
 import React from 'react';
 import SocialLinks from '../components/SocialLinks';
 import { useState, useEffect } from 'react';
-// import YouTube from '@/assets/social/YouTube';
-// import cv from '@locales/cv.json';
-// import { useTranslation } from 'react-i18next';
 import supabase from '@/api/supabase';
-import ArrowDown from '@/assets/ArrowDown';
+import ArrowDownIcon from '@/assets/ArrowDownIcon';
 import { usePortfolio } from '@/context/PortfolioContext';
 
-
-   
 
 export default function Hero() {
   const [basics, setBasics] = useState([]);
@@ -55,14 +50,14 @@ export default function Hero() {
 
   // const { t } = useTranslation();
   return (
-    <article className='hero'>
+    <div className='hero'>
       <header className='hero'>
         <h2 className='hero'>{basics.label}</h2>
         <div className="App">
     </div>
   
       </header>
-      <section className='about'>
+      <section className='hero about'>
         <h4 className='about'>
           {basics.about &&
             basics.about.split('. ').map((sentence, index) => (
@@ -76,13 +71,10 @@ export default function Hero() {
         <SocialLinks />
       </section>
       <footer className='hero'>
-        <figure>
-          {/* <hr /> */}
           <button onClick={scrollToSection}>
-            <ArrowDown id='space-icon' />
+            <ArrowDownIcon />
           </button>
-        </figure>
       </footer>
-    </article>
+    </div>
   );
 }
