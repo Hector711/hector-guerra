@@ -27,26 +27,7 @@ export default function Hero() {
     setBasics(data);
   }
 
-  useEffect(() => {
-    const link = document.createElement('link');
-    link.href = 'https://assets.calendly.com/assets/external/widget.css';
-    link.rel = 'stylesheet';
-    document.head.appendChild(link);
-
-    const script = document.createElement('script');
-    script.src = 'https://assets.calendly.com/assets/external/widget.js';
-    script.async = true;
-    script.onload = () => {
-      Calendly.initBadgeWidget({
-        url: 'https://calendly.com/hector-guerra/llamada-1-a-1',
-        text: 'Programa una reunión conmigo',
-        color: '#0069ff',
-        textColor: '#ffffff',
-        branding: undefined,
-      });
-    };
-    document.body.appendChild(script);
-  }, []);
+  
 
   // const { t } = useTranslation();
   return (

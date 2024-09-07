@@ -19,8 +19,25 @@ header.hero {
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
-    @include gradient-color;
+    @include text-gradient-color;
   }
+}
+.calendly-badge-content {
+  display: flex !important;
+  justify-content: center !important; 
+  align-items: center !important;
+  position: relative;
+  background-color: $black-1;
+  border-radius: 40px;
+}
+.calendly-badge-content:after {
+  content: '';
+  position: absolute;
+  height: 108%;
+  width: 102%;
+  z-index: -999;
+  border-radius: 40px;
+  @include gradient-color;
 }
 
 section.hero.about {

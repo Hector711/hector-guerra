@@ -9,6 +9,7 @@ export default function Navbar() {
           id='left-nav-container'
         >
           <h1 className='hero'>Héctor Guerra</h1>
+          {/* <h1 className='hero'>N3URALAB</h1> */}
         </div>
         <div
           className='flex justify-center items-center gap-4'

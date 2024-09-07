@@ -1,6 +1,11 @@
 @import '_variables.scss';
 :root {
-  background: linear-gradient(45grad, #221f1a, #221f1a, #111316, #111316);
+  background: linear-gradient(
+    45grad,
+    #221f1a,
+    #111316,
+    #111316
+  );
   color: $white-1;
 }
 html {
@@ -13,13 +18,9 @@ html {
 h1 {
   font-family: 'Black Crow Extra Light', 'Havelock Titling', 'Researcher',
     'Lexend Zetta Variable';
-  letter-spacing: 0.2rem !important;
-  font-size: 2rem;
-  // letter-spacing: 2px;
-  font-weight: 400;
-  // @include gradient-color;
-  color: $orange-0;
-  color: $white-0;
+  letter-spacing: 0.15rem !important;
+  font-size: 1.8rem;
+  color: #bababa;
   text-transform: uppercase;
 }
 
@@ -86,7 +87,7 @@ section#model {
     font-weight: 200;
     display: flex;
     margin-bottom: 20px;
-    @include gradient-color;
+    @include text-gradient-color;
   }
 }
 
@@ -94,7 +95,7 @@ section#model {
   p {
     animation: fade-in linear forwards;
     animation-timeline: view();
-    animation-range-start: -100px;
+    animation-range-start: 0px;
     animation-range-end: 500px;
   }
 
