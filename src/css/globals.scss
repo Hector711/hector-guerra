@@ -4,18 +4,22 @@
   color: $white-1;
 }
 html {
-  font-family: 'Onest Variable', 'Gabarito Variable', 'Open Sans',
+  font-family:  'Onest Variable', 'Gabarito Variable', 'Open Sans',
     'Helvetica Neue', sans-serif;
   letter-spacing: -0.0025rem;
   position: relative;
   font-weight: 200;
 }
 h1 {
-  font-family: 'Lexend Zetta Variable';
-  letter-spacing: -0.2rem !important;
+  font-family:
+  'Havelock Titling',
+  'Black Crow Extra Light',
+    'Researcher',
+    'Lexend Zetta Variable';
+  letter-spacing: 0.2rem !important;
   font-size: 2rem;
-  letter-spacing: 2px;
-  font-weight: 300;
+  // letter-spacing: 2px;
+  font-weight: 400;
   @include gradient-color;
 }
 
@@ -84,4 +88,14 @@ section#model {
     margin-bottom: 20px;
     @include gradient-color;
   }
+}
+
+
+.fade-in {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
 }

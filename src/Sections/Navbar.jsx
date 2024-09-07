@@ -18,8 +18,8 @@ export default function Navbar() {
           id='right-nav-container'
         >
           <Link to='/'>Mi Historia</Link>
-          <Link to='/'>Proyectos</Link>
-          <Link to='/'>Manifiesto</Link>
+          <Link to='/'>Mi Visión</Link>
+          <Link to='/'>Mis Proyectos</Link>
           <a
             href='https://hector-minimalist-cv.netlify.app'
             rel='noopener noreferrer'

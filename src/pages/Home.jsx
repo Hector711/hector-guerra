@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Hero />
       <N3uralabSection />
-      <NeoSection />
+      <NeoSection  />
       {/* <ProjectsSection /> */}
       <SkillsSection className="animate-fade-in-up"/>
     </>

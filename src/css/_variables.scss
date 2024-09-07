@@ -1,4 +1,4 @@
-$width: 1100px;
+$width: 1200px;
 /* COLORES */
 $white-0: #ffffff;
 $white-1: #d6d6d6;
@@ -18,7 +18,7 @@ $color-blue-1: #1a1f22;
 
 $orange-0: #ec8533;
 $color-red-0: #337dec;
-  
+
 $color-calendly: #3362a3;
 $color-youtube: #a33333;
 
@@ -27,19 +27,17 @@ $border-s: 5px;
 $border-m: 10px;
 $border-l: 30px;
 
-
-
 @mixin gradient-color {
   width: max-content;
   text-transform: uppercase;
   background: linear-gradient(
-      20deg,
-      #c6c6c6,
-      #bababa,
-      #775f4a,
-      #ffa455,
-      $orange-0
+      30deg,
+      #ffffff,
+      #f7ece2,
+      #e8b89a,
+      #ee8324,
+      #ff7700,
     );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
