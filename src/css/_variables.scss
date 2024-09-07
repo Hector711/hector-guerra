@@ -30,14 +30,7 @@ $border-l: 30px;
 @mixin gradient-color {
   width: max-content;
   text-transform: uppercase;
-  background: linear-gradient(
-      30deg,
-      #ffffff,
-      #f7ece2,
-      #e8b89a,
-      #ee8324,
-      #ff7700,
-    );
+  background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
