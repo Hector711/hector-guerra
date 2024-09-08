@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function TailwindCSS(props) {
+export default function TailwindCSSIcon(props) {
   return (
-    <svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' {...props}>
+    <svg viewBox='0 0 24 24' className='icons' {...props}>
       <path
         fillRule='evenodd'
         clipRule='evenodd'

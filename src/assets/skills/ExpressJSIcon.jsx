@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function ExpressJS(props) {
+export default function ExpressJSIcon(props) {
   return (
     <svg
       viewBox='0 -181.5 512 512'
-      xmlns='http://www.w3.org/2000/svg'
+      className='icons'
       preserveAspectRatio='xMidYMid'
       {...props}
     >

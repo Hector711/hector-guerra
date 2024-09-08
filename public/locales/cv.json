@@ -76,6 +76,14 @@
     {
       "name": "CSS",
       "icon": "CSS"
+    },
+    {
+      "name": "NextJS",
+      "icon": "NextJS"
+    },
+    {
+      "name": "Supabase",
+      "icon": "Supabase"
     }
   ],
   "work": [

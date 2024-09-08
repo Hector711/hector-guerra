@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react'
 
-const Section = forwardRef(({ title, children }, ref) => {
+const Section = forwardRef(({ title, children, id }, ref) => {
  return (
-    <section id='model' ref={ref}>
+    <section className='model' ref={ref} id={id}>
       <h3>{title}</h3>
       {children}
     </section>
