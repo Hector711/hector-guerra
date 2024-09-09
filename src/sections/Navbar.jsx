@@ -1,7 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function Navbar() {
+  const { t, i18n } = useTranslation();
+
+  const language = i18n.language;
+
+const basics = i18n.getResourceBundle(language, "basics");
   return (
     <nav>
       <div id='nav-container' className='flex justify-between items-center'>
@@ -16,11 +22,11 @@ export default function Navbar() {
           className='flex justify-center items-center gap-4'
           id='right-nav-container'
         >
-          <Link to='/'>Mi Historia</Link>
+          {/* <Link to='/'>Mi Historia</Link>
           <Link to='/'>Mi Visión</Link>
-          <Link to='/'>Mis Proyectos</Link>
+          <Link to='/'>Mis Proyectos</Link> */}
           <a
-            href='https://hector-minimalist-cv.netlify.app'
+            href={basics.cv_url}
             rel='noopener noreferrer'
             target='_blank'
             className='nav-buttons white-hover'
