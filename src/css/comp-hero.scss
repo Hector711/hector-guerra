@@ -70,10 +70,10 @@ section.hero.about {
         margin-block: auto;
       }
     }
-    .icons-hover {
+    .icons {
       filter: drop-shadow(2px 2px 2px #000000);
     }
-    .icons-hover:hover {
+    .social-links:hover {
       transition: all 0.3s ease-in-out;
       .icons-fill {
         fill: $orange-0;
@@ -85,11 +85,13 @@ section.hero.about {
           transition: stroke 0.3s ease-in-out;
         }
       }
-      #mail {
-        stroke: $orange-0;
-        transition: stroke 0.3s ease-in-out;
-      }
     }
+  }
+}
+#mail:hover {
+  transition: stroke 0.3s ease-in-out;
+  .path-mail {
+    stroke: $orange-0;
   }
 }
 

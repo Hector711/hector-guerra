@@ -6,12 +6,19 @@ import GitHubIcon from '@/assets/social/GitHubIcon';
 import InstagramIcon from '@/assets/social/InstagramIcon';
 import LinkedInIcon from '@/assets/social/LinkedInIcon';
 import YouTubeIcon from '@/assets/social/YouTubeIcon';
+import { useTranslation } from 'react-i18next';
 
-import cv from '@locales/cv';
+
+
 
 export default function SocialLinks() {
-  const social = cv.social;
-  const basics = cv.basics;
+  const { i18n } = useTranslation();
+
+  const language = i18n.language;
+  const basics = i18n.getResourceBundle(language, "basics");
+  const profilesObject = i18n.getResourceBundle(language, "profiles");
+  const profiles = Object.values(profilesObject);
+
   const SocialIcons = {
     X: XIcon,
     GitHub: GitHubIcon,
@@ -51,7 +58,7 @@ export default function SocialLinks() {
         <WhatsAppIcon />
       </a>
 
-      {social.map(({ network, username, url }) => {
+      {profiles.map(({ network, username, url }) => {
         const Icon = SocialIcons[network];
         return (
           <a
@@ -60,7 +67,7 @@ export default function SocialLinks() {
             title={`Visitar el perfil de ${username} en ${network}`}
             target='_blank'
             rel='noopener noreferrer'
-            className='social-links icons-hover'
+            className='social-links'
           >
             <Icon />
           </a>

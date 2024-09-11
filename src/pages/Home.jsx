@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 import Hero from '@/sections/Hero';
-import SkillsSection from '@/sections/SkillsSection';
+// import SkillsSection from '@/sections/SkillsSection';
 import NeoSection from '@/sections/NeoSection';
 import N3uralabSection from '@/sections/N3uralabSection';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+  const { t } = useTranslation();
   useEffect(() => {
     const link = document.createElement('link');
     link.href = 'https://assets.calendly.com/assets/external/widget.css';
@@ -17,8 +19,7 @@ export default function Home() {
     script.onload = () => {
       Calendly.initBadgeWidget({
         url: 'https://calendly.com/hector-guerra/llamada-1-a-1',
-        text: 'Programa una reunión conmigo',
-
+        text: t('translations:book_a_call'),
         branding: undefined,
       });
     };
@@ -30,7 +31,7 @@ export default function Home() {
       <Hero />
       <N3uralabSection />
       <NeoSection  />
-      <SkillsSection className="animate-fade-in-up"/>
+      {/* <SkillsSection className="animate-fade-in-up"/> */}
     </>
   );
 }

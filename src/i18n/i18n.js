@@ -23,13 +23,7 @@ export async function loadTranslations() {
   const i18nResources = {
     EN: {
       translations: {
-        reservar_llamada: 'Book a call',
-        about_me: 'About me',
-        projects: 'Projects',
-        education: 'Education',
-        languages: 'Languages',
-        work: 'Work Experience',
-        web_page: 'Visit website',
+        book_a_call: 'Book a call',
       },
       basics: (({ id, lng, ...rest }) => rest)(dataSupabase.basics.find(item => item.lng === 'EN')),
       education: dataSupabase.education.filter(item => item.lng === 'EN').map(({ id, lng, ...rest }) => rest),
@@ -40,13 +34,7 @@ export async function loadTranslations() {
     },
     ES: {
       translations: {
-        reservar_llamada: 'Reservar Llamada',
-        about_me: 'Sobre mí',
-        projects: 'Proyectos',
-        education: 'Formación',
-        languages: 'Idiomas',
-        work: 'Experiencia Laboral',
-        web_page: 'Visitar la pagina web',
+        book_a_call: 'Programa una reunión conmigo',
       },
       basics: (({ id, lng, ...rest }) => rest)(dataSupabase.basics.find(item => item.lng === 'ES')),
       education: dataSupabase.education.filter(item => item.lng === 'ES').map(({ id, lng, ...rest }) => rest),
