@@ -41,6 +41,7 @@ header.hero {
 }
 
 section.hero.about {
+  
   h4 {
     font-size: 1.1rem;
     line-height: 1.5;
@@ -56,8 +57,8 @@ section.hero.about {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 35px;
-      height: 35px;
+      width: 25px;
+      height: 25px;
       .icons-fill {
         color: white;
         fill: $white-1;
@@ -108,3 +109,14 @@ footer.hero {
     width: 80px;
   }
 }
+
+.toasts-container {
+  position: absolute;
+  margin-right: auto;
+  height: 85vh;
+}
+.toasts {
+  background-color: white;
+  // width: max-content;
+}
+

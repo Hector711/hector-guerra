@@ -7,16 +7,13 @@ import InstagramIcon from '@/assets/social/InstagramIcon';
 import LinkedInIcon from '@/assets/social/LinkedInIcon';
 import YouTubeIcon from '@/assets/social/YouTubeIcon';
 import { useTranslation } from 'react-i18next';
-
-
-
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function SocialLinks() {
-  const { i18n } = useTranslation();
-
+  const { t, i18n } = useTranslation();
   const language = i18n.language;
-  const basics = i18n.getResourceBundle(language, "basics");
-  const profilesObject = i18n.getResourceBundle(language, "profiles");
+  const basics = i18n.getResourceBundle(language, 'basics');
+  const profilesObject = i18n.getResourceBundle(language, 'profiles');
   const profiles = Object.values(profilesObject);
 
   const SocialIcons = {
@@ -29,25 +26,26 @@ export default function SocialLinks() {
 
   const handleCopyToClipboard = () => {
     const email = 'hectorluengo.xx@gmail.com';
-    navigator.clipboard.writeText(email).then(() => {
-      const confirmCopyText = document.getElementById('confirm-copy-text');
-      confirmCopyText.classList.remove('hidden');
-      setTimeout(() => {
-        confirmCopyText.classList.add('hidden');
-      }, 3000);
-    });
+    toast(`Email copiado al portapapeles: ${t('basics:email')}`);
+    navigator.clipboard.writeText(email);
   };
 
   return (
     <div className='social-links-container'>
-      <button
-        title={`Copiar email al portapapeles`}
-        onClick={handleCopyToClipboard}
-        id='copy-button'
-        className='social-links icon-hover'
-      >
-        <MailIcon />
-      </button>
+      {t('basics:email') && (
+        <>
+          <button
+            title={`Copiar email al portapapeles`}
+            onClick={handleCopyToClipboard}
+            id='copy-button'
+            className='social-links icon-hover'
+          >
+            <MailIcon />
+          </button>
+          
+        </>
+      )}
+
       <a
         href={`whatsapp://send?phone=${basics.phone}`}
         title={`Send WhatsApp message to ${basics.username}`}
