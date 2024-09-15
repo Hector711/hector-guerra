@@ -4,7 +4,7 @@ import Hero from '@/sections/Hero';
 import NeoSection from '@/sections/NeoSection';
 import N3uralabSection from '@/sections/N3uralabSection';
 import { useTranslation } from 'react-i18next';
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 
 export default function Home() {
   const { t } = useTranslation();
