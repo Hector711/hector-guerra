@@ -4,8 +4,6 @@ import ArrowDownIcon from '@/assets/ArrowDownIcon';
 import { usePortfolio } from '@/context/PortfolioContext';
 import { useTranslation } from 'react-i18next';
 
-
-
 export default function Hero() {
 
   const { t } = useTranslation();
