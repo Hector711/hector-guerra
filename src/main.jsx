@@ -26,6 +26,7 @@ import '@/css/comp-projects.scss';
 import '@/css/comp-footer.scss';
 import '@/css/comp-language.scss';
 import '@/css/themes/dark-theme.scss';
+import '@/css/comp-social-links.scss';
 
 loadTranslations().then(() => {
   ReactDOM.createRoot(document.getElementById('root')).render(

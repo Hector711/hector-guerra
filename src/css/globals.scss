@@ -2,9 +2,8 @@
 :root {
   background: linear-gradient(
     45grad,
-    #221f1a,
-    #111316,
-    #111316
+    #000000,
+    #0a0a0a
   );
   color: $white-1;
 }
@@ -19,7 +18,7 @@ h1 {
   font-family: 'Black Crow Extra Light', 'Havelock Titling', 'Researcher',
     'Lexend Zetta Variable';
   letter-spacing: 0.15rem !important;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #bababa;
   text-transform: uppercase;
 }

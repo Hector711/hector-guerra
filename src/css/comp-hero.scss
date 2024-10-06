@@ -3,7 +3,10 @@ div.hero {
   flex-direction: column;
   margin-block: 60px 160px;
   align-items: center;
-  width: 650px;
+  width: $width;
+  * {
+    // border: 1px solid $white-1;
+  }
 }
 
 header.hero {
@@ -11,20 +14,18 @@ header.hero {
   flex-direction: column;
   align-items: center;
   h2 {
-    font-family: 'Lexend Exa Variable';
-    font-size: 2.2rem;
-    letter-spacing: -0.1rem !important;
-    font-weight: 200;
+    font-family: 'Articulat CF';
+    font-size: 2.8rem;
     display: flex;
-    margin-bottom: 20px;
-    padding: 10px;
+    font-weight: 600;
+    // font-style: oblique;
     text-align: center;
-    @include text-gradient-color;
+    // @include text-gradient-color;
   }
 }
 .calendly-badge-content {
   display: flex !important;
-  justify-content: center !important; 
+  justify-content: center !important;
   align-items: center !important;
   position: relative;
   background-color: $black-1;
@@ -41,52 +42,25 @@ header.hero {
 }
 
 section.hero.about {
-  
-  h4 {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // border: 1px solid $white-1;
+  div#video {
+    background-color: #06060b;
+    width: 800px;
+    height: 400px;
   }
-  div.social-links-container {
+  h4 {
+    font-family: 'Articulat CF';
+    font-size: 2rem;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 30px;
-    margin-block: 2rem;
-    .social-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 25px;
-      height: 25px;
-      .icons-fill {
-        color: white;
-        fill: $white-1;
-      }
-      #mail,
-      #x {
-        stroke: $white-1;
-      }
-      #whatsapp-icon {
-        margin-block: auto;
-      }
-    }
-    .icons {
-      filter: drop-shadow(2px 2px 2px #000000);
-    }
-    .social-links:hover {
-      transition: all 0.3s ease-in-out;
-      .icons-fill {
-        fill: $orange-0;
-        transition: fill 0.3s ease-in-out;
-      }
-      #x {
-        path {
-          stroke: $orange-0;
-          transition: stroke 0.3s ease-in-out;
-        }
-      }
-    }
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 400;
+    // font-style: oblique;
+    text-align: center;
+    // @include text-gradient-color;
   }
 }
 #mail:hover {
@@ -119,4 +93,3 @@ footer.hero {
   background-color: white;
   // width: max-content;
 }
-

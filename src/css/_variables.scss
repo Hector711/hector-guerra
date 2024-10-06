@@ -23,19 +23,36 @@ $color-calendly: #3362a3;
 $color-youtube: #a33333;
 
 /* BORDES */
-$border-s: 5px;
+$border-s: 4px;
 $border-m: 10px;
 $border-l: 30px;
 
 @mixin gradient-color {
-  background: linear-gradient(20deg, #c6c6c6, #bababa, #775f4a, #ffa455, $orange-0);
+  background: linear-gradient(20deg, #efecec, #d0d0d0, #a88669, #ec8533, $orange-0);
+}
+@mixin gradient-color-special {
+  background: linear-gradient(10deg, 
+    #696969,  
+    #ec8533, 
+    #fb7202, 
+  );
 }
 @mixin text-gradient-color {
   width: max-content;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   @include gradient-color;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@mixin text-gradient-color-special {
+  width: max-content;
+  // text-transform: uppercase;
+  @include gradient-color-special;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-
+span.special {
+  // color: $orange-0;
+  @include text-gradient-color-special;
+}

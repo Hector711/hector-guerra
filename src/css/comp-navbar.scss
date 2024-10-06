@@ -23,7 +23,7 @@ nav {
 }
 .nav-buttons {
   border-radius: 8px;
-  height: 40px;
+  height: auto;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
@@ -33,34 +33,10 @@ nav {
   transition: border- 0.25s;
 }
 #cv-button {
-  border-radius: 8px;
-  padding: 0 1.2em;
+  padding: 7px 15px;
+  border-radius: $border-l;
   font-size: 1em;
   font-weight: 500;
   color: $color-dark-2;
   background-color: $white-1;
-}
-#right-nav-container {
-  #inter-button {
-    padding: 0 1em;
-  }
-  #dark-mode-toggle {
-    display: inline-block;
-    cursor: pointer;
-    transition: transform 0.8s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-  }
-  input[type='checkbox'] {
-    display: none;
-  }
-  input[type='checkbox']:checked + label {
-    transform: rotate(360deg);
-  }
-  .nav-icons {
-    width: 30px;
-    height: 30px;
-  }
 }
