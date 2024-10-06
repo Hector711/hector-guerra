@@ -7,20 +7,16 @@ import { PortfolioProvider } from '@/context/PortfolioContext.jsx';
 
 export default function App() {
   return (
-
-      <PortfolioProvider>
-        <HashRouter>
-          <Navbar />
-          <main
-          className="animate-fade-in-up"
-          >
-            <Routes>
-              <Route path='/' element={<Home />} />
-            </Routes>
-          </main>
-          <Footer />
-        </HashRouter>
-      </PortfolioProvider>
-
+    <PortfolioProvider>
+      <HashRouter>
+        <Navbar />
+        <main className='animate-fade-in-up'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+          </Routes>
+        </main>
+        <Footer />
+      </HashRouter>
+    </PortfolioProvider>
   );
 }

@@ -1,41 +1,41 @@
 div.social-links-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  margin-block: 2rem;
+  .social-links {
     display: flex;
     justify-content: center;
-    width: 100%;
-    gap: 30px;
-    margin-block: 2rem;
-    .social-links {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 25px;
-      height: 25px;
-      .icons-fill {
-        color: white;
-        fill: $white-1;
-      }
-      #mail,
-      #x {
-        stroke: $white-1;
-      }
-      #whatsapp-icon {
-        margin-block: auto;
-      }
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    .icons-fill {
+      color: white;
+      fill: $white-1;
     }
-    .icons {
-      filter: drop-shadow(2px 2px 2px #000000);
+    #mail,
+    #x {
+      stroke: $white-1;
     }
-    .social-links:hover {
-      transition: all 0.3s ease-in-out;
-      .icons-fill {
-        fill: $orange-0;
-        transition: fill 0.3s ease-in-out;
-      }
-      #x {
-        path {
-          stroke: $orange-0;
-          transition: stroke 0.3s ease-in-out;
-        }
+    #whatsapp-icon {
+      margin-block: auto;
+    }
+  }
+  .icons {
+    filter: drop-shadow(2px 2px 2px #000000);
+  }
+  .social-links:hover {
+    transition: all 0.3s ease-in-out;
+    .icons-fill {
+      fill: $orange-0;
+      transition: fill 0.3s ease-in-out;
+    }
+    #x {
+      path {
+        stroke: $orange-0;
+        transition: stroke 0.3s ease-in-out;
       }
     }
   }
+}

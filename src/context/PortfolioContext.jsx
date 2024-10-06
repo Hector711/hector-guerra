@@ -14,7 +14,6 @@ export function PortfolioProvider({ children }) {
   // const [sectionRef, setSectionRef] = useState([]);
 
   const sectionRef = useRef(null);
- 
 
   return (
     <PortfolioContext.Provider value={{ sectionRef }}>

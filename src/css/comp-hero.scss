@@ -1,7 +1,7 @@
 div.hero {
   display: flex;
   flex-direction: column;
-  margin-block: 60px 160px;
+  margin-block: 100px 70px;
   align-items: center;
   width: $width;
   * {
@@ -15,30 +15,11 @@ header.hero {
   align-items: center;
   h2 {
     font-family: 'Articulat CF';
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     display: flex;
     font-weight: 600;
-    // font-style: oblique;
     text-align: center;
-    // @include text-gradient-color;
   }
-}
-.calendly-badge-content {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  position: relative;
-  background-color: $black-1;
-  border-radius: 40px;
-}
-.calendly-badge-content:after {
-  content: '';
-  position: absolute;
-  height: 108%;
-  width: 102%;
-  z-index: -999;
-  border-radius: 40px;
-  @include gradient-color;
 }
 
 section.hero.about {
@@ -46,10 +27,19 @@ section.hero.about {
   flex-direction: column;
   align-items: center;
   // border: 1px solid $white-1;
-  div#video {
+  div#video-vsl {
     background-color: #06060b;
     width: 800px;
     height: 400px;
+    figure.video-container {
+      width: 100%;
+      height: 100%;
+      iframe.video {
+        width: 100%;
+        height: 100%;
+        background-color: red;
+      }
+    }
   }
   h4 {
     font-family: 'Articulat CF';
@@ -81,6 +71,15 @@ footer.hero {
   margin-bottom: 130px;
   #arrow-down-icon {
     width: 80px;
+  }
+  #contact-btn {
+    background-color: $orange-0;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $black-1;
   }
 }
 

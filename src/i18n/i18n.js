@@ -25,24 +25,48 @@ export async function loadTranslations() {
       translations: {
         book_a_call: 'Book a call',
       },
-      basics: (({ id, lng, ...rest }) => rest)(dataSupabase.basics.find(item => item.lng === 'EN')),
-      education: dataSupabase.education.filter(item => item.lng === 'EN').map(({ id, lng, ...rest }) => rest),
-      languages: dataSupabase.languages.filter(item => item.lng === 'EN').map(({ id, lng, ...rest }) => rest),
-      profiles: dataSupabase.profiles.filter(item => item.lng === 'EN').map(({ id, lng, ...rest }) => rest),
-      projects: dataSupabase.projects.filter(item => item.lng === 'EN').map(({ id, lng, ...rest }) => rest),
-      work: dataSupabase.work.filter(item => item.lng === 'EN').map(({ id, lng, ...rest }) => rest),
+      basics: (({ id, lng, ...rest }) => rest)(
+        dataSupabase.basics.find(item => item.lng === 'EN'),
+      ),
+      education: dataSupabase.education
+        .filter(item => item.lng === 'EN')
+        .map(({ id, lng, ...rest }) => rest),
+      languages: dataSupabase.languages
+        .filter(item => item.lng === 'EN')
+        .map(({ id, lng, ...rest }) => rest),
+      profiles: dataSupabase.profiles
+        .filter(item => item.lng === 'EN')
+        .map(({ id, lng, ...rest }) => rest),
+      projects: dataSupabase.projects
+        .filter(item => item.lng === 'EN')
+        .map(({ id, lng, ...rest }) => rest),
+      work: dataSupabase.work
+        .filter(item => item.lng === 'EN')
+        .map(({ id, lng, ...rest }) => rest),
     },
     ES: {
       translations: {
         book_a_call: 'Programa una reunión conmigo',
       },
-      basics: (({ id, lng, ...rest }) => rest)(dataSupabase.basics.find(item => item.lng === 'ES')),
-      education: dataSupabase.education.filter(item => item.lng === 'ES').map(({ id, lng, ...rest }) => rest),
-      languages: dataSupabase.languages.filter(item => item.lng === 'ES').map(({ id, lng, ...rest }) => rest),
-      profiles: dataSupabase.profiles.filter(item => item.lng === 'ES').map(({ id, lng, ...rest }) => rest),
-      projects: dataSupabase.projects.filter(item => item.lng === 'ES').map(({ id, lng, ...rest }) => rest),
-      work: dataSupabase.work.filter(item => item.lng === 'ES').map(({ id, lng, ...rest }) => rest),
-    }
+      basics: (({ id, lng, ...rest }) => rest)(
+        dataSupabase.basics.find(item => item.lng === 'ES'),
+      ),
+      education: dataSupabase.education
+        .filter(item => item.lng === 'ES')
+        .map(({ id, lng, ...rest }) => rest),
+      languages: dataSupabase.languages
+        .filter(item => item.lng === 'ES')
+        .map(({ id, lng, ...rest }) => rest),
+      profiles: dataSupabase.profiles
+        .filter(item => item.lng === 'ES')
+        .map(({ id, lng, ...rest }) => rest),
+      projects: dataSupabase.projects
+        .filter(item => item.lng === 'ES')
+        .map(({ id, lng, ...rest }) => rest),
+      work: dataSupabase.work
+        .filter(item => item.lng === 'ES')
+        .map(({ id, lng, ...rest }) => rest),
+    },
   };
 
   Object.keys(i18nResources).forEach(lang => {
@@ -50,5 +74,4 @@ export async function loadTranslations() {
       i18n.addResourceBundle(lang, ns, i18nResources[lang][ns], true, true);
     });
   });
-
 }

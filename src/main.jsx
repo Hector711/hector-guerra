@@ -27,6 +27,7 @@ import '@/css/comp-footer.scss';
 import '@/css/comp-language.scss';
 import '@/css/themes/dark-theme.scss';
 import '@/css/comp-social-links.scss';
+import '@/css/section-las3claves.scss';
 
 loadTranslations().then(() => {
   ReactDOM.createRoot(document.getElementById('root')).render(
@@ -37,6 +38,3 @@ loadTranslations().then(() => {
     </React.StrictMode>,
   );
 });
-
-
-

@@ -1,11 +1,8 @@
 import React, { useEffect } from 'react';
 import Hero from '@/sections/Hero';
-// import SkillsSection from '@/sections/SkillsSection';
-import NeoSection from '@/sections/NeoSection';
-import N3uralabSection from '@/sections/N3uralabSection';
 import { useTranslation } from 'react-i18next';
 import { Toaster } from 'react-hot-toast';
-
+import Las3Claves from '@/sections/Las3Claves';
 export default function Home() {
   const { t } = useTranslation();
   useEffect(() => {
@@ -19,7 +16,7 @@ export default function Home() {
     script.async = true;
     script.onload = () => {
       Calendly.initBadgeWidget({
-        url: 'https://calendly.com/hector-guerra/llamada-1-a-1',
+        url: 'https://calendly.com/hector-guerra/asesoria-sobre-ia',
         text: t('translations:book_a_call'),
         branding: undefined,
       });
@@ -29,18 +26,18 @@ export default function Home() {
 
   return (
     <>
-    <Toaster
-            position='bottom-left'
-            reverseOrder={false}
-            containerClassName='toasts-container'
-            toastOptions={{
-              className: 'toasts',
-            }}
-          />
+      {/* No es necesario incluir <link> y <script> aquí, ya que se manejan en useEffect */}
+
+      <Toaster
+        position='bottom-left'
+        reverseOrder={false}
+        containerClassName='toasts-container'
+        toastOptions={{
+          className: 'toasts',
+        }}
+      />
       <Hero />
-      <N3uralabSection />
-      <NeoSection  />
-      {/* <SkillsSection className="animate-fade-in-up"/> */}
+      <Las3Claves />
     </>
   );
 }

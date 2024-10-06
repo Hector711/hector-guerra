@@ -4,7 +4,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  position: fixed;
+  backdrop-filter: blur(15px);
+  background-color: #0e0e0e50;
+  z-index: 100;
   #nav-container {
     width: 100%;
     max-width: $width;
