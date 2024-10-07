@@ -111,7 +111,7 @@ section.model {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  section.model {
+  section.model, section.model-intersection {
     animation: fade-in ease forwards;
     animation-timeline: view();
     animation-range-start: 0px;

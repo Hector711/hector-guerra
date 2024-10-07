@@ -5,9 +5,14 @@ import { Toaster } from 'react-hot-toast';
 import Las3Claves from '@/app/home/sections/Las3Claves';
 import ProductosEstrella from '@/app/home/sections/ProductosEstrella';
 import HerramientasGratuitas from '@/app/home/sections/HerramientasGratuitas';
+import Inter1 from '@/app/home/sections/Inter1';
+import Inter2 from '@/app/home/sections/Inter2';
+import Inter3 from '@/app/home/sections/Inter3';
+import Inter4 from '@/app/home/sections/Inter4';
 import Testimonios from '@/app/home/sections/Testimonios';
+import FAQ from '@/app/home/sections/FAQ';
 
-export default function Home() {
+export default function HomePage() {
   const { t } = useTranslation();
   useEffect(() => {
     const link = document.createElement('link');
@@ -30,8 +35,6 @@ export default function Home() {
 
   return (
     <>
-      {/* No es necesario incluir <link> y <script> aquí, ya que se manejan en useEffect */}
-
       <Toaster
         position='bottom-left'
         reverseOrder={false}
@@ -42,9 +45,14 @@ export default function Home() {
       />
       <Hero />
       <Las3Claves />
+      <Inter1 />
       <ProductosEstrella />
-      <HerramientasGratuitas />
+      <Inter2 />
       <Testimonios />
+      <Inter3 />
+      <HerramientasGratuitas />
+      <Inter4 />
+      <FAQ />
     </>
   );
 }
