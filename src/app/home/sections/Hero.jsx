@@ -29,8 +29,8 @@ export default function Hero() {
         <YouTubeVideo url='https://www.youtube.com/embed/dQw4w9WgXcQ?si=Z5Z5Z5Z5Z5Z5Z5Z5' />
       </figure>
       <p className='caption'>
-        No necesitas ser un experto en IA,
-        yo lo hago por ti con soluciones a medida.
+        No necesitas ser un experto en IA, yo lo hago por ti con soluciones a
+        medida.
       </p>
       <a
         id='contact-btn'

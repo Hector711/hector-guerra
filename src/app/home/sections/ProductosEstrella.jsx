@@ -1,7 +1,6 @@
 import React from 'react';
 import Section from '@/components/Section';
 
-
 const LAS3CLAVES = [
   {
     title: 'Chatbots con IA ',
@@ -13,27 +12,29 @@ const LAS3CLAVES = [
   },
   {
     title: 'CRM de ventas con IA',
-    quote: '“Si la estructura no se adapta, el crecimiento se vuelve insostenible.”',
+    quote:
+      '“Si la estructura no se adapta, el crecimiento se vuelve insostenible.”',
     description:
       ' con un Sistema a Prueba de Crecimiento Implementa sistemas que soporten cada fase de crecimiento sin comprometer la eficiencia.',
     icon: '',
   },
   {
     title: 'Menús digitales dinamicos',
-    quote: '“La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto."',
+    quote:
+      '“La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto."',
     description:
       'Identifica patrones de comportamiento en la competencia y sé el pionero en adoptar cambios.',
     icon: '',
   },
   {
     title: 'Menús digitales dinamicos',
-    quote: '“La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto."',
+    quote:
+      '“La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto."',
     description:
       'Identifica patrones de comportamiento en la competencia y sé el pionero en adoptar cambios.',
     icon: '',
   },
 ];
-
 
 export default function ProductosEstrella() {
   return (
@@ -55,6 +56,3 @@ export default function ProductosEstrella() {
     </Section>
   );
 }
-
-
-

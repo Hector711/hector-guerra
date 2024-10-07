@@ -6,5 +6,5 @@ export default function Contacto() {
     <Section title='Contacto' id='contacto'>
       <div>Contacto</div>
     </Section>
-  )
+  );
 }

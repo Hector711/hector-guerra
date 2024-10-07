@@ -6,5 +6,5 @@ export default function Precios() {
     <Section title='Precios' id='precios'>
       <div>Precios</div>
     </Section>
-  )
+  );
 }

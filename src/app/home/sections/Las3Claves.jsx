@@ -13,19 +13,24 @@ const LAS3CLAVES = [
   },
   {
     title: 'Multiplica Tus Beneficios',
-    quote: '“Si la estructura no se adapta, el crecimiento se vuelve insostenible.”',
+    quote:
+      '“Si la estructura no se adapta, el crecimiento se vuelve insostenible.”',
     icon: <MoneyIcon />,
   },
   {
     title: 'Gana a la Competencia',
-    quote: '“La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto."',
+    quote:
+      '“La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto."',
     icon: <WinnerIcon />,
   },
 ];
 
 export default function Las3Claves() {
   return (
-    <Section title='IA: El Secreto para Resultados Exponenciales' id='las3claves'>
+    <Section
+      title='IA: El Secreto para Resultados Exponenciales'
+      id='las3claves'
+    >
       <ul id='claves-container'>
         {LAS3CLAVES.map(({ title, quote, description, icon }, index) => {
           return (

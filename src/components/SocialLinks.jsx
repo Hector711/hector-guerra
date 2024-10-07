@@ -60,21 +60,19 @@ export default function SocialLinks() {
       {profiles.map(({ network, username, url }) => {
         const Icon = SocialIcons[network];
         if (url === null) {
-          return (
-            <></>
-          ) 
+          return <></>;
         } else {
-        return (
-          <a
-            key={network}
-            href={url}
-            title={`Visitar el perfil de ${username} en ${network}`}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='social-links'
-          >
-            <Icon />
-          </a>
+          return (
+            <a
+              key={network}
+              href={url}
+              title={`Visitar el perfil de ${username} en ${network}`}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='social-links'
+            >
+              <Icon />
+            </a>
           );
         }
       })}

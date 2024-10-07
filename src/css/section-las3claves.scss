@@ -10,7 +10,7 @@ ul#claves-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  
+
   article.claves-card {
     background: blur(8px);
     background-color: #1c1c1c86;

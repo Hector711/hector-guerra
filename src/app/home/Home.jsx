@@ -45,7 +45,6 @@ export default function Home() {
       <ProductosEstrella />
       <HerramientasGratuitas />
       <Testimonios />
-
     </>
   );
 }
