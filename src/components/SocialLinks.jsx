@@ -60,7 +60,7 @@ export default function SocialLinks() {
       {profiles.map(({ network, username, url }) => {
         const Icon = SocialIcons[network];
         if (url === null) {
-          return <></>;
+          return null;
         } else {
           return (
             <a
