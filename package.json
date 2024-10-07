@@ -12,6 +12,8 @@
     "format": "prettier --write ./src"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@fontsource-variable/gabarito": "^5.1.0",
     "@fontsource-variable/lexend-exa": "^5.1.0",
     "@fontsource-variable/lexend-mega": "^5.1.0",
@@ -19,6 +21,8 @@
     "@fontsource-variable/onest": "^5.1.0",
     "@fontsource/krona-one": "^5.1.0",
     "@midudev/tailwind-animations": "^0.0.7",
+    "@mui/icons-material": "^6.1.2",
+    "@mui/material": "^6.1.2",
     "@pixelpay/fonts": "^1.1.1",
     "@supabase/supabase-js": "^2.45.4",
     "i18next": "^23.15.2",

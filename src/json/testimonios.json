@@ -8,5 +8,15 @@
     "name": "Maria Gomez",
     "quote": "Muy buena atención, el producto es excelente",
     "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Carlos Rodriguez",
+    "quote": "El equipo de desarrollo es muy profesional y eficiente",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Ana Lopez",
+    "quote": "La calidad del servicio es excelente, recomiendo ampliamente",
+    "image": "https://via.placeholder.com/150"
   }
 ]

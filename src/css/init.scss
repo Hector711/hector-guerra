@@ -169,3 +169,11 @@ section.model-intersection {
   border-radius: 40px;
   @include gradient-color;
 }
+
+
+.MuiPaper-root, .MuiPaper-elevation, .MuiPaper-elevation0, .MuiAccordion-root, .Mui-expanded, .css-rmvv3r-MuiPaper-root-MuiAccordion-root {
+  background-color: $black-0 !important;
+  color: $white-2 !important;
+  stroke: $white-2 !important;
+  border: 1px solid $white-2 !important;
+}
