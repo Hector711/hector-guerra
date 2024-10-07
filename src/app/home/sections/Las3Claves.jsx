@@ -6,7 +6,7 @@ import MoneyIcon from '@/assets/MoneyIcon';
 
 const LAS3CLAVES = [
   {
-    title: 'Ahorra Tiempo ',
+    title: 'Ahorra Tiempo',
     quote:
       '“Imagina un día donde te enfoques solo en lo que realmente importa.”',
     icon: <TimeIcon />,

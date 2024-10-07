@@ -9,7 +9,7 @@ export default function App() {
   return (
     <PortfolioProvider>
       <HashRouter>
-        <Navbar />
+        <Navbar className='animate-fade-in-down animate-delay-100 animate-duration-400' />
         <main className='animate-fade-in-up animate-delay-300 animate-duration-900'>
           <Routes>
             <Route path='/' element={<HomePage />} />

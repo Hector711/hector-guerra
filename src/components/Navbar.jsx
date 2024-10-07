@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-export default function Navbar() {
+export default function Navbar({ className }) {
   const { t, i18n } = useTranslation();
 
   const language = i18n.language;
 
   const basics = i18n.getResourceBundle(language, 'basics');
   return (
-    <nav>
+    <nav className={className}>
       <div id='nav-container' className='flex justify-between items-center'>
         <div
           className='flex justify-center items-center gap-5'

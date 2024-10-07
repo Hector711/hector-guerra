@@ -123,11 +123,13 @@ section.model {
       // scale: .8;
       opacity: 0;
       transform: translateY(200px);
+      // transform: translateX(200px);
     }
     to {
       // scale: 1 ;
       opacity: 1;
       transform: translateY(0px);
+      // transform: translateX(0px);
     }
   }
 }

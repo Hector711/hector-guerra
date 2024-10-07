@@ -5,11 +5,12 @@ import { Toaster } from 'react-hot-toast';
 import Las3Claves from '@/app/home/sections/Las3Claves';
 import ProductosEstrella from '@/app/home/sections/ProductosEstrella';
 import HerramientasGratuitas from '@/app/home/sections/HerramientasGratuitas';
-import Inter1 from '@/app/home/sections/Inter1';
-import Inter2 from '@/app/home/sections/Inter2';
-import Inter3 from '@/app/home/sections/Inter3';
-import Inter4 from '@/app/home/sections/Inter4';
+import Interseccion1 from '@/app/home/sections/Interseccion1';
+import Interseccion2 from '@/app/home/sections/Interseccion2';
+import Interseccion3 from '@/app/home/sections/Interseccion3';
+import Interseccion4 from '@/app/home/sections/Interseccion4';
 import Testimonios from '@/app/home/sections/Testimonios';
+import Equipo from '@/app/home/sections/Equipo';
 import FAQ from '@/app/home/sections/FAQ';
 
 export default function HomePage() {
@@ -45,13 +46,14 @@ export default function HomePage() {
       />
       <Hero />
       <Las3Claves />
-      <Inter1 />
+      <Interseccion1 />
       <ProductosEstrella />
-      <Inter2 />
+      <Interseccion2 />
       <Testimonios />
-      <Inter3 />
+      <Interseccion3 />
+      <Equipo />
       <HerramientasGratuitas />
-      <Inter4 />
+      <Interseccion4 />
       <FAQ />
     </>
   );
