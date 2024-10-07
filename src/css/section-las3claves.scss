@@ -1,25 +1,42 @@
-section#las3claves {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
+// section#las3claves {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+//   gap: 2rem;
+// }
 ul#claves-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 2rem;
+  
   article.claves-card {
     background: blur(8px);
-    background-color: #2e2e2e86;
+    background-color: #1c1c1c86;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     border-radius: $border-m;
-    padding: 1rem;
+    padding: 2rem 1.5rem;
+    height: 250px;
+    .icons {
+      width: 4rem;
+      height: 4rem;
+      stroke: $orange-0;
+    }
     h4 {
-      font-size: 1rem;
+      font-size: 1.1rem;
       font-weight: 600;
+    }
+    hr {
+      width: 100%;
+      border: 0.5px solid $white-2;
+    }
+    p {
+      font-style: italic;
+      font-size: 0.8rem;
+      margin-block: auto;
     }
   }
 }

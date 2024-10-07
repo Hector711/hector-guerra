@@ -98,13 +98,21 @@ section#skills-section {
 }
 
 section.model {
-  max-width: $width;
+
   width: 100%;
   margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  margin-inline: $margin-inline;
+    max-width: $width-mini
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  section {
+  section.model {
     animation: fade-in ease forwards;
     animation-timeline: view();
     animation-range-start: 0px;

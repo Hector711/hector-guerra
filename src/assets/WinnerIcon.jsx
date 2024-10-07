@@ -7,6 +7,7 @@ export default function WinnerIcon(props) {
       stroke='currentColor'
       strokeWidth={1.8}
       viewBox='0 0 64 64'
+      className='icons'
       {...props}
     >
       <path d='M16.9 10.79H47a.29.29 0 01.29.28c.11 2.61.51 22.87-13 28.77v7.58H29.7v-7.58S17 35.21 16.6 11.1a.3.3 0 01.3-.31z' />

@@ -30,9 +30,11 @@ export default function SocialLinks() {
     navigator.clipboard.writeText(email);
   };
 
+  const emailNotAvailable = t('basics:email') === 'email';
+
   return (
     <div className='social-links-container'>
-      {t('basics:email') && (
+      {!emailNotAvailable && (
         <>
           <button
             title={`Copiar email al portapapeles`}
@@ -57,6 +59,11 @@ export default function SocialLinks() {
 
       {profiles.map(({ network, username, url }) => {
         const Icon = SocialIcons[network];
+        if (url === null) {
+          return (
+            <></>
+          ) 
+        } else {
         return (
           <a
             key={network}
@@ -68,7 +75,8 @@ export default function SocialLinks() {
           >
             <Icon />
           </a>
-        );
+          );
+        }
       })}
     </div>
   );

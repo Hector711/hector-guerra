@@ -1,4 +1,6 @@
 $width: 1200px;
+$width-mini: 1000px;
+$margin-inline: 2rem;
 /* COLORES */
 $white-0: #ffffff;
 $white-1: #d6d6d6;
@@ -22,6 +24,7 @@ $color-red-0: #337dec;
 $color-calendly: #3362a3;
 $color-youtube: #a33333;
 
+$nav-height: 5rem;
 /* BORDES */
 $border-s: 4px;
 $border-m: 10px;
@@ -38,7 +41,7 @@ $border-l: 30px;
   );
 }
 @mixin gradient-color-special {
-  background: linear-gradient(10deg, #696969, #ec8533, #fb7202);
+  background: linear-gradient(5deg, #ffffff, #e99a6c, $orange-0, $orange-0);
 }
 @mixin text-gradient-color {
   width: max-content;
