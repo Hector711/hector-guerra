@@ -1,10 +1,12 @@
 import React from 'react';
-import Intersection from '@/components/Intersection';
+import InterSection from '@/components/InterSection';
+import quotes from '@public/json/quotes.json';
 
-export default function Inter3() {
+
+export default function Interseccion1() {
   return (
-    <Intersection id='inter3'>
-      <div>Inter3</div>
-    </Intersection>
+    <InterSection id='inter3'>
+      <p>{quotes.quote3}</p>
+      </InterSection>
   );
 }

@@ -100,27 +100,28 @@ section#skills-section {
 
 section.model {
   width: 100%;
-  // margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   gap: 2rem;
-  // margin-inline: $margin-inline;
   max-width: $width-mini;
 }
 section.model-intersection {
-  border: 1px solid $white-2;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 2rem;
   max-width: $width-mini;
+  width: 100%;
+  gap: 7rem;
   margin-block: 90px;
+  // border: 1px solid $white-2;
+  * {
+    // border: 1px solid red;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -129,14 +130,14 @@ section.model-intersection {
     animation: fade-in ease forwards;
     animation-timeline: view();
     animation-range-start: 0px;
-    animation-range-end: 900px;
+    animation-range-end: 500px;
   }
 
   @keyframes fade-in {
     from {
       // scale: .8;
       opacity: 0;
-      transform: translateY(200px);
+      transform: translateY(400px);
       // transform: translateX(200px);
     }
     to {

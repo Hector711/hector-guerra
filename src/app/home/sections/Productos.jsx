@@ -36,7 +36,7 @@ const LAS3CLAVES = [
   },
 ];
 
-export default function ProductosEstrella() {
+export default function Productos() {
   return (
     <Section title='Productos Estrella' id='productos-estrella'>
       <ul id='claves-container'>

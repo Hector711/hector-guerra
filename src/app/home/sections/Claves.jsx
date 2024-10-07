@@ -11,7 +11,7 @@ const ICONS = {
   WinnerIcon: <WinnerIcon />,
 };
 
-export default function Las3Claves() {
+export default function Claves() {
   return (
     <Section
       title='El verdadero poder de la IA'

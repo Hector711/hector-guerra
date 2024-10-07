@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import Hero from '@/app/home/sections/Hero';
 import { useTranslation } from 'react-i18next';
 import { Toaster } from 'react-hot-toast';
-import Las3Claves from '@/app/home/sections/Las3Claves';
-import ProductosEstrella from '@/app/home/sections/ProductosEstrella';
-import HerramientasGratuitas from '@/app/home/sections/HerramientasGratuitas';
+import Claves from '@/app/home/sections/Claves';
+import Productos from '@/app/home/sections/Productos';
+import HerramientasGratuitas from '@/app/home/sections/Herramientas';
 import Interseccion1 from '@/app/home/sections/Interseccion1';
 import Interseccion2 from '@/app/home/sections/Interseccion2';
 import Interseccion3 from '@/app/home/sections/Interseccion3';
@@ -47,9 +47,9 @@ export default function HomePage() {
         }}
       />
       <Hero />
-      <Las3Claves />
+      <Claves />
       <Interseccion1 />
-      <ProductosEstrella />
+      <Productos />
       <Interseccion2 />
       <Testimonios />
       <Interseccion3 />
