@@ -1,22 +1,19 @@
 [
   {
-    "name": "Juan Perez",
+    "name": "Álvaro Molina",
+    "business": "CEO de PBS",
     "quote": "Excelente servicio, muy recomendable",
     "image": "https://via.placeholder.com/150"
   },
   {
-    "name": "Maria Gomez",
+    "name": "Jesus Walva",
+    "business": "CEO de Walva",
     "quote": "Muy buena atención, el producto es excelente",
     "image": "https://via.placeholder.com/150"
   },
   {
-    "name": "Carlos Rodriguez",
+    "name": "",
     "quote": "El equipo de desarrollo es muy profesional y eficiente",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "name": "Ana Lopez",
-    "quote": "La calidad del servicio es excelente, recomiendo ampliamente",
     "image": "https://via.placeholder.com/150"
   }
 ]

@@ -55,8 +55,8 @@ export default function HomePage() {
       <Interseccion3 />
       <Equipo />
       <Interseccion4 />
-      <HerramientasGratuitas />
-      <Interseccion5 />
+      {/* <HerramientasGratuitas /> */}
+      {/* <Interseccion5 /> */}
       <FAQ />
   
     </>

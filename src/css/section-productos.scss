@@ -1,0 +1,83 @@
+#productos-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+article.products-card {
+  background-color: $black-1;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  svg.icons {
+    width: 1.5rem;
+    height: auto;
+  }
+  svg.icons-fill {
+    fill: $main-0;
+  }
+  svg#robot {
+    stroke: $main-0;
+  }
+
+  svg#notion-icon {
+    path {
+      fill: $main-0;
+    }
+  }
+
+  div.icons-container {
+    border: 1px solid $main-0;
+    border-radius: 50%;
+    padding: 0.5rem;
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #openai-icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      // border: 1px solid $main-0;
+      border-radius: 50%;
+
+      width: max-content;
+      height: max-content;
+      padding-top: 0.9rem;
+      #openai {
+        width: 3rem;
+        height: auto;
+      }
+    }
+
+    .items-circle {
+      position: absolute;
+      background-color: $black-1;
+      border-radius: 50%;
+      padding: 0.5rem;
+    }
+    #whatsapp-icon {
+      top: -20px;
+    }
+    #instagram-icon {
+      right: -20px;
+    }
+    #facebook-icon {
+      left: -20px;
+    }
+  }
+}
