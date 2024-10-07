@@ -15,7 +15,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+/**
+* Havelock Titling
+*/ 
 @font-face {
   font-family: 'Havelock Titling';
   src: url('../fonts/Havelock_Titling_Family/Havelock Titling Family/XO, Pretty - Havelock Titling Black.otf')
@@ -87,6 +89,9 @@
   font-weight: 500;
   font-style: normal;
 }
+/*
+* ARTICULAT CF  Oblique
+*/
 @font-face {
   font-family: 'Articulat CF Medium Oblique';
   src: url('../fonts/articulat-cf/articulatcf-medium-oblique.otf')
@@ -95,6 +100,9 @@
   font-style: oblique;
 }
 
+/*
+* ARTICULAT CF 
+*/
 @font-face {
   font-family: 'Europa Grotesk';
   src: url('../fonts/europa-grotesk-sh/europa-grotesk-sh-med.otf')
@@ -206,6 +214,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-bottom: 300px;
 }
 
 main {

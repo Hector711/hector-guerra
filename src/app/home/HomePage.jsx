@@ -9,9 +9,11 @@ import Interseccion1 from '@/app/home/sections/Interseccion1';
 import Interseccion2 from '@/app/home/sections/Interseccion2';
 import Interseccion3 from '@/app/home/sections/Interseccion3';
 import Interseccion4 from '@/app/home/sections/Interseccion4';
+import Interseccion5 from '@/app/home/sections/Interseccion5';
 import Testimonios from '@/app/home/sections/Testimonios';
 import Equipo from '@/app/home/sections/Equipo';
 import FAQ from '@/app/home/sections/FAQ';
+import Footer from '@/components/Footer';
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -52,9 +54,11 @@ export default function HomePage() {
       <Testimonios />
       <Interseccion3 />
       <Equipo />
-      <HerramientasGratuitas />
       <Interseccion4 />
+      <HerramientasGratuitas />
+      <Interseccion5 />
       <FAQ />
+  
     </>
   );
 }

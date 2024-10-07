@@ -29,7 +29,6 @@ span.special {
   @include text-gradient-color-special;
 }
 
-
 h5 {
   font-size: 1.1rem;
   margin-bottom: 10px;
@@ -101,15 +100,27 @@ section#skills-section {
 
 section.model {
   width: 100%;
-  margin-bottom: 200px;
+  // margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   gap: 2rem;
-  margin-inline: $margin-inline;
+  // margin-inline: $margin-inline;
   max-width: $width-mini;
+}
+section.model-intersection {
+  border: 1px solid $white-2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  max-width: $width-mini;
+  margin-block: 90px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
