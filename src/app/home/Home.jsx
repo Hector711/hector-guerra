@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
-import Hero from '@/sections/Hero';
+import Hero from '@/app/home/sections/Hero';
 import { useTranslation } from 'react-i18next';
 import { Toaster } from 'react-hot-toast';
-import Las3Claves from '@/sections/Las3Claves';
-import ProductosEstrella from '@/sections/ProductosEstrella';
+import Las3Claves from '@/app/home/sections/Las3Claves';
+import ProductosEstrella from '@/app/home/sections/ProductosEstrella';
+import HerramientasGratuitas from '@/app/home/sections/HerramientasGratuitas';
+import Testimonios from '@/app/home/sections/Testimonios';
+
 export default function Home() {
   const { t } = useTranslation();
   useEffect(() => {
@@ -40,6 +43,9 @@ export default function Home() {
       <Hero />
       <Las3Claves />
       <ProductosEstrella />
+      <HerramientasGratuitas />
+      <Testimonios />
+
     </>
   );
 }

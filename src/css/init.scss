@@ -1,7 +1,7 @@
 @import '_variables.scss';
 :root {
   background: linear-gradient(45grad, #030303, #0e0e0e);
-  color: $white-1;
+  color: $white-0;
 }
 html {
   font-family: 'Onest Variable', 'Gabarito Variable', 'Open Sans',
@@ -13,9 +13,9 @@ html {
 h1 {
   font-family: 'Black Crow Extra Light', 'Havelock Titling', 'Researcher',
     'Lexend Zetta Variable';
-  letter-spacing: 0.15rem !important;
+  letter-spacing: 0.20rem !important;
   font-size: 1.5rem;
-  color: #bababa;
+
   text-transform: uppercase;
 }
 h2 {
@@ -98,7 +98,6 @@ section#skills-section {
 }
 
 section.model {
-
   width: 100%;
   margin-bottom: 200px;
   display: flex;
@@ -108,7 +107,7 @@ section.model {
   width: 100%;
   gap: 2rem;
   margin-inline: $margin-inline;
-    max-width: $width-mini
+  max-width: $width-mini;
 }
 
 @media (prefers-reduced-motion: no-preference) {

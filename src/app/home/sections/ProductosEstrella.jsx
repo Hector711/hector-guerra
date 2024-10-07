@@ -37,7 +37,7 @@ const LAS3CLAVES = [
 
 export default function ProductosEstrella() {
   return (
-    <Section title='Nuestros Productos estrella' id='productos-estrella'>
+    <Section title='Productos Estrella' id='productos-estrella'>
       <ul id='claves-container'>
         {LAS3CLAVES.map(({ title, quote, icon }, index) => {
           return (

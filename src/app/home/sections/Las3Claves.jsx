@@ -25,7 +25,7 @@ const LAS3CLAVES = [
 
 export default function Las3Claves() {
   return (
-    <Section title='Las 3 claves para aprovechar la IA' id='las3claves'>
+    <Section title='IA: El Secreto para Resultados Exponenciales' id='las3claves'>
       <ul id='claves-container'>
         {LAS3CLAVES.map(({ title, quote, description, icon }, index) => {
           return (

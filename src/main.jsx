@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
+import App from './app/App.jsx';
 import { loadTranslations } from '@/i18n/i18n';
 
 import '@/fontLoader';
