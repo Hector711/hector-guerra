@@ -15,24 +15,24 @@ import FAQ from '@/app/home/sections/FAQ';
 
 export default function HomePage() {
   const { t } = useTranslation();
-  useEffect(() => {
-    const link = document.createElement('link');
-    link.href = 'https://assets.calendly.com/assets/external/widget.css';
-    link.rel = 'stylesheet';
-    document.head.appendChild(link);
+  // useEffect(() => {
+  //   const link = document.createElement('link');
+  //   link.href = 'https://assets.calendly.com/assets/external/widget.css';
+  //   link.rel = 'stylesheet';
+  //   document.head.appendChild(link);
 
-    const script = document.createElement('script');
-    script.src = 'https://assets.calendly.com/assets/external/widget.js';
-    script.async = true;
-    script.onload = () => {
-      Calendly.initBadgeWidget({
-        url: 'https://calendly.com/hector-guerra/asesoria-sobre-ia',
-        text: t('translations:book_a_call'),
-        branding: undefined,
-      });
-    };
-    document.body.appendChild(script);
-  }, []);
+  //   const script = document.createElement('script');
+  //   script.src = 'https://assets.calendly.com/assets/external/widget.js';
+  //   script.async = true;
+  //   script.onload = () => {
+  //     Calendly.initBadgeWidget({
+  //       url: 'https://calendly.com/hector-guerra/asesoria-sobre-ia',
+  //       text: t('translations:book_a_call'),
+  //       branding: undefined,
+  //     });
+  //   };
+  //   document.body.appendChild(script);
+  // }, []);
 
   return (
     <>

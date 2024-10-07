@@ -16,13 +16,7 @@ header.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    h2 {
-      font-family: 'Articulat CF';
-      font-size: 2.3rem;
-      display: flex;
-      font-weight: 600;
-      text-align: center;
-    }
+    
   }
 
   figure#video-vsl {
@@ -44,18 +38,21 @@ header.hero {
   #mail:hover {
     transition: stroke 0.3s ease-in-out;
     .path-mail {
-      stroke: $orange-0;
+      stroke: $main-0;
     }
   }
 
   #contact-btn {
-    background-color: $orange-0;
-    border: none;
+    // border: 1px solid $white-1;
+    // @includes gradient-color;
     border-radius: 40px;
     padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: $black-1;
+    @include gradient-color;
+    // background-color: red;
+
   }
   #arrow-down-icon {
     width: 80px;

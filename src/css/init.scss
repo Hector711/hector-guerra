@@ -5,7 +5,7 @@
 }
 html {
   font-family: 'Onest Variable', 'Gabarito Variable', 'Open Sans',
-    'Helvetica Neue', sans-serif;
+    'Helvetica Neue', sans-erif;
   letter-spacing: -0.0025rem;
   position: relative;
   font-weight: 200;
@@ -15,18 +15,20 @@ h1 {
     'Lexend Zetta Variable';
   letter-spacing: 0.2rem !important;
   font-size: 1.5rem;
-
   text-transform: uppercase;
 }
 h2 {
   font-family: 'Articulat CF';
-  font-size: 2.3rem;
+  font-size: 2rem;
   display: flex;
   font-weight: 600;
-  // font-style: oblique;
   text-align: center;
-  // @include text-gradient-color;
 }
+span.special {
+  // color: $orange-0;
+  @include text-gradient-color-special;
+}
+
 
 h5 {
   font-size: 1.1rem;
@@ -111,7 +113,8 @@ section.model {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  section.model, section.model-intersection {
+  section.model,
+  section.model-intersection {
     animation: fade-in ease forwards;
     animation-timeline: view();
     animation-range-start: 0px;

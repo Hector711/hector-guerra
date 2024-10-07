@@ -27,12 +27,12 @@ div.social-links-container {
   .social-links:hover {
     transition: all 0.3s ease-in-out;
     .icons-fill {
-      fill: $orange-0;
+      fill: $secondary-0;
       transition: fill 0.3s ease-in-out;
     }
     #x {
       path {
-        stroke: $orange-0;
+        stroke: $secondary-0;
         transition: stroke 0.3s ease-in-out;
       }
     }

@@ -21,8 +21,10 @@ $color-light-1: #dddceb;
 $color-blue-1: #1a1f22;
 
 // $orange-0: #ff892f;
-$orange-0: #38e97f;
-$color-red-0: #337dec;
+// $main-0: #fd4141;
+$main-0: #0bf87a;
+$secondary-0: #33c4ec;
+// $secondary-0: #33c4ec;
 
 $color-calendly: #3362a3;
 $color-youtube: #a33333;
@@ -34,16 +36,11 @@ $border-l: 30px;
 
 @mixin gradient-color {
   background: linear-gradient(
-    20deg,
-    #efecec,
-    #d0d0d0,
-    #a88669,
-    #ec8533,
-    $orange-0
+    5deg, $secondary-0, $main-0, $main-0
   );
 }
 @mixin gradient-color-special {
-  background: linear-gradient(5deg, #ffffff, #e99a6c, $orange-0, $orange-0);
+  background: linear-gradient(5deg, #ffffff, $secondary-0, $main-0, $main-0);
 }
 @mixin text-gradient-color {
   width: max-content;
@@ -60,7 +57,3 @@ $border-l: 30px;
   -webkit-text-fill-color: transparent;
 }
 
-span.special {
-  // color: $orange-0;
-  @include text-gradient-color-special;
-}
