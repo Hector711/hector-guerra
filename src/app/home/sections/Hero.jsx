@@ -1,6 +1,6 @@
 import React from 'react';
 import SocialLinks from '@/components/SocialLinks';
-import ArrowDownIcon from '@/assets/ArrowDownIcon';
+import ArrowDownIcon from '@/icons/ArrowDownIcon';
 import { usePortfolio } from '@/context/PortfolioContext';
 import { useTranslation } from 'react-i18next';
 import YouTubeVideo from '@/components/Youtube';

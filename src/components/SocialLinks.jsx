@@ -1,11 +1,11 @@
 import React from 'react';
-import MailIcon from '@/assets/social/MailIcon';
-import WhatsAppIcon from '@/assets/social/WhatsAppIcon';
-import XIcon from '@/assets/social/XIcon';
-import GitHubIcon from '@/assets/social/GitHubIcon';
-import InstagramIcon from '@/assets/social/InstagramIcon';
-import LinkedInIcon from '@/assets/social/LinkedInIcon';
-import YouTubeIcon from '@/assets/social/YouTubeIcon';
+import MailIcon from '@/icons/social/MailIcon';
+import WhatsAppIcon from '@/icons/social/WhatsAppIcon';
+import XIcon from '@/icons/social/XIcon';
+import GitHubIcon from '@/icons/social/GitHubIcon';
+import InstagramIcon from '@/icons/social/InstagramIcon';
+import LinkedInIcon from '@/icons/social/LinkedInIcon';
+import YouTubeIcon from '@/icons/social/YouTubeIcon';
 import { useTranslation } from 'react-i18next';
 import toast, { Toaster } from 'react-hot-toast';
 

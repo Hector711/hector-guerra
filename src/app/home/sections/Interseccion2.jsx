@@ -1,6 +1,6 @@
 import React from 'react';
 import InterSection from '@/components/InterSection';
-import quotes from '@public/json/quotes.json';
+import quotes from '@/json/quotes.json';
 
 export default function Interseccion1() {
   return (

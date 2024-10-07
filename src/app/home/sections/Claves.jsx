@@ -1,9 +1,9 @@
 import React from 'react';
 import Section from '@/components/Section';
-import WinnerIcon from '@/assets/WinnerIcon';
-import TimeIcon from '@/assets/TimeIcon';
-import MoneyIcon from '@/assets/MoneyIcon';
-import claves from '@public/json/claves.json'
+import WinnerIcon from '@/icons/WinnerIcon';
+import TimeIcon from '@/icons/TimeIcon';
+import MoneyIcon from '@/icons/MoneyIcon';
+import claves from '@/json/claves.json'
 
 const ICONS = {
   TimeIcon: <TimeIcon />,

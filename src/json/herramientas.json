@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Herramienta 1",
+    "description": "Descripción de la herramienta 1",
+    "url": "https://www.herramienta1.com"
+  },
+  {
+    "name": "Herramienta 2",
+    "description": "Descripción de la herramienta 2",
+    "url": "https://www.herramienta2.com"
+  }
+]
