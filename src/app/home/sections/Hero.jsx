@@ -32,7 +32,7 @@ export default function Hero() {
         No necesitas ser un experto en IA, yo lo hago por ti con soluciones a
         medida.
       </h3>
-      <CalendlyButton />
+      <CalendlyButton>Contacta conmigo</CalendlyButton>
       {/* <SocialLinks /> */}
       <button onClick={scrollToSection}>
         <GoDownIcon />

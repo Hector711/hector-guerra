@@ -1,0 +1,23 @@
+section#precios {
+  span {
+    width: 70%;
+    text-align: center;
+  }
+}
+ul.payment-options-container {
+  display: flex;
+  gap: 1rem;
+}
+article.payment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: $black-1;
+  hr {
+    width: 100%;
+  }
+}

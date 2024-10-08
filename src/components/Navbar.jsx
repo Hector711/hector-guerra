@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import CalendlyButton from './CalendlyButton';
 
 export default function Navbar({ className }) {
   const { t, i18n } = useTranslation();
@@ -25,6 +26,7 @@ export default function Navbar({ className }) {
           {/* <Link to='/'>Mi Historia</Link>
           <Link to='/'>Mi Visión</Link>
           <Link to='/'>Mis Proyectos</Link> */}
+          <CalendlyButton>Asesoría Gratuita</CalendlyButton>
           <a
             href={basics.cv_url}
             rel='noopener noreferrer'
