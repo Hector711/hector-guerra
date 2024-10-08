@@ -6,7 +6,7 @@ export default function OnePaymentIcon(props) {
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
-      className="icons icons-fill"
+      className="icons icons-stroke"
       id="one-payment-icon"
       {...props}
     >
