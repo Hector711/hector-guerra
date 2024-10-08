@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PBS",
+    "link": "https://www.pbs.com.co/",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Walva",
+    "link": "https://www.walva.com/",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Racks",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "Kudea Go",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "Chulapa",
+    "link": "",
+    "image": ""
+  },
+  {
+    "name": "La Chamba",
+    "link": "",
+    "image": ""
+  }
+]

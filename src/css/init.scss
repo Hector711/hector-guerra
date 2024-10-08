@@ -24,6 +24,14 @@ h2 {
   font-weight: 600;
   text-align: center;
 }
+h2.caption {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-wrap: wrap;
+  width: max-content;
+  text-align: center;
+  max-width: 600px;
+}
 // h3 {
 //   font-family: 'Articulat CF';
 //   font-size: 1.5rem;

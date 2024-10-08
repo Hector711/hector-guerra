@@ -28,10 +28,10 @@ export default function Hero() {
       <figure id='video-vsl' className='video-container'>
         <YouTubeVideo url='https://www.youtube.com/embed/dQw4w9WgXcQ?si=Z5Z5Z5Z5Z5Z5Z5Z5' />
       </figure>
-      <h3 className='caption'>
+      <h2 className='caption'>
         No necesitas ser un experto en IA, yo lo hago por ti con soluciones a
         medida
-      </h3>
+      </h2>
       <CalendlyButton>Contacta conmigo</CalendlyButton>
       {/* <SocialLinks /> */}
       <button onClick={scrollToSection}>

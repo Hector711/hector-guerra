@@ -2,17 +2,28 @@
   {
     "name": "Álvaro Molina",
     "business": "CEO de PBS",
+    "link": "https://www.pbs.com.co/",
     "quote": "Excelente servicio, muy recomendable",
     "image": "https://via.placeholder.com/150"
   },
   {
-    "name": "Jesus Walva",
+    "name": "Jesus ",
     "business": "CEO de Walva",
+    "link": "https://www.walva.com/",
     "quote": "Muy buena atención, el producto es excelente",
     "image": "https://via.placeholder.com/150"
   },
   {
-    "name": "",
+    "name": "Nacho",
+    "business": "CEO de Nacho",
+    "link": "https://www.nacho.com/",
+    "quote": "El equipo de desarrollo es muy profesional y eficiente",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Ismael Heskouri",
+    "business": "CEO de Abogados Stop Deshaucios",
+    "link": "https://www.nacho.com/",
     "quote": "El equipo de desarrollo es muy profesional y eficiente",
     "image": "https://via.placeholder.com/150"
   }
