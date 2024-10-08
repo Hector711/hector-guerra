@@ -4,15 +4,15 @@ import App from './app/App.jsx';
 import { loadTranslations } from '@/i18n/i18n';
 
 import '@/fontLoader';
-// Supports weights 100-900
+// 'Onest Variable': Supports weights 100-900
 import '@fontsource-variable/onest';
-// Supports weights 400-900
+// 'Gabarito Variable': Supports weights 400-900
 import '@fontsource-variable/gabarito';
-// Supports weights 100-900
+// 'Lexend Zetta Variable': Supports weights 100-900
 import '@fontsource-variable/lexend-zetta';
-// Supports weights 100-900
+// 'Lexend Mega Variable': Supports weights 100-900
 import '@fontsource-variable/lexend-mega';
-// Supports weights 100-900
+// 'Lexend Exa Variable': Supports weights 100-900
 import '@fontsource-variable/lexend-exa';
 
 import '@fontsource/krona-one';

@@ -1,19 +1,21 @@
 import * as React from "react"
 
-export default function RobotIcon(props) {
+export default function PhoneIcon(props) {
   return (
     <svg
-      fill="none"
       viewBox="0 0 24 24"
-      strokeWidth={1.5}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
       className="icons icons-stroke"
-      id='robot'
+      id="phone-icon"
       {...props}
     >
       <path d="M0 0h24v24H0z" stroke="none" />
-      <path d="M6 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2zM12 2v2M9 12v9M15 12v9M5 16l4-2M15 14l4 2M9 18h6M10 8v.01M14 8v.01" />
+      <path d="M6 5a2 2 0 012-2h8a2 2 0 012 2v14a2 2 0 01-2 2H8a2 2 0 01-2-2V5zM11 4h2M12 17v.01" />
     </svg>
   )
 }
+

@@ -5,8 +5,8 @@ import quotes from '@/json/quotes.json';
 
 export default function Interseccion1() {
   return (
-    <InterSection id='inter1'>
-      <p>{quotes.quote1}</p>
+    <InterSection id='inter1' quote={quotes.quote1}>
+
     </InterSection>
   );
 }

@@ -1,83 +1,199 @@
 #productos-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 0.9fr;
+  grid-template-rows: auto auto auto auto auto;
   gap: 1rem;
+  p{
+    // text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+#chatbots {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+#hosteleria {
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+}
+#crm {
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+}
+#mas{
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
 }
 
 article.products-card {
   background-color: $black-1;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-
   header {
     display: flex;
     align-items: center;
     gap: 1rem;
   }
+  hr {
+    width: 100%;
+  }
   svg.icons {
     width: 1.5rem;
     height: auto;
   }
-  svg.icons-fill {
-    fill: $main-0;
-  }
-  svg#robot {
-    stroke: $main-0;
-  }
+}
 
-  svg#notion-icon {
-    path {
-      fill: $main-0;
-    }
-  }
+div.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #5d5d5d;
+  padding: 7px 10px;
+  border-radius: 10px;
+  gap: 0.5rem;
+  width: max-content;
+}
 
-  div.icons-container {
-    border: 1px solid $main-0;
-    border-radius: 50%;
-    padding: 0.5rem;
-    width: 10rem;
-    height: 10rem;
-    position: relative;
+/*
+* CHATBOT SCHEMA 
+*/
+div#chatbot-schema {
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  * {
     display: flex;
     align-items: center;
     justify-content: center;
-    #openai-icon {
+  }
+  div#arrows-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 0.5rem;
+    .icons {
+      width: $icons-s;
+      height: $icons-s;
+    }
+  }
+  .icons {
+    width: $icons-m;
+    height: $icons-m;
+  }
+  div#apps-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+
+/*
+* CRM SCHEMA 
+*/ 
+div#crm-schema {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div#arrows-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4.5rem;
+    .icons {
+      width: $icons-s;
+      height: $icons-s;
+    }
+  }
+  #arrow-down-icon-2 {
+      width: $icons-s;
+      height: $icons-s;
+  }
+  .icons {
+    width: $icons-m;
+    height: $icons-m;
+  }
+  div#ia {
+    display: flex;
+    flex-direction: column;
+  }
+  div#apps-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    *{
+      // border: 1px solid red;
+    }
+    div.items {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 0.4rem;
-      // border: 1px solid $main-0;
-      border-radius: 50%;
+      p{
+        text-align: center;
+        text-wrap: wrap;
+        width: 70%;
 
-      width: max-content;
-      height: max-content;
-      padding-top: 0.9rem;
-      #openai {
-        width: 3rem;
-        height: auto;
       }
     }
+  }
+}
 
-    .items-circle {
-      position: absolute;
-      background-color: $black-1;
-      border-radius: 50%;
-      padding: 0.5rem;
+
+
+/*
+* HOSTEMERIA SCHEMA 
+*/ 
+div#hosteleria-schema {
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div#arrows-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 0.5rem;
+    .icons {
+      width: $icons-s;
+      height: $icons-s;
     }
-    #whatsapp-icon {
-      top: -20px;
-    }
-    #instagram-icon {
-      right: -20px;
-    }
-    #facebook-icon {
-      left: -20px;
-    }
+  }
+  .icons {
+    width: $icons-m;
+    height: $icons-m;
+  }
+  div#apps-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
   }
 }

@@ -24,6 +24,38 @@ h2 {
   font-weight: 600;
   text-align: center;
 }
+// h3 {
+//   font-family: 'Articulat CF';
+//   font-size: 1.5rem;
+//   display: flex;
+//   font-weight: 600;
+//   text-align: center;
+// }
+h3 {
+  font-family: 
+  'Lexend Exa Variable',
+  'Gabarito Variable';
+  font-size: 1.1rem;
+  display: flex;
+  font-weight:500;
+  text-transform: uppercase;
+  text-wrap: wrap;
+  width: max-content;
+  text-align: center;
+  max-width: 600px;
+}
+h4 {
+  font-family: 
+  'Lexend Mega Variable',
+  'Gabarito Variable';
+  font-size: 0.8rem;
+  display: flex;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-wrap: wrap;
+  width: max-content;
+  text-align: center;
+}
 span.special {
   // color: $orange-0;
   @include text-gradient-color-special;
@@ -117,7 +149,7 @@ section.model-intersection {
   max-width: $width-mini;
   width: 100%;
   gap: 7rem;
-  margin-block: 90px;
+  margin-block: 270px;
   // border: 1px solid $white-2;
   * {
     // border: 1px solid red;
@@ -176,4 +208,12 @@ section.model-intersection {
   color: $white-2 !important;
   stroke: $white-2 !important;
   border: 1px solid $white-2 !important;
+}
+
+
+.icons-fill {
+  fill: $main-0;
+}
+.icons-stroke {
+  stroke: $main-0;
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import SocialLinks from '@/components/SocialLinks';
-import ArrowDownIcon from '@/icons/ArrowDownIcon';
+// import SocialLinks from '@/components/SocialLinks';
+import GoDownIcon from '@/icons/GoDownIcon';
 import { usePortfolio } from '@/context/PortfolioContext';
 import { useTranslation } from 'react-i18next';
 import YouTubeVideo from '@/components/Youtube';
-
+import CalendlyButton from '@/components/CalendlyButton';
 export default function Hero() {
   const { t } = useTranslation();
 
@@ -28,26 +28,16 @@ export default function Hero() {
       <figure id='video-vsl' className='video-container'>
         <YouTubeVideo url='https://www.youtube.com/embed/dQw4w9WgXcQ?si=Z5Z5Z5Z5Z5Z5Z5Z5' />
       </figure>
-      <p className='caption'>
+      <h3 className='caption'>
         No necesitas ser un experto en IA, yo lo hago por ti con soluciones a
         medida.
-      </p>
-      <a
-        id='contact-btn'
-        href=''
-        onClick={e => {
-          e.preventDefault();
-          Calendly.initPopupWidget({
-            url: 'https://calendly.com/hector-guerra/asesoria-sobre-ia?hide_gdpr_banner=1&background_color=181818&text_color=fafafa',
-          });
-        }}
-      >
-        Adelantate a tu competencia!
-      </a>
-      <SocialLinks />
+      </h3>
+      <CalendlyButton />
+      {/* <SocialLinks /> */}
       <button onClick={scrollToSection}>
-        <ArrowDownIcon />
+        <GoDownIcon />
       </button>
     </header>
   );
 }
+
