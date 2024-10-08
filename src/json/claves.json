@@ -1,17 +1,17 @@
 [
   {
     "title": "Ahorra Tiempo",
-    "quote": "“Imagina un día donde te enfoques solo en lo que realmente importa.”",
+    "quote": "Imagina un día donde te enfoques solo en lo que realmente importa.",
     "icon": "TimeIcon"
   },
   {
     "title": "Multiplica Tus Beneficios",
-    "quote": "“Si la estructura no se adapta, el crecimiento se vuelve insostenible.”",
+    "quote": "Si la estructura no se adapta, el crecimiento se vuelve insostenible.",
     "icon": "MoneyIcon"
   },
   {
     "title": "Gana a la Competencia",
-    "quote": "“La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto.”",
+    "quote": "La ventaja competitiva es para quien está dispuesto a arriesgar antes que el resto.",
     "icon": "WinnerIcon"
   }
 ]

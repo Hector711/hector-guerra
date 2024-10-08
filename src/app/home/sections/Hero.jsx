@@ -22,7 +22,7 @@ export default function Hero() {
         </h2>
         <h2>
           deja que la <span className='special'>&nbsp;IA&nbsp;</span> trabaje
-          para ti.
+          para ti
         </h2>
       </div>
       <figure id='video-vsl' className='video-container'>
@@ -30,7 +30,7 @@ export default function Hero() {
       </figure>
       <h3 className='caption'>
         No necesitas ser un experto en IA, yo lo hago por ti con soluciones a
-        medida.
+        medida
       </h3>
       <CalendlyButton>Contacta conmigo</CalendlyButton>
       {/* <SocialLinks /> */}
