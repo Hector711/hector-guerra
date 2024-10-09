@@ -36,8 +36,8 @@ export default function HomePage() {
       <Interseccion3 />
       <Precios />
       <Interseccion4 />
-      <Testimonios />
-      <Interseccion5 />
+      {/* <Testimonios />
+      <Interseccion5 /> */}
       <Calendly />
     </>
   );

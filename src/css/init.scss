@@ -131,6 +131,11 @@ section#skills-section {
   }
 }
 
+
+/*
+*   SECTION MODELS
+*/ 
+
 section.model {
   width: 100%;
   display: flex;
@@ -152,6 +157,10 @@ section.model-intersection {
   gap: 2rem;
   margin-block: 200px;
 }
+
+/*
+*   ANIMACION DE SCROLL
+*/ 
 
 @media (prefers-reduced-motion: no-preference) {
   section.model,
@@ -178,27 +187,6 @@ section.model-intersection {
   }
 }
 
-/**
-* Calendly Badge
-*/
-.calendly-badge-content {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  position: relative;
-  background-color: $black-1;
-  border-radius: 40px;
-}
-.calendly-badge-content:after {
-  content: '';
-  position: absolute;
-  height: 108%;
-  width: 102%;
-  z-index: -999;
-  border-radius: 40px;
-  @include gradient-color;
-}
-
 .MuiPaper-root,
 .MuiPaper-elevation,
 .MuiPaper-elevation0,
@@ -218,6 +206,10 @@ section.model-intersection {
   stroke: $main-0;
 }
 
-/**
-* CALENDLY BUTTON
-*/
+section.model-intersection {
+  // border: 1px solid white;
+}
+
+#inter4 {
+  margin-bottom: 0px !important;
+}

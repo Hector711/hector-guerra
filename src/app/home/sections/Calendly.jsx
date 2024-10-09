@@ -20,7 +20,7 @@ export default function Calendly() {
   }, []);
 
   return (
-    <Section title='Contacta conmigo' id='calendly-section'>
+    <Section id='calendly-section'>
       <div
         className='calendly-inline-widget'
         data-url={calendlyUrl}
