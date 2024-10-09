@@ -1,17 +1,22 @@
-footer {
+footer.body {
   width: 100%;
-  height: 5rem;
+  height: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  // background-color: $black-1;
+  position: absolute;
+  padding: 3rem;
+  bottom: 0;
   #footer-container {
+    display: flex;
+    // flex-direction: column;
     width: 100%;
     max-width: $width;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 10rem;
-    margin-inline: 1rem;
+    gap: 3rem;
   }
 }

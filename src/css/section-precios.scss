@@ -15,9 +15,7 @@ article.payment-card {
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
-  border-radius: 1rem;
-  background-color: $black-1;
-
+  @include card-styles;
   .icons {
     width: 50px;
     height: 50px;

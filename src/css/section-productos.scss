@@ -27,8 +27,7 @@
 }
 
 article.products-card {
-  background-color: $black-1;
-  border-radius: 1rem;
+  @include card-styles;
   padding: 2rem;
   display: flex;
   flex-direction: column;

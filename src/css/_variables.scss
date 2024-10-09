@@ -1,38 +1,30 @@
+/* MAIN */
 $width: 1200px;
 $width-mini: 1000px;
 $margin-inline: 2rem;
 $nav-height: 4rem;
-
-/* COLORES */
-$white-0: #ffffff;
-$white-1: #d6d6d6;
-$white-2: #444444;
-
-$black-0: #000000;
-$black-1: #101010;
-$black-2: #2c2c2c;
-
-$color-dark-0: #101012;
-$color-dark-1: #17171c;
-$color-dark-2: #31323e;
-
-$color-light-0: #d5d4dc;
-$color-light-1: #dddceb;
-$color-blue-1: #1a1f22;
-
-$main-0: #0bf87a;
-$secondary-0: #33c4ec;
-
-$color-calendly: #3362a3;
-$color-youtube: #a33333;
 
 /* BORDES */
 $border-s: 4px;
 $border-m: 10px;
 $border-l: 30px;
 
+/* ICONOS */
 $icons-s: 20px;
 $icons-m: 23px;
+
+/* COLORES */
+$white-0: #ffffff;
+$white-1: #d6d6d6;
+$white-2: #444444;
+
+$black-0: #020202;
+$black-1: #101010;
+$black-2: #2c2c2c;
+
+$main-0: #0bf87a;
+$main-1: #16d378;
+$secondary-0: #33c4ec;
 
 @mixin gradient-color {
   background: linear-gradient(
@@ -57,3 +49,8 @@ $icons-m: 23px;
   -webkit-text-fill-color: transparent;
 }
 
+@mixin card-styles {
+  background-color: $black-1;
+  box-shadow: 1px 2px 3px 1px #292c2b;
+  border-radius: $border-m;
+}

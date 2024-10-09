@@ -16,7 +16,7 @@ export default function Navbar({ className }) {
           className='flex justify-center items-center gap-5'
           id='left-nav-container'
         >
-          <h1 className='hero'>Héctor Guerra</h1>
+          <h1>Héctor Guerra</h1>
           {/* <h1 className='hero'>N3URALAB</h1> */}
         </div>
         <div

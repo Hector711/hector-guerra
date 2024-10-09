@@ -1,6 +1,6 @@
 @import '_variables.scss';
 :root {
-  background: linear-gradient(45grad, #030303, #0e0e0e);
+  background: linear-gradient(45grad, #030303, $black-0);
   color: $white-0;
 }
 html {
@@ -16,6 +16,8 @@ h1 {
   letter-spacing: 0.2rem !important;
   font-size: 1.5rem;
   text-transform: uppercase;
+  white-space: nowrap;
+  width: max-content;
 }
 h2 {
   font-family: 'Articulat CF';
@@ -66,13 +68,16 @@ span.special {
   @include text-gradient-color-special;
 }
 
+/* 
+* INTERSECTION
+*/ 
 h5 {
   font-family: 'Lexend Mega Variable', 'Gabarito Variable';
   text-transform: uppercase;
-  // font-style: italic;
   font-size: 1rem;
   margin-bottom: 10px;
   text-align: center;
+  font-weight: 350;
 }
 p {
   font-size: 0.9rem;
@@ -100,7 +105,7 @@ svg {
 }
 
 #suspense {
-  background-color: $color-dark-0;
+  background-color: $black-0;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -153,7 +158,6 @@ section.model-intersection {
   align-items: center;
   width: 100%;
   max-width: $width-mini;
-  width: 100%;
   gap: 2rem;
   margin-block: 200px;
 }
@@ -198,6 +202,9 @@ section.model-intersection {
   stroke: $white-2 !important;
   border: 1px solid $white-2 !important;
 }
+.video {
+  @include card-styles;
+}
 
 .icons-fill {
   fill: $main-0;
@@ -206,9 +213,6 @@ section.model-intersection {
   stroke: $main-0;
 }
 
-section.model-intersection {
-  // border: 1px solid white;
-}
 
 #inter4 {
   margin-bottom: 0px !important;

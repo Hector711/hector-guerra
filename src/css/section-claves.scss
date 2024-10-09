@@ -1,23 +1,13 @@
-// section#las3claves {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   width: 100%;
-//   gap: 2rem;
-// }
 ul#claves-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 
   article.claves-card {
-    background: blur(8px);
-    background-color: #1c1c1c86;
+    @include card-styles;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border-radius: $border-m;
     padding: 2rem 1.5rem;
     height: 250px;
     .icons {

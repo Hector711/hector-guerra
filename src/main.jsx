@@ -24,8 +24,6 @@ import '@/css/comp-hero.scss';
 import '@/css/comp-navbar.scss';
 import '@/css/comp-projects.scss';
 import '@/css/comp-footer.scss';
-import '@/css/comp-language.scss';
-import '@/css/themes/dark-theme.scss';
 import '@/css/comp-social-links.scss';
 import '@/css/comp-calendly-btn.scss';
 
