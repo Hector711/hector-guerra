@@ -30,6 +30,8 @@ import '@/css/comp-social-links.scss';
 import '@/css/section-productos.scss';
 import '@/css/section-claves.scss';
 import '@/css/section-precios.scss';
+import '@/css/section-testimonios.scss';
+import '@/css/comp-calendly-btn.scss';
 
 loadTranslations().then(() => {
   ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,0 +1,12 @@
+section#testimonios {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+ul#testimoinos-container {
+  width: 100%;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}

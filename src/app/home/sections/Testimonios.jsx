@@ -7,22 +7,27 @@ import Stack from '@mui/material/Stack';
 export default function Testimonios() {
   return (
     <Section title='Testimonios' id='testimonios'>
-      <div>
+      <ul id='testimoinos-container'>
         {testimonios.map((testimonio, index) => (
-          <div key={index}>
-            <Stack direction='row' spacing={2}>
-              <Avatar
-                alt={testimonio.name}
-                src={testimonio.image}
-                sx={{ width: 100, height: 100 }}
-              />
-            </Stack>
-            <h3>{testimonio.name}</h3>
-            <p>{testimonio.quote}</p>
-            <img />
-          </div>
+          <li key={index}>
+            <article>
+
+                <Stack direction='row' spacing={2}>
+                  <Avatar
+                    alt={testimonio.name}
+                    src={testimonio.image}
+                    sx={{ width: 70, height: 70 }}
+                  />
+                </Stack>
+                <h3>{testimonio.name}</h3>
+                <p>{testimonio.quote}</p>
+                <a href={testimonio.link} target='_blank'>
+                  {testimonio.business}
+                </a>
+            </article>
+          </li>
         ))}
-      </div>
+      </ul>
     </Section>
   );
 }

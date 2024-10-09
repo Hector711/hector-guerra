@@ -40,12 +40,10 @@ h2.caption {
 //   text-align: center;
 // }
 h3 {
-  font-family: 
-  'Lexend Exa Variable',
-  'Gabarito Variable';
+  font-family: 'Lexend Exa Variable', 'Gabarito Variable';
   font-size: 1.1rem;
   display: flex;
-  font-weight:500;
+  font-weight: 500;
   text-transform: uppercase;
   text-wrap: wrap;
   width: max-content;
@@ -53,9 +51,7 @@ h3 {
   max-width: 600px;
 }
 h4 {
-  font-family: 
-  'Lexend Mega Variable',
-  'Gabarito Variable';
+  font-family: 'Lexend Mega Variable', 'Gabarito Variable';
   font-size: 0.8rem;
   display: flex;
   font-weight: 500;
@@ -70,9 +66,7 @@ span.special {
 }
 
 h5 {
-  font-family: 
-  'Lexend Mega Variable',
-  'Gabarito Variable';
+  font-family: 'Lexend Mega Variable', 'Gabarito Variable';
   text-transform: uppercase;
   font-style: italic;
   font-size: 1rem;
@@ -208,14 +202,17 @@ section.model-intersection {
   @include gradient-color;
 }
 
-
-.MuiPaper-root, .MuiPaper-elevation, .MuiPaper-elevation0, .MuiAccordion-root, .Mui-expanded, .css-rmvv3r-MuiPaper-root-MuiAccordion-root {
+.MuiPaper-root,
+.MuiPaper-elevation,
+.MuiPaper-elevation0,
+.MuiAccordion-root,
+.Mui-expanded,
+.css-rmvv3r-MuiPaper-root-MuiAccordion-root {
   background-color: $black-0 !important;
   color: $white-2 !important;
   stroke: $white-2 !important;
   border: 1px solid $white-2 !important;
 }
-
 
 .icons-fill {
   fill: $main-0;
@@ -224,17 +221,6 @@ section.model-intersection {
   stroke: $main-0;
 }
 
-
 /**
 * CALENDLY BUTTON
 */
-#calendly-btn {
-  border-radius: 40px;
-  padding: 7px 15px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: $black-1;
-  @include gradient-color;
-  // background-color: red;
-
-}

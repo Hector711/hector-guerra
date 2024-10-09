@@ -33,15 +33,10 @@ export default function CalendlyButton({ children }) {
     return false;
   };
   return (
-    <a id='calendly-btn' href='#' onClick={handleClick}>
-      {children}
-    </a>
+    <>
+      <a id='calendly-btn' href='#' onClick={handleClick}>
+        {children}
+      </a>
+    </>
   );
-}
-
-{
-  /* <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hector-guerra/asesoria-gratuita-1-a-1?text_color=5d3737&primary_color=3771c4'});return false;">Programe una reunión conmigo</a>
-</link> */
 }

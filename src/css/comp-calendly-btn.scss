@@ -1,0 +1,96 @@
+#calendly-btn {
+  border-radius: 40px;
+  padding: 7px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: $black-1;
+  position: relative;
+  @include gradient-color;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+#calendly-btn::after,
+#calendly-btn::before {
+  content: '';
+  position: absolute;
+  height: 109%;
+  width: 102%;
+  background-image: conic-gradient(from var(--angle), transparent 70%, hwb(154 8% 0%));
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-radius: 40px;
+  // animation: spin 4s cubic-bezier(0, 0, 1, 1) infinite;
+  animation: recorrer-perimetro 5s linear infinite;
+}
+
+#calendly-btn::before {
+  filter: blur(10px);
+  opacity: 1;
+}
+
+@keyframes recorrer-perimetro {
+  0% {
+    --angle: 0deg;
+  }
+  6% {
+    --angle: 35deg;
+  }
+  12% {
+    --angle: 55deg;
+  }
+  22% {
+    /* Arriba derecha35px */
+    --angle: 78.35deg;
+  }
+  25% {
+    /* Derecha 170px */
+    --angle: 90deg;
+  }
+  28% {
+    /* Abajo derecha35px */
+    --angle: 101.65deg;
+  }
+  38% {
+    --angle: 125deg;
+  }
+  44% {
+    --angle: 145deg;
+  }
+  50% {
+    /* Abajo 170px */
+    --angle: 180deg;
+  }
+  /* Segunda mitad */
+  56% {
+    --angle: 215deg; /* Abajo izquierda 35px */
+  }
+  62% {
+    --angle: 235deg; /* Izquierda 170px */
+  }
+  72% {
+    --angle: 258.35deg; /* Arriba izquierda 35px */
+  }
+  75% {
+    --angle: 270deg; /* Arriba izquierda 170px */
+  }
+  78% {
+    --angle: 281.65deg; /* Arriba derecha 35px */
+  }
+  88% {
+    --angle: 305deg; /* Derecha 170px */
+  }
+  94% {
+    --angle: 325deg; /* Derecha izquierda 35px */
+  }
+  100% {
+    --angle: 360deg; /* Punto final */
+  }
+}
