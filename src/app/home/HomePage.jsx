@@ -8,10 +8,11 @@ import Interseccion1 from '@/app/home/sections/Interseccion1';
 import Interseccion2 from '@/app/home/sections/Interseccion2';
 import Interseccion3 from '@/app/home/sections/Interseccion3';
 import Interseccion4 from '@/app/home/sections/Interseccion4';
-// import Interseccion5 from '@/app/home/sections/Interseccion5';
+import Interseccion5 from '@/app/home/sections/Interseccion5';
 import Testimonios from '@/app/home/sections/Testimonios';
 import Precios from '@/app/home/sections/Precios';
 import Equipo from '@/app/home/sections/Equipo';
+import Calendly from '@/app/home/sections/Calendly';
 // import FAQ from '@/app/home/sections/FAQ';
 
 export default function HomePage() {
@@ -31,12 +32,13 @@ export default function HomePage() {
       <Interseccion1 />
       <Productos />
       <Interseccion2 />
-      <Precios />
-      <Interseccion3 />
       <Equipo />
+      <Interseccion3 />
+      <Precios />
       <Interseccion4 />
       <Testimonios />
-  
+      <Interseccion5 />
+      <Calendly />
     </>
   );
 }

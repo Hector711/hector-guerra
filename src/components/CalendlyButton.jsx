@@ -1,11 +1,7 @@
 import { useEffect } from 'react';
-
+import calendlyData from '@/json/calendly.json';
 export default function CalendlyButton({ children }) {
-  const eventName = 'asesoria-gratuita-1-a-1';
-  const backgroundColor = '101010';
-  const textColor = 'ffffff';
-  const primaryColor = '33c4ec';
-  const cookiesBanner = 1;
+  const { eventName, backgroundColor, textColor, primaryColor, cookiesBanner } = calendlyData;
 
   const calendlyUrl = `https://calendly.com/hector-guerra/${eventName}?hide_gdpr_banner=${cookiesBanner}&background_color=${backgroundColor}&text_color=${textColor}&primary_color=${primaryColor}`;
 

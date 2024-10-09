@@ -39,6 +39,7 @@ h2.caption {
 //   font-weight: 600;
 //   text-align: center;
 // }
+// 
 h3 {
   font-family: 'Lexend Exa Variable', 'Gabarito Variable';
   font-size: 1.1rem;
@@ -68,7 +69,7 @@ span.special {
 h5 {
   font-family: 'Lexend Mega Variable', 'Gabarito Variable';
   text-transform: uppercase;
-  font-style: italic;
+  // font-style: italic;
   font-size: 1rem;
   margin-bottom: 10px;
   text-align: center;
@@ -148,12 +149,8 @@ section.model-intersection {
   width: 100%;
   max-width: $width-mini;
   width: 100%;
-  gap: 7rem;
-  margin-block: 270px;
-  // border: 1px solid $white-2;
-  * {
-    // border: 1px solid red;
-  }
+  gap: 2rem;
+  margin-block: 200px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

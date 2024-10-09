@@ -1,12 +1,14 @@
 [
   {
-    "nombre": "Héctor Guerra (Founder)",
+    "name": "Héctor Guerra",
     "rol": "Desarrollador Full Stack & Especialista en IA",
-    "descripcion": "Talento técnico especializado en el uso de las herramientas que nos ofrece el mundo moderno de la tecnología."
+    "label": "Founder",
+    "description": "Talento técnico especializado en el uso de las herramientas que nos ofrece el mundo moderno de la tecnología."
   },
   {
-    "nombre": "Álvaro Molina",
+    "name": "Álvaro Molina",
     "rol": "Emprendedor Visionario",
-    "descripcion": "Experto en escalado de negocios,más de 5 años en el mundo de las redes sociales, fundado del ecosistema PBS con el que de momento ha llegadoa facturar 10k en un mes. Tiene un gran conocimiento sobre como llegar a los clientes y captar su atención."
+    "label": "CEO de PBS",
+    "description": "Experto en escalado de negocios,más de 5 años en el mundo de las redes sociales, fundado del ecosistema PBS con el que de momento ha llegadoa facturar 10k en un mes. Tiene un gran conocimiento sobre como llegar a los clientes y captar su atención."
   }
 ]
