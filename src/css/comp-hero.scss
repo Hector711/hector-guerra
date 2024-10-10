@@ -8,6 +8,7 @@ header.hero {
   max-width: $width;
   height: calc(100vh - $nav-height);
 
+
   @include respond-to(mobile) {
     width: $width-mobile;
     justify-content: center;

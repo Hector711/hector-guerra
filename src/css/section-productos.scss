@@ -37,14 +37,14 @@ li{
 }
 article.products-card {
   @include card-styles;
-  padding: 2rem;
+  padding: $gap-m;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: $gap-s;
-  @include respond-to(desktop) {
-    padding: 1rem;
+  @include respond-to(tablet) {
+    padding: $gap-s;
   }
   header {
     display: flex;
@@ -78,6 +78,7 @@ div#chatbot-schema {
   align-items: center;
   flex-direction: column;
   gap: 0.5rem;
+  padding: $gap-s;
   * {
     display: flex;
     align-items: center;
@@ -117,6 +118,7 @@ div#crm-schema {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  padding: $gap-s;
   * {
     display: flex;
     align-items: center;
@@ -178,6 +180,7 @@ div#hosteleria-schema {
   align-items: center;
   flex-direction: column;
   gap: 0.5rem;
+  padding: $gap-s;
   * {
     display: flex;
     align-items: center;
