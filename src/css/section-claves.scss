@@ -2,7 +2,7 @@ ul#claves-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: $gap-m;
-  @include respond-to(mobile) {
+  @include respond-to(tablet) {
     grid-template-columns: repeat(1, 1fr);
     gap: $gap-s;
   }
@@ -14,7 +14,7 @@ ul#claves-container {
     gap: 1rem;
     padding: 2rem 1.5rem;
     height: 250px;
-    @include respond-to(mobile) {
+    @include respond-to(desktop) {
       height: max-content;
       padding: 1rem;
     }
@@ -22,7 +22,7 @@ ul#claves-container {
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      @include respond-to(mobile) {
+      @include respond-to(desktop) {
         flex-direction: row;
         align-items: center;
       }
@@ -30,7 +30,7 @@ ul#claves-container {
         width: 4rem;
         height: 4rem;
         stroke: $main-0;
-        @include respond-to(mobile) {
+        @include respond-to(desktop) {
           width: 2rem;
           height: 2rem;
         }

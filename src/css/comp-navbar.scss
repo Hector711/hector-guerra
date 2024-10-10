@@ -12,7 +12,7 @@ nav {
     width: 100%;
     max-width: $width;
     margin-inline: $margin-inline;    
-    @include respond-to(mobile) {
+    @include respond-to(tablet) {
       max-width: $width-mobile;
       display: flex;
       justify-content: center;
@@ -31,7 +31,7 @@ nav {
   justify-content: center;
   align-items: center;
   transition: border- 0.25s;
-  @include respond-to(mobile) {
+  @include respond-to(tablet) {
     display: none;
   }
 }

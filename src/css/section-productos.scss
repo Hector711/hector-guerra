@@ -6,7 +6,7 @@ ul#productos-container {
   p{
     font-size: 0.9rem;
   }
-  @include respond-to(mobile) {
+  @include respond-to(tablet) {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -43,7 +43,7 @@ article.products-card {
   align-items: center;
   justify-content: center;
   gap: $gap-s;
-  @include respond-to(mobile) {
+  @include respond-to(desktop) {
     padding: 1rem;
   }
   header {

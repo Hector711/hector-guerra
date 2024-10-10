@@ -72,7 +72,7 @@ $secondary-0: #33c4ec;
       @content;
     }
   } @else if $breakpoint == desktop {
-    @media (max-width: 1024px) {
+    @media (max-width: 1065px) {
       @content;
     }
   }
