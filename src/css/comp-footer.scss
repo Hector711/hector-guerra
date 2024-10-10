@@ -5,13 +5,12 @@ footer.body {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  // background-color: $black-1;
   position: absolute;
   padding: 3rem;
   bottom: 0;
   #footer-container {
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     width: 100%;
     max-width: $width;
     display: flex;

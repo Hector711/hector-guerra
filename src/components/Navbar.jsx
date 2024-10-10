@@ -26,7 +26,9 @@ export default function Navbar({ className }) {
           {/* <Link to='/'>Mi Historia</Link>
           <Link to='/'>Mi Visión</Link>
           <Link to='/'>Mis Proyectos</Link> */}
-          <CalendlyButton>Asesoría Gratuita</CalendlyButton>
+          <CalendlyButton className='nav-buttons'>
+            Asesoría Gratuita
+          </CalendlyButton>
           <a
             href={basics.cv_url}
             rel='noopener noreferrer'

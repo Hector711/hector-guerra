@@ -13,9 +13,8 @@ export default function Equipo() {
                 <img src='' alt='' />
               </figure>
               <header>
-
-              <h3>{item.name}</h3>
-                <p>{item.label}</p>
+                <h3>{item.name} </h3>
+                <span className='label'>{item.label}</span>
               </header>
               <p>{item.rol}</p>
               <hr />

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import calendlyData from '@/json/calendly.json';
-export default function CalendlyButton({ children }) {
+export default function CalendlyButton({ children, className }) {
   const { eventName, backgroundColor, textColor, primaryColor, cookiesBanner } = calendlyData;
 
   const calendlyUrl = `https://calendly.com/hector-guerra/${eventName}?hide_gdpr_banner=${cookiesBanner}&background_color=${backgroundColor}&text_color=${textColor}&primary_color=${primaryColor}`;
@@ -30,7 +30,7 @@ export default function CalendlyButton({ children }) {
   };
   return (
     <>
-      <a id='calendly-btn' href='#' onClick={handleClick}>
+      <a id='calendly-btn' href='#' onClick={handleClick} className={className}>
         {children}
       </a>
     </>

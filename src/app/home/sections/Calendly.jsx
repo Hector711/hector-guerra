@@ -22,9 +22,10 @@ export default function Calendly() {
   return (
     <Section id='calendly-section'>
       <div
-        className='calendly-inline-widget'
+        className='calendly-inline-widget '
+        id='calendly-widget'
         data-url={calendlyUrl}
-        style={{ minWidth: '1060px', height: '700px' }}
+        // style={{ minWidth: '100%', height: 'max-content' }}
         ref={calendlyRef}
       ></div>
     </Section>

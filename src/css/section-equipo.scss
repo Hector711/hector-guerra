@@ -1,32 +1,39 @@
 section#equipo {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  * {
-    // border: 1px solid white;
-  }
+  gap: $gap-m;
 }
 
 ul.equipo-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap-m;
+  @include respond-to(mobile) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 article.equipo-card {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 1.5rem;
+  gap: $gap-s;
+  padding: $gap-m;
   @include card-styles;
+  @include respond-to(mobile) {
+    padding: $gap-s;
+  }
 
   figure {
     height: 200px;
-    background-color: rgb(100, 94, 94);
+    background-color: #645e5e;
     border-radius: 1rem;
   }
   header {
     display: flex;
-    gap: 0.5rem;
+    align-items: baseline;
+    gap: $gap-s;
+    .label{
+      font-size: 0.8rem !important;
+    }
   }
 }

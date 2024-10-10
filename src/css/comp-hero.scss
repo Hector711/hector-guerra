@@ -1,48 +1,51 @@
 header.hero {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   justify-content: space-between;
-  margin-block: $nav-height 70px;
   align-items: center;
-  width: $width;
+  margin-block: $nav-height 70px;
+  width: 100%;
+  max-width: $width;
   height: calc(100vh - $nav-height);
 
-  * {
-    // border: 1px solid $white-1;
+  @include respond-to(mobile) {
+    width: $width-mobile;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+    margin-top: 100px;
   }
-
   div#hero-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     
-  }
-
-  figure#video-vsl {
-    background-color: #06060b;
-    width: 700px;
-    height: 350px;
-    iframe.video {
-      width: 100%;
-      height: 100%;
+    .special {
+      height: max-content;
+      @include text-gradient-color-special;
     }
   }
-  p.caption {
-    font-family: 'Articulat CF Medium Oblique';
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-align: center;
-  }
 
+  iframe.video {
+    max-width: calc($width-mini - 300px);
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    @include card-styles;
+  }
+  h2.caption {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-wrap: wrap;
+    max-width: calc($width-mini - 300px);
+    text-align: center;
+    max-width: 600px;
+  }
   #mail:hover {
     transition: stroke 0.3s ease-in-out;
     .path-mail {
       stroke: $main-0;
     }
   }
-
-  
   #arrow-down-icon {
     width: 80px;
   }

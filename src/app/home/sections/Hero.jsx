@@ -18,26 +18,22 @@ export default function Hero() {
     <header className='body hero'>
       <div id='hero-title'>
         <h2 className='hero'>
-          <span className='special'>&nbsp;Automatiza&nbsp;</span> procesos y
+          <em className='special'>&nbsp;Automatiza&nbsp;</em> procesos y
         </h2>
         <h2>
-          deja que la <span className='special'>&nbsp;IA&nbsp;</span> trabaje
-          para ti
+          deja que la <em className='special'>&nbsp;IA&nbsp;</em> trabaje para
+          ti
         </h2>
       </div>
-      <figure id='video-vsl' className='video-container'>
-        <YouTubeVideo url='https://www.youtube.com/embed/dQw4w9WgXcQ?si=Z5Z5Z5Z5Z5Z5Z5Z5' />
-      </figure>
+      <YouTubeVideo url='https://www.youtube.com/embed/dQw4w9WgXcQ?si=Z5Z5Z5Z5Z5Z5Z5Z5' />
       <h2 className='caption'>
         No necesitas ser un experto en IA, yo lo hago por ti con soluciones a
         medida
       </h2>
       <CalendlyButton>Contacta conmigo</CalendlyButton>
-      {/* <SocialLinks /> */}
       <button onClick={scrollToSection}>
         <GoDownIcon />
       </button>
     </header>
   );
 }
-

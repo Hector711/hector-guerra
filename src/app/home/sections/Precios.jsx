@@ -16,21 +16,20 @@ export default function Precios() {
   return (
     <Section title='Precios' id='precios'>
       {/* <p>{text}</p> */}
-      <span>{introduction}</span>
+      <p>{introduction}</p>
       <ul className='payment-options-container'>
-        {payment_options.map((option, index) => 
-          
-          (
+        {payment_options.map((option, index) => (
           <li key={index}>
             <article className='payment-card'>
-              {ICONS[option.icon]}
-              <h4>{option.name}</h4>
+              <header>
+                {ICONS[option.icon]}
+                <h4>{option.name}</h4>
+              </header>
               <hr />
               <p>{option.description}</p>
             </article>
           </li>
-        )
-        )}
+        ))}
       </ul>
     </Section>
   );

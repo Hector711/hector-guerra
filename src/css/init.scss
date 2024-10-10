@@ -18,30 +18,21 @@ h1 {
   text-transform: uppercase;
   white-space: nowrap;
   width: max-content;
+  
 }
 h2 {
   font-family: 'Articulat CF';
   font-size: 2rem;
-  display: flex;
   font-weight: 600;
-  text-align: center;
+  text-wrap: nowrap;
+  display: block;
+  @include respond-to(mobile) {
+    width: $width-mobile;
+    font-size: 1.7rem;
+    text-align: center;
+  }
 }
-h2.caption {
-  font-size: 1.2rem;
-  font-weight: 300;
-  text-wrap: wrap;
-  width: max-content;
-  text-align: center;
-  max-width: 600px;
-}
-// h3 {
-//   font-family: 'Articulat CF';
-//   font-size: 1.5rem;
-//   display: flex;
-//   font-weight: 600;
-//   text-align: center;
-// }
-// 
+
 h3 {
   font-family: 'Lexend Exa Variable', 'Gabarito Variable';
   font-size: 1.1rem;
@@ -63,10 +54,7 @@ h4 {
   width: max-content;
   text-align: center;
 }
-span.special {
-  // color: $orange-0;
-  @include text-gradient-color-special;
-}
+
 
 /* 
 * INTERSECTION
@@ -84,7 +72,6 @@ p {
   line-height: 1.6;
   text-wrap: pretty;
   word-wrap: break-word;
-  padding-inline: auto;
 }
 label.icons-names {
   padding: 6px 12px;
@@ -112,29 +99,6 @@ svg {
   justify-content: center;
   align-items: center;
 }
-section#skills-section {
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
-}
-#skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  .icon-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    gap: 10px;
-    .icons {
-      height: 40px;
-      width: max-content;
-      fill: $white-2;
-    }
-  }
-}
 
 
 /*
@@ -147,9 +111,12 @@ section.model {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  gap: 2rem;
+  gap: $gap-m;
   max-width: $width-mini;
+  @include respond-to(mobile) {
+    width: $width-mobile;
+    gap: $gap-s;
+  }
 }
 section.model-intersection {
   display: flex;
@@ -158,7 +125,7 @@ section.model-intersection {
   align-items: center;
   width: 100%;
   max-width: $width-mini;
-  gap: 2rem;
+  gap: $gap-m;
   margin-block: 200px;
 }
 
@@ -202,9 +169,7 @@ section.model-intersection {
   stroke: $white-2 !important;
   border: 1px solid $white-2 !important;
 }
-.video {
-  @include card-styles;
-}
+
 
 .icons-fill {
   fill: $main-0;

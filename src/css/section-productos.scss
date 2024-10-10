@@ -1,12 +1,18 @@
-#productos-container {
+ul#productos-container {
   display: grid;
   grid-template-columns: 1fr 0.9fr;
   grid-template-rows: auto auto auto auto auto;
-  gap: 1rem;
+  gap: $gap-m;
   p{
-    // text-align: center;
     font-size: 0.9rem;
   }
+  @include respond-to(mobile) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: $gap-s;
+  }
+
 }
 
 #chatbots {
@@ -25,7 +31,10 @@
   grid-row: 3 / 4;
   grid-column: 2 / 3;
 }
-
+li{
+  width: min-content;
+  width: 100%;
+}
 article.products-card {
   @include card-styles;
   padding: 2rem;
@@ -33,13 +42,15 @@ article.products-card {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: $gap-s;
+  @include respond-to(mobile) {
+    padding: 1rem;
+  }
   header {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: $gap-s;
   }
-
   svg.icons {
     width: 1.5rem;
     height: auto;

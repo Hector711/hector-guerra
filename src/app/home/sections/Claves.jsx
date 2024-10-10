@@ -15,15 +15,17 @@ export default function Claves() {
   return (
     <Section
       title='El verdadero poder de la IA'
-      id='las3claves'
+      id='claves'
     >
       <ul id='claves-container'>
         {claves.map(({ title, quote, icon }, index) => {
           return (
             <li key={index}>
               <article className='claves-card'>
+                <header>
                 {ICONS[icon]}
                 <h4>{title}</h4>
+                </header>
                 <hr />
                 <p>{quote}</p>
               </article>

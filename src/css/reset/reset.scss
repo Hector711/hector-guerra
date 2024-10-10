@@ -223,4 +223,6 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-inline: $margin-inline;
+  // overflow: hidden;
 }

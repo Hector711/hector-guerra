@@ -11,19 +11,16 @@ nav {
   #nav-container {
     width: 100%;
     max-width: $width;
-    margin-inline: $margin-inline;
+    margin-inline: $margin-inline;    
+    @include respond-to(mobile) {
+      max-width: $width-mobile;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
-.myNavSwiper {
-  height: 50px;
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  h4 {
-    height: 100%;
-  }
-}
+
 .nav-buttons {
   border-radius: 8px;
   height: auto;
@@ -34,6 +31,9 @@ nav {
   justify-content: center;
   align-items: center;
   transition: border- 0.25s;
+  @include respond-to(mobile) {
+    display: none;
+  }
 }
 #cv-button {
   padding: 7px 15px;
@@ -43,3 +43,4 @@ nav {
   color: $black-1;
   background-color: $white-1;
 }
+
