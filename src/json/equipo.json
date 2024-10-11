@@ -3,12 +3,16 @@
     "name": "Héctor Guerra",
     "rol": "Arquitecto de Soluciones Tecnológicas & Experto en IA",
     "label": "Founder",
-    "description": "Ingeniero técnico especializado en desarrollar e implementar soluciones tecnológicas avanzadas utilizando las últimas herramientas de inteligencia artificial, llevando cada proyecto a un nivel superior."
+    "description": "Ingeniero técnico especializado en desarrollar e implementar soluciones tecnológicas avanzadas utilizando las últimas herramientas de inteligencia artificial, llevando cada proyecto a un nivel superior.",
+    "img": "hector_img",
+    "link": "https://hector-minimal-cv.vercel.app"
   },
   {
     "name": "Álvaro Molina",
     "rol": "Estratega de Crecimiento Empresarial",
     "label": "CEO de PBS",
-    "description": "Estratega en escalado de negocios con más de 5 años de experiencia en el ecosistema digital. Fundador del ecosistema PBS, con el que ha logrado facturar 10K en un solo mes. Domina el arte de atraer clientes y maximizar el crecimiento empresarial."
+    "description": "Estratega en escalado de negocios con más de 5 años de experiencia en el ecosistema digital. Fundador del ecosistema PBS, con el que ha logrado facturar 10K en un solo mes. Domina el arte de atraer clientes y maximizar el crecimiento empresarial.",
+    "img": "alvaro_img",
+    "link": "https://www.mindandbodyteam.com/vsl-gratis"
   }
 ]

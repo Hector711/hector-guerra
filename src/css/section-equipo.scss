@@ -18,22 +18,40 @@ article.equipo-card {
   flex-direction: column;
   gap: $gap-s;
   padding: $gap-m;
+  height: 100%;
+  min-height: 200px;
   @include card-styles;
   @include respond-to(mobile) {
     padding: $gap-s;
   }
 
-  figure {
-    height: 200px;
-    background-color: #645e5e;
-    border-radius: 1rem;
-  }
   header {
     display: flex;
-    align-items: baseline;
     gap: $gap-s;
-    .label{
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      width: 100%;
+      .title-container {
+        display: flex;
+        align-items: baseline;
+        gap: $gap-s;
+      }
+      p {
+        width: 90%;
+      }
+    }
+    .label {
       font-size: 0.8rem !important;
+    }
+  }
+  a {
+    color: $main-0;
+    // text-decoration: underline;
+    &:hover {
+      color: $secondary-0;
     }
   }
 }
