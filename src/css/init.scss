@@ -2,15 +2,10 @@
 :root {
   // background: linear-gradient(45grad, #030303, $black-0);
   background: radial-gradient(ellipse 100% 2% at 50% 0%, $main-0 1%, #000000 50%);
-  // background-attachment: fixed;
-
   color: $white-0;
   min-height: 100vh;
 }
-body {
-  /* Gradiente radial ovalado con dimensiones específicas */
- 
-}
+
 html {
   font-family: 'Onest Variable', 'Gabarito Variable', 'Open Sans',
     'Helvetica Neue', sans-erif;
