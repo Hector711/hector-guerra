@@ -7,7 +7,8 @@ export default function Navbar({ className }: PropsTypes) {
 
   const language = i18n.language;
 
-  const basics = i18n.getResourceBundle(language, 'basics');
+  const basicsData = i18n.getResourceBundle(language, 'basics');
+  const basics = basicsData[0];
   return (
     <nav className={className}>
       <div id='nav-container' className='flex justify-between items-center'>
