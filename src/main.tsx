@@ -37,6 +37,8 @@ import '@/styles/section-precios.scss';
 import '@/styles/section-testimonios.scss';
 import '@/styles/section-equipo.scss';
 
+// BLOG
+import '@/styles/blog-page/page-blog-page.scss';
 
 loadTranslations().then(() => {
   createRoot(document.getElementById('root')!).render(

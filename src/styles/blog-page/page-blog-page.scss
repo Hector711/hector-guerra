@@ -1,0 +1,22 @@
+section#blog-page {
+  max-width: $width !important;
+  // border: 1px solid rgb(0, 213, 255);
+  * {
+    // border: 1px solid red;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+ul#blog-posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  // border: 1px solid #59ff00;
+  li {
+    border: 1px solid rgb(0, 213, 255);
+    padding: 1rem;
+    border-radius: $border-m;
+  }
+}

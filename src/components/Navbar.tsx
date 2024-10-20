@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import CalendlyButton from './CalendlyButton';
 import { PropsTypes } from '@/types';
 
@@ -7,7 +8,9 @@ export default function Navbar({ className }: PropsTypes) {
 
   const language = i18n.language;
 
-  const basics = i18n.getResourceBundle(language, 'basics');
+  const basicsArray = i18n.getResourceBundle(language, 'basics');
+  const basics = basicsArray[0];
+  console.log(basics);
   return (
     <nav className={className}>
       <div id='nav-container' className='flex justify-between items-center'>
@@ -15,7 +18,9 @@ export default function Navbar({ className }: PropsTypes) {
           className='flex justify-center items-center gap-5'
           id='left-nav-container'
         >
-          <h1>Héctor Guerra</h1>
+          <Link to='/'>
+            <h1>Héctor Guerra</h1>
+          </Link>
           {/* <h1 className='hero'>N3URALAB</h1> */}
         </div>
         <div
@@ -25,11 +30,18 @@ export default function Navbar({ className }: PropsTypes) {
           <CalendlyButton className='nav-buttons'>
             Asesoría Gratuita
           </CalendlyButton>
+          <Link
+            to='/blog'
+            className='nav-buttons'
+            id='blog-button'
+          >
+            Mi Blog
+          </Link>
           <a
             href={basics.cv_url}
             rel='noopener noreferrer'
             target='_blank'
-            className='nav-buttons white-hover'
+            className='nav-buttons'
             id='cv-button'
           >
             Minimal CV

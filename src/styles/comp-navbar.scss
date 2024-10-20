@@ -31,16 +31,19 @@ nav {
   justify-content: center;
   align-items: center;
   transition: border- 0.25s;
+  padding: 7px 15px;
+  border-radius: $border-l;
   @include respond-to(tablet) {
     display: none;
   }
 }
 #cv-button {
-  padding: 7px 15px;
   border-radius: $border-l;
   font-size: 1em;
   font-weight: 500;
   color: $black-1;
   background-color: $white-1;
 }
-
+#blog-button {
+  border: 1px solid $white-1 ;
+}

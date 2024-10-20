@@ -3,12 +3,10 @@ header.hero {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-block: $nav-height 70px;
   width: 100%;
   max-width: $width;
-  height: calc(100vh - $nav-height);
-
-
+  height: calc(100vh - $nav-height - $margin-top-hero);
+  margin-top: $margin-top-hero;
   @include respond-to(mobile) {
     width: $width-mobile;
     justify-content: center;

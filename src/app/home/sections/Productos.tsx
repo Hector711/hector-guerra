@@ -22,7 +22,7 @@ export default function Productos() {
     <Section title='Productos Estrella' id='productos-estrella'>
       <ul id='productos-container'>
         {chatbot && (
-          <li key={0} id='chatbots'>
+          <li id='chatbots'>
             <article className='products-card'>
               <header>
                 <RobotIcon />
@@ -41,7 +41,7 @@ export default function Productos() {
         )}
 
         {crm && (
-          <li key={0} id='crm'>
+          <li id='crm'>
             <article className='products-card'>
               <header>
                 <RobotIcon />
@@ -60,7 +60,7 @@ export default function Productos() {
         )}
 
         {menu && (
-          <li key={0} id='hosteleria'>
+          <li id='hosteleria'>
             <article className='products-card'>
               <header>
                 <RobotIcon />
