@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client';
 import { Suspense } from 'react';
 import App from '@/app/App.jsx';
 import { loadTranslations } from '@/i18n/i18n';
+import '@/utils/fontLoader';
 
-
-import '@/fontLoader';
+// FONTS
 // 'Onest Variable': Supports weights 100-900
 import '@fontsource-variable/onest';
 // 'Gabarito Variable': Supports weights 400-900

@@ -44,3 +44,21 @@ export interface PaymentOptionsTypes {
   description: string;
   icon: string;
 }
+
+export interface EquipoTypes {
+  name: string;
+  label: string;
+  img?: string;
+  rol: string;
+  description: string;
+  link: string;
+}
+
+export interface TestimoniosTypes {
+  name: string;
+  business: string;
+  link: string;
+  quote: string;
+  avatar: string;
+  estrellas: number;
+}

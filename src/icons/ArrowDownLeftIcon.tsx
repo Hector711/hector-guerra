@@ -6,7 +6,7 @@ export default function ArrowDownRightIcon(props: IconProps) {
       viewBox='-0.5 -0.5 16 16'
       className='icons'
       id='arrow-down-right-icon'
-      stroke={1}
+      stroke='1'
       {...props}
     >
       <g fill='none'>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import calendlyData from '@/json/calendly.json';
 import Section from '@/components/Section';
 export default function Calendly() {

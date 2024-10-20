@@ -8,3 +8,6 @@ WebFont.load({
     ],
   },
 });
+
+// Si decides exportar algo, puedes hacerlo aquí
+export default {};

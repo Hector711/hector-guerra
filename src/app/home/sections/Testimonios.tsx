@@ -1,7 +1,10 @@
 import Section from '@/components/Section';
-import testimonios from '@/json/testimonios.json';
+import testimoniosData from '@/json/testimonios.json';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
+import { TestimoniosTypes } from '@/types';
+
+const testimonios: Array<TestimoniosTypes> = testimoniosData;
 
 export default function Testimonios() {
   return (
@@ -10,11 +13,10 @@ export default function Testimonios() {
         {testimonios.map((testimonio, index) => (
           <li key={index}>
             <article>
-
                 <Stack direction='row' spacing={2}>
                   <Avatar
                     alt={testimonio.name}
-                    src={testimonio.image}
+                    src={testimonio.avatar}
                     sx={{ width: 70, height: 70 }}
                   />
                 </Stack>
