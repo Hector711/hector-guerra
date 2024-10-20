@@ -19,7 +19,6 @@ import '@fontsource/krona-one';
 
 // CSS
 import '@/css/reset/reset.scss';
-// import '@/css/globals.scss';
 import '@/css/comp-hero.scss';
 import '@/css/comp-navbar.scss';
 import '@/css/comp-projects.scss';
