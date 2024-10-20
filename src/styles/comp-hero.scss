@@ -6,7 +6,7 @@ header.hero {
   width: 100%;
   max-width: $width;
   height: calc(100vh - $nav-height - $margin-top-hero);
-  margin-top: $margin-top-hero;
+  margin-block: $margin-top-hero 140px;
   @include respond-to(mobile) {
     width: $width-mobile;
     justify-content: center;

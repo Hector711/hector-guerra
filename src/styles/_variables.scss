@@ -44,14 +44,12 @@ $secondary-0: #33c4ec;
 }
 @mixin text-gradient-color {
   width: max-content;
-  // text-transform: uppercase;
   @include gradient-color;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @mixin text-gradient-color-special {
   width: max-content;
-  // text-transform: uppercase;
   @include gradient-color-special;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
