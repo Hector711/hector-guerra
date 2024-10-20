@@ -4,7 +4,7 @@ export default function WhatsApp(props: IconProps) {
   return (
     <svg 
       viewBox='0 0 24 32' 
-      className='icons icons-stroke' 
+      className='icons icons-fill' 
       id='whatsapp' 
       {...props}
     >
