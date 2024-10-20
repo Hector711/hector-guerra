@@ -1,5 +1,6 @@
 import Section from '@/components/Section';
 import hectorImg from '@/assets/hector_img.jpg';
+import alvaroImg from '@/assets/alvaro_img.jpg';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import { EquipoTypes } from '@/types';
@@ -10,7 +11,7 @@ type ImageKeys = keyof typeof IMAGES;
 
 const IMAGES = {
   hector_img: hectorImg,
-  alvaro_img: 'alvaroImg',
+  alvaro_img: alvaroImg,
 };
 const equipo = equipoData as EquipoTypes[];
 
