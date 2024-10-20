@@ -34,7 +34,6 @@ export interface ClavesTypes {
 }
 
 export interface PreciosTypes {
-  text: string;
   introduction: string;
   payment_options: PaymentOptionsTypes[];
 }

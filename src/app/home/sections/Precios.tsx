@@ -5,7 +5,7 @@ import OnePaymentIcon from '@/icons/OnePaymentIcon';
 import ProgressivePaymentIcon from '@/icons/ProgressivePaymentIcon';
 import { PreciosTypes } from '@/types';
 export default function Precios() {
-  const { text, introduction, payment_options }: PreciosTypes = precios;
+  const { introduction, payment_options }: PreciosTypes = precios;
 
   type IconKey = keyof typeof ICONS;
 
@@ -16,7 +16,6 @@ export default function Precios() {
   };
   return (
     <Section title='Precios' id='precios'>
-      {/* <p>{text}</p> */}
       <p>{introduction}</p>
       <ul className='payment-options-container'>
         {payment_options.map((option, index) => (

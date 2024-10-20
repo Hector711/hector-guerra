@@ -1,10 +1,8 @@
 import GoDownIcon from '@/icons/GoDownIcon';
 import { usePortfolio } from '@/context/PortfolioContext';
-import { useTranslation } from 'react-i18next';
 import YouTubeVideo from '@/components/Youtube';
 import CalendlyButton from '@/components/CalendlyButton';
 export default function Hero() {
-  const { t } = useTranslation();
 
   const { sectionRef } = usePortfolio();
 

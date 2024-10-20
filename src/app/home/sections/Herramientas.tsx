@@ -1,4 +1,3 @@
-import React from 'react';
 import Section from '@/components/Section';
 import herramientas from '@/json/herramientas.json'
 

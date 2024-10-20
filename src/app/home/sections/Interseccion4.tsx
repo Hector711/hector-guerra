@@ -1,4 +1,3 @@
-import React from 'react';
 import InterSection from '@/components/InterSection';
 import quotes from '@/json/quotes.json';
 

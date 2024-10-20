@@ -95,25 +95,25 @@ export default function Productos() {
   );
 }
 
-function IconsCircleContainer() {
-  return (
-    <div className='icons-circle-container'>
-      <div className='item-center' id='openai-icon'>
-        <OpenAIIcon />
-        IA Asistente
-      </div>
-      <div className='items-circle ' id='whatsapp-icon'>
-        <WhatsAppIcon />
-      </div>
-      <div className='items-circle ' id='instagram-icon'>
-        <InstagramIcon />
-      </div>
-      <div className='items-circle ' id='facebook-icon'>
-        <FacebookIcon />
-      </div>
-    </div>
-  );
-}
+// function IconsCircleContainer() {
+//   return (
+//     <div className='icons-circle-container'>
+//       <div className='item-center' id='openai-icon'>
+//         <OpenAIIcon />
+//         IA Asistente
+//       </div>
+//       <div className='items-circle ' id='whatsapp-icon'>
+//         <WhatsAppIcon />
+//       </div>
+//       <div className='items-circle ' id='instagram-icon'>
+//         <InstagramIcon />
+//       </div>
+//       <div className='items-circle ' id='facebook-icon'>
+//         <FacebookIcon />
+//       </div>
+//     </div>
+//   );
+// }
 
 function ChatbotSchema() {
   return (
